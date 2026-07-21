@@ -4,7 +4,7 @@
 
 Una convención abierta, en español, para codificar la inteligencia de trabajo de una persona o una marca en una carpeta de archivos de texto plano que cualquier IA puede leer y operar.
 
-Repositorio canónico: https://github.com/f0nchi/contexto-estandar · Página del estándar: https://ideas-aumentadas-web.vercel.app/estandar
+Repositorio canónico: https://github.com/f0nchi/contexto-estandar · Página del estándar: https://www.ideasaumentadas.com.ar/estandar
 
 ## Por qué una carpeta de texto plano
 
