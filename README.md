@@ -57,7 +57,7 @@ En plataformas de chat (ChatGPT, Claude, Gemini): un proyecto o asistente propio
 
 ## Cómo crear la tuya
 
-Las plantillas de la carpeta `plantillas/` de este repositorio tienen la estructura de cada archivo con guía adentro, para armarla a mano. En `ejemplo/` hay una carpeta mínima de muestra.
+Las plantillas de la carpeta `plantillas/` de este repositorio tienen la estructura de cada archivo con guía adentro, para armarla a mano. En `ejemplo/` está la carpeta completa de Sole, un perfil profesional de muestra que además demuestra la regla de omisión declarada. Y para usarla desde el primer día: `system-prompt.txt` (el bloque listo para pegar en cualquier IA), `instalacion.md` (cómo cargarla en ChatGPT, Claude, Gemini y agentes de código) y `auditoria.md` (un prompt para que cualquier IA revise tu carpeta contra los siete principios y te diga qué le falta).
 
 La manera asistida existe en [Ideas Aumentadas](https://www.ideasaumentadas.com.ar): un primer archivo de contexto gratis en el navegador, y sesiones de extracción con un agente que trabaja con casos reales y entrega la carpeta completa con su suite de verificación.
 
@@ -66,7 +66,10 @@ La manera asistida existe en [Ideas Aumentadas](https://www.ideasaumentadas.com.
 Los cambios del estándar se registran en este archivo, con fecha y porqué.
 
 - **v1.0 (2026-07-20).** Primera versión pública: once archivos núcleo más `feedback.md`, siete principios, plantillas y ejemplo.
+- **Materiales ampliados (2026-07-22).** El estándar no cambia; se completan sus materiales: el ejemplo de Sole pasa de tres archivos a la carpeta entera (con las omisiones declaradas en su `guia.md`, demostrando esa regla), y se suman `system-prompt.txt`, `instalacion.md` y `auditoria.md`. Por qué: un formato se aprende por su ejemplo, y el ejemplo estaba por un tercio.
 
 ## Licencia y atribución
 
 Este estándar se publica bajo [Creative Commons BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.es): usalo, adaptalo y redistribuilo, con atribución a Ideas Aumentadas. Ver `LICENSE.md`.
+
+Si el estándar te sirve, una estrella en [el repositorio](https://github.com/f0nchi/contexto-estandar) ayuda a que más gente lo encuentre.
