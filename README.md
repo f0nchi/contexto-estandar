@@ -61,12 +61,17 @@ Las plantillas de la carpeta `plantillas/` de este repositorio tienen la estruct
 
 La manera asistida existe en [Ideas Aumentadas](https://www.ideasaumentadas.com.ar): un primer archivo de contexto gratis en el navegador, y sesiones de extracción con un agente que trabaja con casos reales y entrega la carpeta completa con su suite de verificación.
 
+## Cómo se relaciona con los otros formatos
+
+`.contexto/` no es el único formato vivo de esta categoría. [interoperabilidad.md](interoperabilidad.md) es el mapa completo: equivalencias sección por sección con el personal context portfolio de Nathaniel Whittemore, Creed y me.md, qué cubre cada formato que los otros no, y notas de migración en ambas direcciones. Incluye lo que a este estándar le falta hoy y lo que excluye a propósito, porque el principio de estados honestos también aplica al estándar mismo. English version: [interoperabilidad.en.md](interoperabilidad.en.md).
+
 ## Versionado
 
 Los cambios del estándar se registran en este archivo, con fecha y porqué.
 
 - **v1.0 (2026-07-20).** Primera versión pública: once archivos núcleo más `feedback.md`, siete principios, plantillas y ejemplo.
 - **Materiales ampliados (2026-07-22).** El estándar no cambia; se completan sus materiales: el ejemplo de Sole pasa de tres archivos a la carpeta entera (con las omisiones declaradas en su `guia.md`, demostrando esa regla), y se suman `system-prompt.txt`, `instalacion.md` y `auditoria.md`. Por qué: un formato se aprende por su ejemplo, y el ejemplo estaba por un tercio.
+- **Mapa de interoperabilidad (2026-07-27).** El estándar no cambia; se publica `interoperabilidad.md` (con versión en inglés): equivalencias con los otros tres formatos vivos de la categoría, ausencias propias divididas en pendiente para v1.1 y excluido por diseño, y notas de migración en ambas direcciones. Por qué: un estándar abierto se vuelve confiable cuando muestra el mapa completo, incluido dónde pierde.
 
 ## Licencia y atribución
 
