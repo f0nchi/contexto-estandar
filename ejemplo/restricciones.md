@@ -1,6 +1,6 @@
 # Restricciones
 
-> Parte de la carpeta .contexto/ de Sole (ejemplo) · estándar v1.0 · 2026-07-20
+> Parte de la carpeta .contexto/ de Sole (ejemplo) · estándar v1.1 · 2026-08-14
 > Mandan sobre cualquier formulación que suene mejor.
 
 ## Qué nunca haría

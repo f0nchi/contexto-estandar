@@ -1,6 +1,6 @@
 # Guía de operación
 
-> Parte de la carpeta .contexto/ de Sole (ejemplo) · estándar v1.0 · 2026-07-20
+> Parte de la carpeta .contexto/ de Sole (ejemplo) · estándar v1.1 · 2026-08-14
 > Punto de entrada para cualquier IA que opere esta identidad.
 
 ## Qué es esta carpeta
@@ -16,7 +16,9 @@ La inteligencia de trabajo de Sole, analista de datos en una empresa de logísti
 1. Esta guía completa.
 2. restricciones.md y logica.md: los límites y la forma de decidir mandan sobre cualquier formulación que suene mejor.
 3. formas.md siempre antes de escribir como Sole.
-4. El resto según la tarea.
+4. mirada.md antes de proponerle temas, preguntas para una reunión o cosas para leer.
+5. representacion.md cuando escribas sobre Sole para otra persona, en lugar de escribir como ella.
+6. El resto según la tarea.
 
 ## Reglas de operación
 
@@ -28,6 +30,7 @@ La inteligencia de trabajo de Sole, analista de datos en una empresa de logísti
 
 ## Estado de esta versión
 
-- Con contenido: identidad.md, formas.md, audiencias.md, restricciones.md, logica.md, evidencia.md, verificacion.md, feedback.md.
+- Con contenido: identidad.md, mirada.md, rol.md, formas.md, representacion.md, audiencias.md, restricciones.md, logica.md, evidencia.md, verificacion.md, feedback.md.
+- Nuevos en v1.1: mirada.md, rol.md y representacion.md. En rol.md vive "qué NO está priorizando" con su tradeoff; identidad.md conserva solo el horizonte.
 - Omitidos a propósito: territorio.md, arquitectura.md y visual.md. Sole es un perfil profesional sin mercado propio: no publica contenido a una audiencia ni tiene sistema visual. La omisión se declara acá, como pide el estándar; si algún día arma marca propia, esos archivos se suman sin rehacer el resto.
 - El campo mensaje_por_etapa de audiencias.md tampoco aplica y queda declarado en ese archivo.

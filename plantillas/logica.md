@@ -1,6 +1,18 @@
+---
+type: logica
+status: draft
+generated:
+  by: "human:[dueño] + [ia que ayudó a escribirlo]"
+  at: [AAAA-MM-DD]
+stale_after: [AAAA-MM-DD]
+# sources: obligatorio solo si este archivo se deriva de otra fuente.
+#   - resource: "[ruta o nombre de la fuente]"
+#     last_modified: [AAAA-MM-DD]
+---
+
 # Lógica
 
-> Parte de la carpeta .contexto/ · estándar v1.0 · [fecha]
+> Parte de la carpeta .contexto/ · estándar v1.1 · [fecha]
 > La forma de decidir: jurisprudencia, reglas y precedencia. Es el archivo que le permite a una IA resolver la situación que ninguna regla previó.
 
 ## Jurisprudencia

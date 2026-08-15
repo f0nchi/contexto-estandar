@@ -1,6 +1,18 @@
+---
+type: guia
+status: draft
+generated:
+  by: "human:[dueño] + [ia que ayudó a escribirlo]"
+  at: [AAAA-MM-DD]
+stale_after: [AAAA-MM-DD]
+# sources: obligatorio solo si este archivo se deriva de otra fuente.
+#   - resource: "[ruta o nombre de la fuente]"
+#     last_modified: [AAAA-MM-DD]
+---
+
 # Guía de operación
 
-> Parte de la carpeta .contexto/ · estándar v1.0 · [fecha]
+> Parte de la carpeta .contexto/ · estándar v1.1 · [fecha]
 > Punto de entrada para cualquier IA que opere esta identidad.
 
 > Guía: este archivo se escribe al final, cuando el resto ya existe. Las líneas que empiezan con "Guía:" se borran al completar.
@@ -17,8 +29,10 @@
 
 1. Esta guía completa.
 2. restricciones.md y logica.md: los límites y la forma de decidir mandan sobre cualquier formulación que suene mejor.
-3. formas.md siempre antes de escribir como el dueño.
-4. El resto según la tarea.
+3. formas.md siempre antes de escribir como el dueño, sin excepción y también para escribir los archivos de esta carpeta.
+4. mirada.md antes de proponer temas, piezas o exploraciones: gobierna de qué se habla y con qué lente se lee lo que llega de afuera.
+5. representacion.md cuando lo que se escribe habla del dueño en tercera persona, en lugar de hablar como él.
+6. El resto según la tarea.
 
 ## Reglas de operación
 

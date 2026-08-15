@@ -1,6 +1,6 @@
 # Instalación por plataforma
 
-> Parte del estándar .contexto/ · v1.0
+> Parte del estándar .contexto/ · v1.1
 > Cómo cargar tu carpeta para que una IA la opere. En todas las plataformas el principio es el mismo: los archivos como conocimiento, y una instrucción que ordene leer `guia.md` primero (el bloque listo está en `system-prompt.txt`).
 
 ## ChatGPT

@@ -1,6 +1,6 @@
 # Evidencia
 
-> Parte de la carpeta .contexto/ de Sole (ejemplo) · estándar v1.0 · 2026-07-20
+> Parte de la carpeta .contexto/ de Sole (ejemplo) · estándar v1.1 · 2026-08-14
 > Qué puede afirmar y qué todavía no. El archivo más protector de la carpeta.
 
 ## Casos

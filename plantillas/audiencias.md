@@ -1,6 +1,18 @@
+---
+type: audiencias
+status: draft
+generated:
+  by: "human:[dueño] + [ia que ayudó a escribirlo]"
+  at: [AAAA-MM-DD]
+stale_after: [AAAA-MM-DD]
+# sources: obligatorio solo si este archivo se deriva de otra fuente.
+#   - resource: "[ruta o nombre de la fuente]"
+#     last_modified: [AAAA-MM-DD]
+---
+
 # Audiencias
 
-> Parte de la carpeta .contexto/ · estándar v1.0 · [fecha]
+> Parte de la carpeta .contexto/ · estándar v1.1 · [fecha]
 > Para quién trabaja esta identidad. Para personas sin mercado propio: las relaciones de trabajo.
 
 ## Perfiles

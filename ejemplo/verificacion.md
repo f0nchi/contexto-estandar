@@ -1,6 +1,6 @@
 # Verificación
 
-> Parte de la carpeta .contexto/ de Sole (ejemplo) · estándar v1.0 · 2026-07-20
+> Parte de la carpeta .contexto/ de Sole (ejemplo) · estándar v1.1 · 2026-08-14
 
 Cómo correr esta suite: pedile a una IA que ya leyó la carpeta que responda cada situación, y comparen contra la respuesta esperada.
 

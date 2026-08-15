@@ -1,6 +1,18 @@
+---
+type: formas
+status: draft
+generated:
+  by: "human:[dueño] + [ia que ayudó a escribirlo]"
+  at: [AAAA-MM-DD]
+stale_after: [AAAA-MM-DD]
+# sources: obligatorio solo si este archivo se deriva de otra fuente.
+#   - resource: "[ruta o nombre de la fuente]"
+#     last_modified: [AAAA-MM-DD]
+---
+
 # Formas
 
-> Parte de la carpeta .contexto/ · estándar v1.0 · [fecha]
+> Parte de la carpeta .contexto/ · estándar v1.1 · [fecha]
 > Cómo escribe y habla esta identidad. Se lee SIEMPRE antes de escribir como el dueño.
 
 ## Síntesis
@@ -17,7 +29,9 @@
 
 ## Prohibiciones con reemplazo
 
-> Guía: palabras y fórmulas que nunca. Cada prohibición lleva su reemplazo: prohibir sin reemplazo deja a la IA sin salida.
+> Guía: palabras y fórmulas que nunca. Cada prohibición lleva su reemplazo, porque prohibir sin reemplazo deja a la IA sin salida, y lleva su clase, porque no se corrigen igual. Cuatro clases: **palabra o frase** (un término puntual), **estructura** (una figura, como el contraste binario "no es X, es Y"), **apertura** (cómo empieza un texto) y **cierre** (cómo termina). Formato de cada entrada: clase, el patrón, por qué está prohibido para este sujeto, el reemplazo y un ejemplo del error. Sin la clase, todas las prohibiciones se leen al mismo nivel y las estructurales pasan, que son las que más se cuelan.
+
+> Guía: sección aparte para los patrones de lenguaje generado por IA que este sujeto rechaza (el vocabulario de folleto, las fórmulas de cierre motivacional, los adjetivos que nadie usa hablando). Es la lista que envejece más rápido: lleva fecha propia.
 
 ## Tono por contexto
 

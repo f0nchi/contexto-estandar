@@ -1,6 +1,6 @@
 # Feedback del dueño
 
-> Parte de la carpeta .contexto/ de Sole (ejemplo) · estándar v1.0 · 2026-07-20
+> Parte de la carpeta .contexto/ de Sole (ejemplo) · estándar v1.1 · 2026-08-14
 > El archivo que crece con el uso: la memoria de correcciones.
 
 Cada corrección se registra en una línea: fecha + regla aprendida + ejemplo del caso. Cuando Sole corrige a una IA que trabaja con esta carpeta, la IA propone la línea exacta y ella la pega acá. Con el tiempo, estas líneas se convierten en jurisprudencia nueva para logica.md.

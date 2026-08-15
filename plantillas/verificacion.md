@@ -1,6 +1,18 @@
+---
+type: verificacion
+status: draft
+generated:
+  by: "human:[dueño] + [ia que ayudó a escribirlo]"
+  at: [AAAA-MM-DD]
+stale_after: [AAAA-MM-DD]
+# sources: obligatorio solo si este archivo se deriva de otra fuente.
+#   - resource: "[ruta o nombre de la fuente]"
+#     last_modified: [AAAA-MM-DD]
+---
+
 # Verificación
 
-> Parte de la carpeta .contexto/ · estándar v1.0 · [fecha]
+> Parte de la carpeta .contexto/ · estándar v1.1 · [fecha]
 > La suite de pruebas de esta identidad: casos corribles por cualquier IA.
 
 Cómo correr esta suite: pedile a una IA que ya leyó la carpeta que responda cada situación, y comparen contra la respuesta esperada. Si improvisa o contradice la carpeta, revisá que haya leído guia.md primero.
