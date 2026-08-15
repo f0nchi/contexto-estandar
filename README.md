@@ -72,6 +72,20 @@ Lo que hace que una carpeta sea `.contexto/` son estas nueve reglas, antes que l
 
 En plataformas de chat (ChatGPT, Claude, Gemini): un proyecto o asistente propio, la carpeta como archivos de conocimiento, y un bloque de instrucciones que ordene leer `guia.md` primero. En editores y agentes de código (Cursor, Claude Code): la carpeta en la raíz del proyecto, y una línea en el archivo de reglas del agente: "Antes de trabajar conmigo, leé `.contexto/guia.md`".
 
+## Cómo se publica
+
+Toda la carpeta es privada por defecto: `logica.md` y `restricciones.md` gobiernan decisiones y no son material de terceros. El único archivo escrito para afuera es `representacion.md`, y para ese el estándar recomienda cuatro movimientos, en orden de efecto comprobable.
+
+**Reflejar las descripciones aprobadas en los datos estructurados de tu sitio.** Es la única vía con consumidores reales hoy. En schema.org, `description` para la aprobada, `disambiguatingDescription` para con qué se te confunde, `slogan`, `knowsAbout` y `subjectOf` apuntando al archivo.
+
+**Publicar el archivo en `/.well-known/representacion.md`** de tu dominio, con el prefijo que define la [RFC 8615](https://www.rfc-editor.org/rfc/rfc8615.html).
+
+**Enlazarlo desde el HTML** con `<link rel="alternate" type="text/markdown" href="/.well-known/representacion.md">`, que es el mecanismo con el que la web declara representaciones alternativas de un recurso desde hace décadas.
+
+**Sumarlo al sitemap**, para que los rastreadores que ya recorren tu sitio lo encuentren.
+
+Los tres últimos son una apuesta, y conviene decirlo con todas las letras: al agosto de 2026 ningún proveedor grande de modelos declara leer archivos de contexto publicados en un dominio. La medición pública de `llms.txt`, que tiene bastante más adopción que cualquier formato de identidad, registró 408 accesos sobre 500 millones de visitas de bots de IA en noventa días. Publicar no consigue que te lean; consigue que haya qué leer cuando alguien mira, y hoy quien mira suele ser una persona que le pasa tu dirección a su asistente.
+
 ## Cómo crear la tuya
 
 Las plantillas de la carpeta `plantillas/` de este repositorio tienen la estructura de cada archivo con guía adentro, para armarla a mano. En `ejemplo/` está la carpeta completa de Sole, un perfil profesional de muestra que además demuestra la regla de omisión declarada. Y para usarla desde el primer día: `system-prompt.txt` (el bloque listo para pegar en cualquier IA), `instalacion.md` (cómo cargarla en ChatGPT, Claude, Gemini y agentes de código) y `auditoria.md` (un prompt para que cualquier IA revise tu carpeta contra los nueve principios y te diga qué le falta).
@@ -86,6 +100,7 @@ La manera asistida existe en [Ideas Aumentadas](https://www.ideasaumentadas.com.
 
 Los cambios del estándar se registran en este archivo, con fecha y porqué.
 
+- **v1.1 (2026-08-15).** Se cierran las dos decisiones que quedaban del mapa de julio. Integridad: `instalacion.md` documenta cómo generar y verificar `SHA256SUMS`, y este repositorio publica el suyo; la firma criptográfica queda declarada fuera de alcance. Publicación: el estándar recomienda dónde y cómo publicar `representacion.md`, con el efecto real de cada vía declarado en vez de prometido.
 - **v1.1 (2026-08-14).** Entra `mirada.md` como archivo núcleo y la atención como séptimo principio: una identidad codificada sin mirada solo puede hablar de sí. Entra `rol.md` para el modo persona, con la categoría "qué NO estoy priorizando" y su tradeoff, que hasta ahora era el hueco más señalado del formato. Y cada archivo suma frontmatter de procedencia y frescura (`status`, `generated`, `stale_after`, y `sources` cuando el archivo se deriva de otra fuente), compatible con el Open Knowledge Format. Entra `representacion.md` y con él la separación entre primera y tercera persona como noveno principio: las respuestas sobre un sujeto ya se están dando en asistentes que no son suyos, y sin este archivo se arman con lo que haya. `formas.md` clasifica sus prohibiciones por clase (palabra, estructura, apertura, cierre), porque las estructurales se cuelan cuando todas se leen al mismo nivel. `identidad.md` suma qué cuesta sostener cada convicción, y `visual.md` suma dónde viven los tokens y la regla de que viajen dentro de la carpeta cuando se entrega. Por qué: un derivado que quedó atrás de su fuente se opera igual que uno vigente, sin manera de notarlo, y el caso que originó la regla pasó en la carpeta de referencia de este estándar.
 
 - **v1.0 (2026-07-20).** Primera versión pública: once archivos núcleo más `feedback.md`, siete principios, plantillas y ejemplo.

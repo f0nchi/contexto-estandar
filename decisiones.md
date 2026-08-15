@@ -51,8 +51,25 @@ Registrar deseo, comprensión, confusión, uso, fricción y riesgo, con su lectu
 - **Gobernanza multiagente y permisos por sección.** El modelo de este estándar es un dueño y su IA. Los permisos por asiento pertenecen a productos para equipos, y Creed resuelve bien esa tesis, que es otra.
 - **Infraestructura propia.** Sincronización automática, scoring como servicio o conector propio. El estándar es una convención de archivos neutral; las herramientas que lo operan son otra capa, de cada implementador.
 
+## Resueltos el 2026-08-15
+
+### Sello de integridad
+
+Estaba declarado "en evaluación" desde el 2026-07-27, tomado de me.md, que es el único formato de la categoría que lo ofrece.
+
+**Resuelto como comando documentado, sin archivo ni infraestructura.** `instalacion.md` explica cómo generar `SHA256SUMS` y cómo verificarlo, en las tres plataformas, y este repositorio publica el suyo. Con eso, quien recibe una carpeta puede comprobar que llegó tal como salió.
+
+Lo que queda declarado como fuera de alcance: la firma criptográfica, que probaría quién es el dueño y no solo que los archivos no cambiaron. Es infraestructura de quien distribuya y cada implementador la resuelve con sus herramientas.
+
+### Descubrimiento
+
+**Resuelto de forma parcial y declarada como tal.** El estándar recomienda publicar `representacion.md`, el único archivo escrito para terceros, en `/.well-known/representacion.md` del dominio del sujeto, enlazarlo desde el HTML con `<link rel="alternate" type="text/markdown">`, incluirlo en el sitemap, y reflejar sus descripciones aprobadas en los datos estructurados de la página.
+
+De esas cuatro vías, la única con consumidores reales hoy son los datos estructurados. La ubicación conocida es una apuesta: al 2026-08, ningún proveedor grande de modelos declara leer archivos de este tipo, y la medición pública de `llms.txt`, que tiene mucha más adopción que cualquier formato de identidad, muestra 408 accesos sobre 500 millones de visitas de bots. El estándar lo dice con esas palabras en lugar de prometer descubrimiento.
+
+Lo que sigue abierto: publicar la carpeta completa, que este estándar no recomienda. `logica.md` y `restricciones.md` gobiernan decisiones y no son material de terceros.
+
 ## Abierto
 
 - **Herencia entre marca madre, producto y submarca.** `brand.md` lo resuelve con fusión de guardrails, donde un hijo endurece y nunca debilita. Falta decidir la forma acá: carpetas anidadas que heredan, o un campo de alcance dentro de cada archivo.
-- **Descubrimiento.** Cómo se publica una carpeta en un dominio para que un agente ajeno la encuentre sin que nadie se la pase.
 - **Verificación de juicio.** La suite actual verifica fidelidad a lo declarado, con casos escritos en la propia carpeta. Verificar juicio pide casos retenidos fuera de la carpeta y comparación a ciegas. Ningún formato de la categoría lo hace.
