@@ -4,7 +4,7 @@
 
 Una convención abierta, en español, para codificar la inteligencia de trabajo de una persona o una marca en una carpeta de archivos de texto plano que cualquier IA puede leer y operar.
 
-Repositorio canónico: https://github.com/f0nchi/contexto-estandar · Página del estándar: https://www.ideasaumentadas.com.ar/estandar
+Repositorio canónico: https://github.com/f0nchi/contexto-estandar · Página del estándar: https://www.ideasaumentadas.com.ar/estandar · English: [README.en.md](README.en.md)
 
 ## Por qué una carpeta de texto plano
 
@@ -94,13 +94,13 @@ La manera asistida existe en [Ideas Aumentadas](https://www.ideasaumentadas.com.
 
 ## Cómo se relaciona con los otros formatos
 
-La categoría tiene varios formatos vivos. [interoperabilidad.md](interoperabilidad.md) es el mapa completo: equivalencias sección por sección con el personal context portfolio de Nathaniel Whittemore, Creed y me.md, qué cubre cada formato que los otros no, y notas de migración en ambas direcciones. Incluye lo que a este estándar le falta hoy y lo que excluye a propósito, porque el principio de estados honestos también aplica al estándar mismo. English version: [interoperabilidad.en.md](interoperabilidad.en.md).
+La categoría tiene varios formatos vivos. [interoperabilidad.md](interoperabilidad.md) es el mapa completo: el terreno en tres capas, las tablas de equivalencia contra el personal context portfolio de Whittemore, Creed, me.md, el Brand Context Protocol, brand.md y brandbook.md, qué cubre cada formato que los otros no, y notas de migración en ambas direcciones. Incluye lo que a este estándar le falta hoy y lo que excluye a propósito, porque el principio de estados honestos también aplica al estándar mismo. English version: [interoperabilidad.en.md](interoperabilidad.en.md).
 
 ## Versionado
 
 Los cambios del estándar se registran en este archivo, con fecha y porqué.
 
-- **v1.1 (2026-08-15).** Se cierran las dos decisiones que quedaban del mapa de julio. Integridad: `instalacion.md` documenta cómo generar y verificar `SHA256SUMS`, y este repositorio publica el suyo; la firma criptográfica queda declarada fuera de alcance. Publicación: el estándar recomienda dónde y cómo publicar `representacion.md`, con el efecto real de cada vía declarado en vez de prometido.
+- **v1.1 (2026-08-15).** El estándar tiene puerta en inglés: `README.en.md` y la segunda edición del mapa traducida. La categoría se escribe en inglés y ninguno de los formatos comparados es nativo en español, así que el español queda como diferencial y la puerta deja de faltar. Se cierran además las dos decisiones que quedaban del mapa de julio. Integridad: `instalacion.md` documenta cómo generar y verificar `SHA256SUMS`, y este repositorio publica el suyo; la firma criptográfica queda declarada fuera de alcance. Publicación: el estándar recomienda dónde y cómo publicar `representacion.md`, con el efecto real de cada vía declarado en vez de prometido.
 - **v1.1 (2026-08-14).** Entra `mirada.md` como archivo núcleo y la atención como séptimo principio: una identidad codificada sin mirada solo puede hablar de sí. Entra `rol.md` para el modo persona, con la categoría "qué NO estoy priorizando" y su tradeoff, que hasta ahora era el hueco más señalado del formato. Y cada archivo suma frontmatter de procedencia y frescura (`status`, `generated`, `stale_after`, y `sources` cuando el archivo se deriva de otra fuente), compatible con el Open Knowledge Format. Entra `representacion.md` y con él la separación entre primera y tercera persona como noveno principio: las respuestas sobre un sujeto ya se están dando en asistentes que no son suyos, y sin este archivo se arman con lo que haya. `formas.md` clasifica sus prohibiciones por clase (palabra, estructura, apertura, cierre), porque las estructurales se cuelan cuando todas se leen al mismo nivel. `identidad.md` suma qué cuesta sostener cada convicción, y `visual.md` suma dónde viven los tokens y la regla de que viajen dentro de la carpeta cuando se entrega. Por qué: un derivado que quedó atrás de su fuente se opera igual que uno vigente, sin manera de notarlo, y el caso que originó la regla pasó en la carpeta de referencia de este estándar.
 
 - **v1.0 (2026-07-20).** Primera versión pública: once archivos núcleo más `feedback.md`, siete principios, plantillas y ejemplo.

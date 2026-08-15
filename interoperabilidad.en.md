@@ -1,115 +1,190 @@
-# Interoperability map: personal context files for AI
+# Interoperability map: context and identity formats for AI
 
-> Part of the [.contexto/](README.md) standard. Compares the four live formats that encode personal identity or context for an AI to operate: `.contexto/`, personal context portfolio, Creed and me.md. All four sources read on 2026-07-27. Versión en español (canónica): [interoperabilidad.md](interoperabilidad.md).
+> Part of the [.contexto/](README.en.md) standard. Second edition. Compares the living formats that encode identity or context for an AI to operate. First edition: 2026-07-27, four personal context formats. This edition: 2026-08-15, adding the family of brand identity standards and the institutional layer that appeared in between. Spanish version: [interoperabilidad.md](interoperabilidad.md).
 
-This map is not a brochure for `.contexto/`. It is a map of the category: it includes where `.contexto/` is weaker than the other three, and where the other three are weaker among themselves. Where a source could not be verified in detail, the document says so instead of filling the gap by analogy.
+The map covers the whole category: what each format solves, where `.contexto/` is weaker than the others, and where the others are weaker among themselves. When a source could not be verified in detail, the document says so instead of filling the gap by analogy.
 
-Each format's absences are named in two distinct categories, because they are distinct things: **pending** (the format acknowledges the gap and it is on its way) and **excluded by design** (a thesis decision, not a shortcoming). This distinction applies the honest-states principle of `.contexto/` to the standard itself.
+Each format's absences are named in two distinct categories, because they are distinct things: **pending**, when the format acknowledges the gap and is on its way to covering it, and **excluded by design**, when the absence is a thesis decision with its reason stated. This distinction applies `.contexto/`'s honest-states principle to the standard itself.
 
-## The four formats, one line each
+## What changed since the first edition
 
-- **`.contexto/`** (Ideas Aumentadas, f0nchi): an open convention in Spanish, twelve plain-text files (eleven core plus `feedback.md`), seven auditable principles, with templates and a complete example. Repository: `github.com/f0nchi/contexto-estandar`.
-- **personal context portfolio** (Nathaniel Whittemore): ten markdown files in English, each with an embedded interview protocol so an AI assistant can draft it with the owner. MIT license. Repository: `github.com/nlwhittemore/personal-context-portfolio`, 447 stars.
-- **Creed** (connorhpbrn): a SaaS product (Next.js plus Supabase), one `creed.md` file per person with ten sections (five fixed, five optional) and per-section write permissions for every connected agent. Repository: `github.com/connorhpbrn/creed`, 149 stars.
-- **me.md** (Aprex, Norway, `getmemd.com`): a closed-source product with no known public repository (one was searched for and not found). A multiple-choice card questionnaire that compiles an exportable personal README. Structure only partially verifiable: see the note in section 1 and in the sources.
+In three weeks the terrain went from one family to three.
 
-## 1. Equivalence table
+An entire family of agent-readable brand identity standards was born: the Brand Context Protocol by Encoded Brands, `brand.md`, `brandbook.md`, `brandkit.md`, and several more listed below. None of them existed in the July map.
+
+An institutional layer appeared above all of them: Google Cloud's Open Knowledge Format, which standardizes knowledge bundles in markdown with frontmatter, and AGENTS.md, now under the Agentic AI Foundation at the Linux Foundation.
+
+And of the four original formats, two moved and two did not: Creed ships daily, while Whittemore's portfolio has not received a single commit since March 26, even as it kept collecting stars.
+
+## 1. The terrain in three layers
+
+These formats do not all compete with each other. They answer different questions, and separating them before comparing is worth the trouble.
+
+**Context of a person.** What an AI needs to know to work with someone: `.contexto/` in person mode, personal context portfolio, Creed and me.md.
+
+**Identity of a brand.** What an AI needs to know to write, design or speak on behalf of a brand: `.contexto/` in brand mode, Brand Context Protocol, `brand.md`, `brandbook.md`, `brandkit.md`, and at the edge `brand.yml`, `DESIGN.md` and `brandspec`, which solve the visual and token layer.
+
+**Knowledge and instructions of an organization.** What an organization knows and how its code is operated: Open Knowledge Format and AGENTS.md. They encode material and procedure, and they combine with either of the two layers above.
+
+`.contexto/` spans the first two layers with the same structure: its unit is the subject who decides, and a person and a brand are two kinds of subject.
+
+## 2. Equivalence table: person as subject
 
 | Dimension | `.contexto/` | personal context portfolio | Creed | me.md |
 |---|---|---|---|---|
-| **Identity** | `identidad.md`: why this work exists, what world it pushes toward, what it must never lose. For individuals it adds a "current moment" block | `identity.md`: one page, the minimum file if an agent can only read one | **Identity** section (fixed): role, stable traits, defaults that follow the person everywhere | Not verifiable as a section of its own. The public example shows "Quick Load", similar in function, without confirming it is the formal equivalent |
-| **Role / work** | Pending (lands in v1.1 as a dedicated file for role and weekly operation). Today `identidad.md` touches the why of the work, not the week | `role-and-responsibilities.md`: what weeks actually look like, not what the formal title says | **Work** section (fixed): profession, tools, methods, recurring collaborators | Not publicly verifiable |
-| **How decisions are made** | `logica.md`: dated case law, the rule each case left, and explicit precedence when two rules collide | `decision-log.md`: how they decide, what they need before deciding, two or three real decisions with the reasoning, how they handle uncertainty | Partial, **Beliefs** section (optional): values and principles that change how the AI should reason. No cases, no precedence | Mentioned as a captured category ("decision style") on the product home, with no visible section or example |
-| **Voice / style** | `formas.md`: synthesis, real "like this / not like this" samples with quoted phrases, prohibitions each with its replacement, tone by context | `communication-style.md` | **Preferences** section (fixed): tone, length, depth, response format | Partially confirmed: a "Communication" section in the public example plus writing cards ("would rather sound a bit blunt than overpolished") |
-| **Relationships** | `audiencias.md`, with a side note for individuals without a market of their own. Reuses the market-audience structure; no per-person fields | `team-and-relationships.md`: per-person fields (role, how they interact, what each needs from the other) | **People** section (optional), with concrete per-person examples in the agent contract itself | Not publicly verifiable |
-| **Goals** | Partial, inside `identidad.md`, "current moment" block: open fronts, one-year horizon. The explicit "what I am NOT prioritizing" category is pending: lands in v1.1 | `goals-and-priorities.md`: includes how tradeoffs get resolved and what is NOT being prioritized | **Goals** section (fixed), with explicit examples of what counts and what does not count as a goal | Not publicly verifiable |
-| **Constraints** | `restricciones.md`: what they would never do, operating conditions, promise states (current, laboratory, horizon, history) | `preferences-and-constraints.md`: hard rules, pet peeves, personal constraints | **Constraints** section (optional): lines the AI must not cross, topics that require explicit permission | Mentioned as a captured category ("boundaries"), no confirmed section |
-| **History / cases** | The strongest of the four on this dimension: `logica.md` (dated case law) plus `evidencia.md` (claimable / not claimable) plus `verificacion.md` (test cases any AI can run) | `decision-log.md`, "Recent Decisions" block: two or three real examples, no mandatory date, no explicit derived rule | Explicitly outside the model: the agent contract excludes "task-level trivia" and single-conversation notes by design | Not verifiable. Probably does not apply: the model is choice cards, not dated narrative cases |
-| **Permissions / governance** | Excluded by design: the model is one owner and their AI, no seats, no access levels (see section 2). Under evaluation for v1.1: an integrity seal on the exported file | Not covered. No file or `wiring/` guide defines permissions or change approval | The strongest by far: `lib/creed-permissions.ts`, four levels per section (hidden, read-only, propose, direct), three roles on the Company plan (owner, admin, member) | Partial: no per-section permissions, but export-time control of what gets shared (sensitivity level, per-item toggle) and a SHA-256 integrity seal on the file |
-| **Updating** | `feedback.md` (date, learned rule, example; manual process) plus versioning of the standard itself (v1.0, changelog with date and rationale) | No formal mechanism. One declared principle: "update regularly" | The most automated: agents propose edits continuously, the owner approves, two-way GitHub sync, AI-driven quality scoring of the file | Progressive questionnaire (first signal at 5 cards, useful export at 40, deep profile at 200), product at v0.1, "Pack v1" format still closed |
+| **Identity** | `identidad.md`: why the work exists, what world it pushes for, what it must not lose. For people it adds "current moment" | `identity.md`: one page, the minimum file if an agent can only read one | **Identity** section (fixed): role, stable traits, defaults that follow the person everywhere | Not verifiable as its own section; the public example shows "Quick Load", with a similar function |
+| **Role / work** | `rol.md` (v1.1): what they actually do versus what the title says, the typical week, with whom, what they decide, what they delegate | `role-and-responsibilities.md`: what the weeks look like in practice | **Work** section (fixed): profession, tools, methods, collaborators | Not publicly verifiable |
+| **How they decide** | `logica.md`: case law with dates, derived rule, and explicit precedence between colliding rules | `decision-log.md`: how they decide, two or three real decisions with the reasoning | Partial, **Beliefs** section (optional). No cases, no precedence | Mentioned as a captured category, with no visible section or example |
+| **Voice / style** | `formas.md`: synthesis, yes-like-this / not-like-this samples with quoted phrases, prohibitions with their replacement, tone by context | `communication-style.md` | **Preferences** section (fixed): tone, length, depth, format | Partially confirmed: a "Communication" section plus writing cards |
+| **Relationships** | `audiencias.md`, with a side note for people without their own market | `team-and-relationships.md`: fields per person | **People** section (optional), with concrete examples per person | Not publicly verifiable |
+| **Goals** | `identidad.md` for the horizon and `rol.md` for current priorities, including "what I am NOT prioritizing" with the tradeoff for each renunciation (v1.1) | `goals-and-priorities.md`: includes tradeoffs and what is not being prioritized | **Goals** section (fixed), with examples of what counts and what does not | Not publicly verifiable |
+| **Constraints** | `restricciones.md`: what it would never do, operating conditions, promise states | `preferences-and-constraints.md`: hard rules, personal constraints | **Constraints** section (optional): limits and topics requiring permission | Mentioned as "boundaries", no confirmed section |
+| **History / cases** | The strongest of the four: `logica.md` plus `evidencia.md` plus `verificacion.md` | `decision-log.md`, "Recent Decisions" block, with no mandatory date or derived rule | Excluded by design: the agent contract rules out single-conversation notes | Not verifiable; the model is cards, not narrated cases |
+| **Permissions / governance** | Excluded by design: one owner and their AI. Integrity solved in v1.1 with documented `SHA256SUMS` | Not covered | The strongest: four levels per section, three roles on the Company plan | Partial: control over what is shared on export, plus a SHA-256 seal |
+| **Updating** | `feedback.md` plus versioning of the standard itself. Manual process | No formal mechanism | The most automated: agents propose edits continuously, the owner approves, two-way GitHub sync | Progressive questionnaire, "Pack v1" format still closed |
+| **Project movement** | Last release 2026-08-15. 0 stars | No commits since 2026-03-26. 454 stars, 305 forks | Daily development, last push 2026-08-14. 166 stars | Product at v0.1, no public repository |
 
-## 2. What each format has that the others do not
+## 3. Equivalence table: brand identity
+
+| Dimension | `.contexto/` | Brand Context Protocol | brand.md | brandbook.md |
+|---|---|---|---|---|
+| **Root** | `guia.md`: reading order, operating rules, declared omissions | `/.well-known/brand.md`: identity, core positioning and daughter registry | Single file with frontmatter (`name`, `tagline`, `version`, `language`, `specVersion`, `type`, `architecture`) | `BRANDBOOK.md` as an index of thematic files |
+| **Strategy** | `identidad.md` plus `territorio.md` plus `arquitectura.md` | Positioning at the root, values in `values.md` | Mandatory **Strategy** layer: overview, audience, positioning, personality, references and anti-references, promise, guardrails | Audience and context files |
+| **Voice** | `formas.md` | `voice.md` plus `voice/anti-ai.md` for generated-language patterns | **Voice** layer: identity, taglines, manifesto, message pillars, phrases, vocabulary, tonal rules | Voice file |
+| **Visual** | `visual.md`, with the rule of declaring the absence when there is no system | `visual.md` plus optional extensions (`tokens.json`, `tokens.css`, `DESIGN.md`) | **Visual** layer: logo, core colors, typefaces, imagery, art direction | Assets file |
+| **Limits** | `restricciones.md`, with promise states | `boundaries.md`: categorical hard nos and soft nos with their condition | `guardrails` inside Strategy, with inheritance that hardens and never weakens | Governance file |
+| **Claims** | `evidencia.md`: claimable, not claimable, permitted promises | `claims.md`: claim, evidence, `proof_status` (approved, requires_caveat, forbidden, expired, aspirational, unknown), `valid_from` and `valid_until` | **Claims** in Governance: only human-approved statements or ones backed by cited proof | Numbered anchor rules |
+| **How a third party describes you** | `representacion.md` (v1.1): approved descriptions in three lengths, what it gets confused with, what never to say, comparisons, framing traps | `representation.md`: approved descriptions by length, what not to confuse the brand with, what never to say, who it really competes against | Not covered | Not covered |
+| **Discovery** | Partial: publishes `representacion.md` at a well-known location, linked and mirrored in structured data, and declares that the well-known location has no consumers yet. The rest of the folder stays private on purpose | Solved: well-known URL on the domain, plus a hosted registry that signs the files and serves them over MCP | Directory inheritance within a project | Not verified in detail |
+| **Precedence** | Between colliding rules, by content and with its condition | Between files, by hierarchy: campaign, product, audience, locale, default daughter, root | Between parent and child: guardrails merge, the child hardens | Cross-references between sections |
+| **State and freshness** | Honest states per field, including declared emptiness, plus provenance and expiry frontmatter per file (v1.1) | Three conformance levels, `last_updated` per file, validity dates on claims | `specVersion` as a validation gate, integer `version` incrementing | Software-style versioning |
+| **Verification** | `verificacion.md`: cases any AI can run, with the expected response and the rule that justifies it. Plus `auditoria.md`, a prompt that audits the folder against the principles | Technical conformance: reachable URI, valid markdown and YAML, reachable daughters | Validation against the declared spec version | Not verified in detail |
+| **Learning** | `feedback.md`: every correction from the owner with date, rule and example | Not covered in the spec as read | Not covered | Not verified in detail |
+| **License and model** | CC BY 4.0, a convention with no infrastructure | CC BY 4.0 for the spec, MIT for the reference code, with a commercial subscription registry | MIT | CC BY 4.0 for the spec, MIT for the code |
+
+At the edge of this family there are three more formats that solve the visual and token layer before full identity: `brand.yml`, `DESIGN.md` (from Google Stitch) and `brandspec`. They are named because they appear in the category's landscape; they were not read in detail for this edition and nothing is claimed about their contents.
+
+## 4. The dimension no format covers
+
+Of the twelve formats reviewed for this edition, none encodes where the subject looks.
+
+All of them solve expression: how it sounds, how it looks, what it can claim, what limits it has, how a third party should describe it. None solves attention: what fields it observes, how the world reaches it, what lens it reads a new fact through, and what it does with what it sees.
+
+The consequence is structural and can be stated precisely: when every file in a folder describes the subject, the only material available for producing anything is the subject itself. An encoded identity without attention can hold its tone indefinitely and can only talk about itself.
+
+The reference implementation of `.contexto/` has been running `mirada.md` since 2026-08-13, with fields of attention derived from the slow documents, declared sources of world, a lens of questions that orders the reading of any finding, and the signals that would force a revision of its own thesis. Until other formats take it up, this row is empty for the other eleven.
+
+## 5. Two distinctions that look like the same thing
+
+**Validating format and verifying behavior.** The Brand Context Protocol declares conformance when the file sits at the right URI, the markdown and YAML are valid, and the daughters are reachable. `verificacion.md` in `.contexto/` runs situations and compares the answer against the expected one, with the rule that justifies it. The first checks that the container is well built; the second, that the identity is being operated. A file can be perfectly conformant and still produce output that betrays the subject.
+
+With the same honesty: the `.contexto/` suite verifies fidelity to what is declared, using cases written in the folder itself. Verifying judgment, with held-out cases outside the folder and blind comparison, is a second form that no format in the category implements yet, this one included.
+
+**Precedence between files and precedence between rules.** BCP resolves which file wins when two apply: a campaign daughter overrides a product one, which overrides the root. `.contexto/` resolves which rule wins when two of the subject's principles collide, with its explicit condition, and it allows recording an unresolved tension when the owner holds both positions. These are different problems: one is scope resolution, the other is value conflict.
+
+## 6. What each format has that the others do not
 
 ### `.contexto/`
 
-Has: seven explicit, auditable principles, with a runnable audit prompt (`auditoria.md`) that any AI can execute against the folder itself. Explicit precedence when two rules collide. The "honest states" rule: every field declares whether it is closed, partially extracted, low-definition or deliberately empty, and a declared blank counts as legitimate content, not as a gap to disguise. The declared-omission rule: you may skip `territorio.md`, `arquitectura.md` or `visual.md`, but you must say so in `guia.md`, which the included example (Sole) demonstrates by omitting those three files. `verificacion.md` is a test suite any AI can run, not just a promise of quality. It is also the only one of the four that is native in Spanish.
+Has: nine explicit, auditable principles with a runnable audit prompt. Case law with case, date and derived rule, the strongest dimension in the whole category. Precedence between conflicting rules, including the option of holding a tension without averaging it. The honest-states rule, where declared emptiness counts as legitimate content. The declared-omission rule, which the Sole example demonstrates by omitting three files. A behavior verification suite. A file that grows with the owner's corrections. It is the only one of the twelve native to Spanish, and the only one using the same structure for a person and for a brand.
 
-What it lacks splits into two categories, and the standard names them differently:
+**Solved in v1.1 (2026-08-15):** `mirada.md` for attention, `rol.md` with the "what I am NOT prioritizing" category and its tradeoffs, `representacion.md` for third person, provenance and freshness frontmatter per file compatible with the Open Knowledge Format, and integrity through documented `SHA256SUMS`.
 
-**Pending (v1.1 in preparation):** a dedicated file for role and day-to-day responsibilities (today Whittemore is stronger there). The "what I am NOT prioritizing" category in goals, with explicit tradeoffs (today Whittemore and Creed name it better). Under evaluation: an integrity seal on the exported file, consistent with the standard's verification principle (me.md installed that idea and it is correct).
+**Pending:** inheritance between parent brand, product and sub-brand. Judgment verification with held-out cases, which no format in the category has. And full discovery: the third-person material is published at a well-known location, while the rest of the folder still travels by hand, which is a privacy decision more than a gap.
 
-**Excluded by design, not pending:** multi-agent governance and per-section permissions. The `.contexto/` model is one owner and their AI; per-seat, per-role permissions belong to team products, and Creed solves that thesis well, but it is a different thesis. It also has no automatic sync, no scoring service, no connector of its own: the standard is a neutral file convention with no infrastructure behind it; the tools that operate the format are a separate layer, each implementer's own. Installing it means copying `system-prompt.txt`: that minimal friction, with no account and no lock-in, is a decision of the format, not a shortcoming.
+**Excluded by design:** multi-agent governance and per-section permissions, which belong to team products and which Creed solves well. Its own infrastructure: automatic sync, scoring as a service or a dedicated connector, because the standard is a neutral file convention and the tools that operate it are another layer, one per implementer.
+
+### Brand Context Protocol (Encoded Brands)
+
+Has, by a wide margin over the rest of the family: discovery solved through a well-known URL, so a third party's agent can read the brand without anyone handing it over. A hosted registry that signs the files and serves them over MCP. Three declared conformance levels. Hierarchical precedence between files by campaign, product, audience and locale. `proof_status` with six values and validity dates on every claim, with an explicit policy on named entities. A dedicated file for AI-generated language patterns, with type, pattern, rationale and example. And `representation.md`, with no equivalent in any other format read.
+
+Does not have: cases with dates or case law. Behavior verification. Accumulated learning from owner corrections. Any notion of field state beyond claims. And the public spec was at v0.7 while the company's own file already declared v0.8, so it is worth reading both when integrating.
+
+### brand.md (Caio Pizzol)
+
+Has: the cleanest formulation of inheritance between parent brand, product and sub-brand, with the rule that a child may harden a guardrail and never weaken it, and that accessibility commitments always merge upward. `specVersion` as a validation gate, with defined behavior for a file that does not declare it. References and anti-references as a mandatory strategy field. MIT license and a single file, the lightest entry in the family.
+
+Does not have: cases, dates, case law, runnable verification, per-field completeness states, or a representation layer. It declares which languages it supports, and Spanish is not among them.
 
 ### personal context portfolio (Whittemore)
 
-Has: `role-and-responsibilities.md` and `team-and-relationships.md` are, across the four formats, the richest and most dedicated files on those two dimensions. `goals-and-priorities.md` explicitly names "what I am NOT prioritizing right now", a category no other format requests with that literalness. Three complete, pre-written example personas (knowledge worker, executive, entrepreneur) as starting points. An entire directory, `wiring/`, dedicated to integrations (MCP resource, Claude Projects, an API layer, system prompt patterns, OpenClaw agents), more extensive as a technical guide than `instalacion.md` in `.contexto/`. Explicit MIT license, built to be forked without friction.
+Has: the richest dedicated files in the category for role and for relationships, and the most explicit formulation of "what I am not prioritizing right now". Three complete example people. An entire directory devoted to integrations. MIT license.
 
-Lacks: no governance or permissions at all. No date or versioning mechanism, not even a suggested "last updated" field in the templates. No explicit precedence between colliding rules. `decision-log.md` asks for real examples but requires neither a date nor the operating rule they left behind; it is more informal than `logica.md`. No runnable verification or audit of the format itself. No notion of "field state" or declared omission: an empty or half-filled file has no standard way of saying so.
+Does not have: governance, dates, versioning, precedence, verification or field states. And it has not received a commit since March 26, though it remains by far the most adopted, with 454 stars and 305 forks.
 
 ### Creed
 
-Has, with a clear margin over the other three: real per-section permissions, with its own pure, testable logic module (`lib/creed-permissions.ts`), four levels (hidden, read-only, propose, direct) and three roles on the Company plan (owner, admin, member), including the rule that an agent can never exceed its user's permission. Active GitHub sync (`creed.md`, sync hash, sync state). AI-driven quality scoring of the file. Built-in MCP plus OAuth 2.1, with named flows for more than ten agents (Claude Code, Codex, Cursor, Devin, OpenClaw, among others) and its own terminal client. Two sections with no equivalent in any other format: **Routines** (daily or weekly rhythms the AI must respect when planning) and **Health** (health, diet, accessibility).
+Has: real per-section permissions with its own testable logic module, active GitHub sync, AI quality scoring of the file, MCP connection with OAuth and flows for more than ten agents. Two sections with no equivalent anywhere else: Routines and Health. It is the most actively developed project of all those reviewed.
 
-Lacks: nothing resembling dated case law; it excludes it by design, with the agent contract listing "task-level trivia" and single-conversation notes as content that must never be proposed. No field states in the `.contexto/` sense (closed, partial, declared blank). No runnable verification or public audit of the format. No "who this is not for" or market-territory section; that makes sense for a personal rather than brand format, but it is a real absence next to `audiencias.md`. And, in its hosted form, it is a product with billing and paid plans, not a neutral, free file convention like `.contexto/` or Whittemore's repository.
+Does not have: case law or dated cases, excluded by design. Field states. Runnable verification. Territory or "who it is not for". And in its hosted form it is a product with paid plans.
 
 ### me.md
 
-What is verifiable: a rapid-answer card model with measured, communicated progression (first signal at 5 answers, useful export at 40, strong context at 100, deep profile at 200, out of 247 total cards). A SHA-256 seal on the exported file; no other format offers a way to verify the file has not been altered. Explicit control of sensitivity and of what gets included when exporting or sharing. A category of its own, "Developer cards" (40+ technical questions: test-driven development bias, monorepo preference, agent autonomy, evaluation discipline), off by default, with no equivalent in the other three. It is, by far, the format most designed for mass adoption with minimal entry friction.
+Verifiable: measurable, communicated progression by number of cards answered, a SHA-256 seal on the exported file, sensitivity control when sharing, and a category of technical cards turned off by default. The lightest entry in the whole category.
 
-What it lacks, or cannot be verified: no published section schema. Its own FAQ says the file format ("Pack v1") and the card schema "may open up later if AGENTS.md-style portability gains adoption"; today it is closed. No auditable public repository; one was actively searched for and none was found. No public evidence of how it covers role, relationships, goals, history or per-section permissions: this map does not claim it lacks them, it states they are not verifiable from outside. No documented continuous-sync mechanism like Creed's.
+Does not have, or could not be verified: a published section schema, an auditable repository, or public evidence of how it covers role, relationships, goals or history. The claim is not that it lacks them; the claim is that it cannot be verified from outside.
 
-## 3. Migration notes
+### Open Knowledge Format and AGENTS.md
+
+These sit in another layer and comparing them head-on is misleading. OKF standardizes knowledge bundles with frontmatter answering three questions no identity format was asking: where this came from (`sources`), who produced it and who confirmed it (`generated`, `verified`), and whether it is still current (`status`, `stale_after`). AGENTS.md standardizes project instructions for coding agents and is adopted across more than sixty thousand repositories.
+
+Neither encodes a subject. The useful reading is one of fit: a knowledge bundle does not say who is speaking, and an identity folder does not say what the organization knows. A complete subject will need both, and expressing `.contexto/` states in OKF-compatible frontmatter is the shortest path for ecosystem tooling to read an identity folder without integration work.
+
+## 7. Migration notes
 
 ### From personal context portfolio to `.contexto/`
 
-`identity.md` maps directly to `identidad.md`, but you must add the real origin case (the specific moment the work became your own): `.contexto/` does not accept self-definition without a case, and `identity.md` is written as a summary, not as a scene. `communication-style.md` gets rewritten as `formas.md` by adding "like this / not like this" pairs with actually quoted phrases, not abstract style descriptions. `team-and-relationships.md` compresses into `audiencias.md`; per-person structure is lost unless you manually replicate the "what I need from them" and "what they need from me" fields. `decision-log.md` splits between `logica.md` (the rule and its precedence) and `evidencia.md` (what is claimable); every decision needs a date and an explicit operating rule that `decision-log.md` does not require.
+`identity.md` maps directly onto `identidad.md`, but its originating case has to be added: `.contexto/` does not accept self-definition without a case, and `identity.md` is written as a summary rather than a scene. `communication-style.md` is rewritten as `formas.md`, adding yes-like-this / not-like-this pairs with genuinely quoted phrases. `team-and-relationships.md` compresses into `audiencias.md`; the per-person structure is lost unless the fields are replicated by hand. `decision-log.md` splits between `logica.md` and `evidencia.md`; each decision needs a date and an explicit operating rule that `decision-log.md` does not require.
 
-Reverse path: `logica.md` and `evidencia.md` merge into a single `decision-log.md` when migrating to this format, losing the separation between "rule with precedence" and "verifiable case" that `.contexto/` keeps in two distinct files.
+Reverse path: `logica.md` and `evidencia.md` merge into a single `decision-log.md`, losing the separation between rule with precedence and verifiable case.
 
 ### From Creed to `.contexto/`
 
-Identity, Work and Preferences spread across `identidad.md`, `arquitectura.md` (or directly into `guia.md` if the profile is simple) and `formas.md`; you must add cases and dates, because Creed's contract expressly prohibits the task-level detail that `.contexto/` demands as proof that something is real content. Goals pours into `identidad.md`, "current moment" block; Creed's "what DOES count as a goal" examples are lost unless rewritten as case law with their origin case. Constraints migrates directly to `restricciones.md`, but each rule must be classified as current, laboratory, horizon or history, a distinction Creed does not make. The per-section permission model (hidden, read-only, propose, direct) has no destination in `.contexto/`: multi-agent governance is excluded by design (one owner, their AI). If a use case needs per-agent, per-section permissions, Creed is today the right format for that.
+Identity, Work and Preferences split across `identidad.md`, `arquitectura.md` and `formas.md`; cases and dates have to be added, because Creed's contract forbids exactly the task-level detail that `.contexto/` requires as proof. Goals pours into `identidad.md`. Constraints migrates directly to `restricciones.md`, classifying each rule as current, lab, horizon or history. The per-section permission model has no destination: multi-agent governance is excluded by design. If a case needs per-agent, per-section permissions, Creed is the right format today.
 
-Reverse path: `identidad.md`, `formas.md` and `restricciones.md` flatten into Creed's fixed sections (Identity, Preferences, Constraints), losing the dated case law with derived rules, because Creed's contract excludes precisely that kind of narrative content.
+Reverse path: `identidad.md`, `formas.md` and `restricciones.md` flatten into Creed's fixed sections, losing the case law with dates and derived rules.
 
 ### From me.md to `.contexto/`
 
-With what is verifiable today, only the "Quick Load" and "Communication" content can be migrated with confidence: it maps directly to `formas.md`, because it already arrives written as style rules with examples, close to the "like this / not like this" format `.contexto/` asks for. The "boundaries" cards, if answered, would migrate to `restricciones.md`. The rest (full identity, role, goals, relationships, history) cannot be mapped responsibly without access to the full schema of the 200+ cards: better to declare the gap, as the "honest states" principle of `.contexto/` itself demands, than to invent a destination for it.
+With what is verifiable today, only "Quick Load" and "Communication" can be migrated with confidence, into `formas.md`. Boundary cards would migrate to `restricciones.md`. The rest cannot be mapped responsibly without access to the full schema: better to declare the gap than to invent a destination.
 
-Reverse path: it does not apply the same way. me.md is not an open standard for hand-written files; it is a closed product with its own card questionnaire. The only transferable move is using an already written `formas.md` and `restricciones.md` as prepared answers to speed up the questionnaire, if you want to generate a me.md anyway.
+### From Brand Context Protocol to `.contexto/`
 
-## 4. Sources
+`voice.md` maps to `formas.md`, and `voice/anti-ai.md` enters as a prohibitions block inside the same file, keeping the per-class typing, which is finer-grained than `.contexto/`'s. `values.md` splits: the decision rules go to `logica.md` and need their originating case and date added, which BCP does not ask for; the collision rules are already precedence and migrate almost verbatim. `boundaries.md` goes to `restricciones.md`, and soft nos with conditions fit the operating-condition format directly. `claims.md` goes to `evidencia.md`, mapping `proof_status` onto promise states: approved to current, aspirational to horizon, requires_caveat to partial input. `visual.md` maps to `visual.md`. `representation.md` maps to `representacion.md`, which is the closest one-to-one match between the two formats.
 
-All four sources read on 2026-07-27. Anything not listed here was not read for this map.
+Reverse path: `logica.md` loses its cases and dates when flattened into collision rules, and `verificacion.md` and `feedback.md` have no destination in BCP. In exchange you gain discovery and signing, which `.contexto/` does not provide.
 
-**`.contexto/`**, repository `github.com/f0nchi/contexto-estandar`, branch `main`, 0 stars at reading time:
-- `README.md` (the twelve-file table, the seven principles, installation, versioning)
-- `auditoria.md`
-- `instalacion.md`
-- `system-prompt.txt`
-- `ejemplo/guia.md`, `ejemplo/identidad.md`, `ejemplo/formas.md`, `ejemplo/restricciones.md`, `ejemplo/evidencia.md`, `ejemplo/logica.md`, `ejemplo/verificacion.md` (the complete Sole example)
-- `plantillas/identidad.md`, `plantillas/audiencias.md`, `plantillas/feedback.md`, `plantillas/territorio.md`, `plantillas/visual.md`
-- Full listing (names, not contents) of `ejemplo/` and `plantillas/` via `gh api repos/f0nchi/contexto-estandar/contents/...`
+## 8. Sources
 
-**personal context portfolio**, repository `github.com/nlwhittemore/personal-context-portfolio`, branch `main`, 447 stars at reading time:
-- `README.md`
-- `GETTING-STARTED.md`
-- `templates/identity.md`, `templates/decision-log.md`, `templates/preferences-and-constraints.md`, `templates/team-and-relationships.md`, `templates/goals-and-priorities.md`
-- `wiring/mcp-resource.md`
-- Full listing (names, not contents) of `templates/`, `examples/knowledge-worker/`, `examples/` and `wiring/` via `gh api`. The contents of `interview-protocol/agent-system-prompt.md` (17 KB) and of the files inside `examples/` were not read, only their names
+Reading date for this edition: 2026-08-14 and 2026-08-15. The first edition read the four personal formats on 2026-07-27 and its sources remain listed below. Anything not listed here was not read for this map.
 
-**Creed**, repository `github.com/connorhpbrn/creed`, branch `main`, 149 stars at reading time:
-- `README.md`
-- `AGENTS.md`
-- `CHANGELOG.md`
-- `lib/creed-permissions.ts` (full contents, the permissions module)
-- `lib/creed-data.ts` (partial read: the definition of the ten sections with title and description, around lines 1027 to 1164; and the comment on the onboarding "core seed spine", around lines 736 to 745, within a 102 KB, 2588-line file not read in full)
-- Root, `lib/`, `packages/` and `supabase/` listings via `gh api`
+**Brand Context Protocol / Encoded Brands** (read 2026-08-14):
+- Full v0.7 specification at `brandcontextprotocol.dev/spec/v0.7/`
+- `encodedbrands.ai/.well-known/brand.md` (the actual root file, declaring `bcp_version` 0.8 and `last_updated` 2026-08-05)
+- Actual daughter files: `voice.md`, `voice/anti-ai.md`, `values.md`, `boundaries.md`, `claims.md`, `representation.md`
+- `encodedbrands.ai` (home, commercial model and plans)
+- Repository metadata for `github.com/Brand-Context-Protocol/spec` via `gh api`: organization created 2026-05-04, last push 2026-08-10, 1 star
+- Not read: `visual.md`, `commerce.md`, or the optional extensions
 
-**me.md**, `getmemd.com` (Aprex):
-- `https://getmemd.com` (home, read twice with different prompts: general structure, and navigation / example sections)
-- `https://getmemd.com/build`
-- `https://getmemd.com/faq`
-- `https://getmemd.com/docs` returned 404, it does not exist
-- Web search for a public repository ("getmemd.com me.md Aprex github repository format spec"): no relevant results, no repository found
-- Everything that appears in the table as "not publicly verifiable" and is not cited above is exactly that: no public source was found to confirm it, and nothing was assumed by analogy with the other three formats
+**brand.md** (read 2026-08-14):
+- Complete `spec/brand-md.md`, version 0.3.0, at `github.com/caiopizzol/brand.md`
+- Repository metadata via `gh api`: created 2026-03-13, last push 2026-08-05, 22 stars, 4 forks, MIT license
+- The author's public profile and `caiopizzol.com`
+
+**brandbook.md** (read 2026-08-14):
+- `brandbook.md/` (home: file structure, licenses, draft 0.1 status)
+- `brandbook.md/landscape/` (its own comparison of eight brand standards)
+- Repository metadata: organization `brandbook-md`, created 2026-07-16, 0 stars
+- The specification was not read file by file
+
+**brandkit.md** (read 2026-08-14): `README.md` of `github.com/360vier/brandkit.md`, v0.1.0-draft. Metadata via `gh api`: created 2026-03-13, last push 2026-03-14, 1 star, MIT.
+
+**Open Knowledge Format** (read 2026-08-14): complete `okf/SPEC.md` v0.2 at `github.com/GoogleCloudPlatform/knowledge-catalog`, the Google Cloud announcement, and secondary coverage for the v0.1 (2026-06-12) and v0.2 (2026-07-25) dates.
+
+**AGENTS.md** (read 2026-08-14): secondary coverage only, for its institutional status and declared adoption. The specification was not read.
+
+**Discovery and adoption** (read 2026-08-15): [RFC 8615](https://www.rfc-editor.org/rfc/rfc8615.html) for the well-known URI prefix and its IANA registry; public measurements of `llms.txt` adoption, including the SE Ranking study of 300,000 domains and the reported 408 hits across 500 million AI bot visits over ninety days; and the stated positions of Google, OpenAI and Anthropic on reading such files.
+
+**Status of the four personal formats as of 2026-08-14**, verified via `gh api`: personal context portfolio 454 stars, 305 forks, last push 2026-03-26; Creed 166 stars, last push 2026-08-14; `.contexto/` 0 stars. me.md content re-read at `getmemd.com`.
+
+**Not verified in this edition:** `brand.yml`, `DESIGN.md` and `brandspec`, named in section 3 with no claims about their contents. The two other initiatives using the Brand Context Protocol name, from Aryabhatta Labs and from Wild, which appear in brandbook.md's landscape and were not read. Creed's current changelog, whose public file points to an internal module of the repository that was not opened.
