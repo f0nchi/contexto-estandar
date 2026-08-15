@@ -44,5 +44,5 @@ La migración del reporting de la operación de frío y el primer tablero de aut
 ## Qué NO está priorizando
 
 - **El curso de machine learning.** Queda afuera este año. Gana tiempo para la adopción del tablero, que es donde está el valor ahora. Volvería a entrar si el área de operaciones pidiera pronóstico de demanda con presupuesto asignado.
-- **Rehacer los tableros viejos del área comercial.** Afuera aunque se los pidan seguido. Gana foco en frío, que es donde hay incidentes reales. Volvería a entrar si comercial define una decisión semanal concreta que esos tableros alimenten.
+- **Rehacer los tableros viejos del área comercial.** Afuera aunque se los pidan seguido. Gana concentración en frío, que es donde hay incidentes reales. Volvería a entrar si comercial define una decisión semanal concreta que esos tableros alimenten.
 - **Presentar en congresos de la industria.** Afuera hasta que el tablero de autoconsulta tenga tres meses de uso. Gana material real para contar en vez de una intención.

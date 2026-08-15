@@ -102,7 +102,7 @@ No tiene: casos con fecha ni jurisprudencia. Verificación de comportamiento. Ap
 
 ### brand.md (Caio Pizzol)
 
-Tiene: la formulación más limpia de herencia entre marca madre, producto y submarca, con la regla de que un hijo puede endurecer un guardrail y nunca debilitarlo, y de que los compromisos de accesibilidad se fusionan siempre hacia arriba. `specVersion` como puerta de validación, con comportamiento definido para el archivo que no la declara. References y anti-references como campo obligatorio de estrategia. Licencia MIT y un solo archivo, la menor fricción de entrada de la familia.
+Tiene: la formulación más limpia de herencia entre marca madre, producto y submarca, con la regla de que un hijo puede endurecer un guardrail y nunca debilitarlo, y de que los compromisos de accesibilidad se fusionan siempre hacia arriba. `specVersion` como puerta de validación, con comportamiento definido para el archivo que no la declara. References y anti-references como campo obligatorio de estrategia. Licencia MIT y un solo archivo, la entrada más liviana de la familia.
 
 No tiene: casos, fechas, jurisprudencia, verificación corrible, estados de completitud por campo, ni capa de representación. Declara los idiomas que soporta y el español no está entre ellos.
 
@@ -120,7 +120,7 @@ No tiene: jurisprudencia ni casos con fecha, excluidos por diseño. Estados de c
 
 ### me.md
 
-Lo verificable: progresión medible y comunicada por cantidad de tarjetas respondidas, un sello SHA-256 sobre el archivo exportado, control de sensibilidad al compartir, y una categoría propia de tarjetas técnicas apagada por defecto. La menor fricción de entrada de toda la categoría.
+Lo verificable: progresión medible y comunicada por cantidad de tarjetas respondidas, un sello SHA-256 sobre el archivo exportado, control de sensibilidad al compartir, y una categoría propia de tarjetas técnicas apagada por defecto. La entrada más liviana de toda la categoría.
 
 No tiene, o no se pudo verificar: esquema de secciones publicado, repositorio auditable, ni evidencia pública de cómo cubre rol, relaciones, objetivos o historial. No se afirma que no los tenga; se afirma que no es verificable desde afuera.
 

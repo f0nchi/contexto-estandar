@@ -2,7 +2,7 @@
 
 > Parte del estándar [.contexto/](README.md). El registro de qué entró, qué quedó afuera y por qué.
 
-Cada archivo candidato se evalúa contra el criterio de admisión del README: responde una pregunta que ninguno de los existentes responde, nació de una falla observada en uso con su fecha y su caso, el ejemplo lo puede demostrar con contenido real, y su ausencia se nota en lo que la IA produce. Los cuatro, o entra como sección de un archivo existente.
+Cada archivo candidato se evalúa contra la vara de admisión del README: responde una pregunta que ninguno de los existentes responde, nació de una falla observada en uso con su fecha y su caso, el ejemplo lo puede demostrar con contenido real, y su ausencia se nota en lo que la IA produce. Los cuatro, o entra como sección de un archivo existente.
 
 Acá quedan las evaluaciones, incluidas las negativas. Un estándar que solo muestra lo que aceptó no deja ver su vara.
 
@@ -33,7 +33,7 @@ Acá quedan las evaluaciones, incluidas las negativas. Un estándar que solo mue
 
 ### Señales de mercado como archivo propio · evaluado el 2026-08-14
 
-Registrar deseo, comprensión, confusión, uso, fricción y riesgo, con su lectura y su movimiento posible.
+Registrar deseo, comprensión, confusión, uso, roce y riesgo, con su lectura y su movimiento posible.
 
 **Pasa:** responde una pregunta que ningún archivo responde, y existe funcionando en la implementación de referencia desde el 2026-06-27.
 **No pasa:** no nació de una falla observada, y su forma depende del negocio de cada sujeto, con lo cual la plantilla se convertiría en un CRM chico. Su ausencia no se nota todavía en lo que la IA produce.

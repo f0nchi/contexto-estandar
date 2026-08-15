@@ -94,7 +94,7 @@ La manera asistida existe en [Ideas Aumentadas](https://www.ideasaumentadas.com.
 
 ## Cómo se relaciona con los otros formatos
 
-`.contexto/` no es el único formato vivo de esta categoría. [interoperabilidad.md](interoperabilidad.md) es el mapa completo: equivalencias sección por sección con el personal context portfolio de Nathaniel Whittemore, Creed y me.md, qué cubre cada formato que los otros no, y notas de migración en ambas direcciones. Incluye lo que a este estándar le falta hoy y lo que excluye a propósito, porque el principio de estados honestos también aplica al estándar mismo. English version: [interoperabilidad.en.md](interoperabilidad.en.md).
+La categoría tiene varios formatos vivos. [interoperabilidad.md](interoperabilidad.md) es el mapa completo: equivalencias sección por sección con el personal context portfolio de Nathaniel Whittemore, Creed y me.md, qué cubre cada formato que los otros no, y notas de migración en ambas direcciones. Incluye lo que a este estándar le falta hoy y lo que excluye a propósito, porque el principio de estados honestos también aplica al estándar mismo. English version: [interoperabilidad.en.md](interoperabilidad.en.md).
 
 ## Versionado
 
