@@ -94,7 +94,7 @@ La manera asistida existe en [Ideas Aumentadas](https://www.ideasaumentadas.com.
 
 ## Cómo se relaciona con los otros formatos
 
-La categoría tiene varios formatos vivos. [interoperabilidad.md](interoperabilidad.md) es el mapa completo: el terreno en tres capas, las tablas de equivalencia contra el personal context portfolio de Whittemore, Creed, me.md, el Brand Context Protocol, brand.md y brandbook.md, qué cubre cada formato que los otros no, y notas de migración en ambas direcciones. Incluye lo que a este estándar le falta hoy y lo que excluye a propósito, porque el principio de estados honestos también aplica al estándar mismo. English version: [interoperabilidad.en.md](interoperabilidad.en.md).
+La categoría tiene varios formatos vivos. [interoperabilidad.md](interoperabilidad.md) es el mapa completo: el terreno en tres capas, las tablas de equivalencia contra el personal context portfolio de Whittemore, Creed, me.md, el Brand Context Protocol, brand.md y brandbook.md, qué cubre cada formato que los otros no, y notas de migración en ambas direcciones. Incluye lo que a este estándar le falta hoy y lo que excluye a propósito, porque el principio de estados honestos también aplica al estándar mismo. English version: [interoperabilidad.en.md](interoperabilidad.en.md). Y para usar la carpeta dentro de un sistema personal completo: [guias/lifeos.md](guias/lifeos.md), el mapeo archivo por archivo hacia LifeOS ([English](guias/lifeos.en.md)).
 
 ## Versionado
 
