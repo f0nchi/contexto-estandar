@@ -17,7 +17,7 @@ stale_after: [AAAA-MM-DD]
 
 Cómo correr esta suite: pedile a una IA que ya leyó la carpeta que responda cada situación, y comparen contra la respuesta esperada. Si improvisa o contradice la carpeta, revisá que haya leído guia.md primero.
 
-> Guía: cada caso sale de una regla real de la carpeta, casi siempre de una confrontación resuelta o de un límite con caso de origen. Mínimo cinco casos para que la suite diga algo. Uno de ellos prueba la mirada: qué hace la IA ante un pedido abierto, sin tema; la respuesta esperada pasa por mirada.md y por un hallazgo con fecha, nunca por el sujeto describiéndose a sí mismo. El formato:
+> Guía: cada caso sale de una regla real de la carpeta, casi siempre de una confrontación resuelta o de un límite con caso de origen. Mínimo cinco casos para que la suite diga algo. Uno de ellos prueba la mirada: qué hace la IA ante un pedido abierto, sin tema; la respuesta esperada pasa por mirada.md y por un hallazgo con fecha, nunca por el sujeto describiéndose a sí mismo. La suite también crece por el ciclo de promoción de feedback.md: una corrección del dueño que ascendió a prohibición es candidata a caso, porque una regla que nació de una falla real necesita en la suite la prueba que la detecte si vuelve. El formato:
 
 ### Caso 1
 

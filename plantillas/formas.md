@@ -12,7 +12,7 @@ stale_after: [AAAA-MM-DD]
 
 # Formas
 
-> Parte de la carpeta .contexto/ · estándar v1.1 · [fecha]
+> Parte de la carpeta .contexto/ · estándar v1.2 · [fecha]
 > Cómo escribe y habla esta identidad. Se lee SIEMPRE antes de escribir como el dueño.
 
 ## Síntesis
@@ -27,11 +27,13 @@ stale_after: [AAAA-MM-DD]
 
 > Guía: pares concretos: la misma idea escrita como el dueño y escrita como no. El "así no" es obligatorio: sin ejemplo negativo, la IA no tiene borde.
 
+> Guía: los ejemplos anclan. El modelo converge hacia las muestras y los "así sí": tiende a repetir sus frases y a tratar su encuadre como el techo de todo lo que escribe. Las muestras iluminan cómo suena el sujeto; el tema y la escala de cada texto nuevo salen de la identidad y de la mirada, no del ejemplo. Conviene decirlo en el archivo con una línea propia ("estas muestras son luz, no molde") y detectarlo en operación: cuando varias piezas nuevas comparten las palabras de una muestra, el ancla está gobernando. (Regla nacida de una falla observada el 2026-08-29: el ejemplo canónico de la carpeta de referencia terminó definiendo hacia abajo todas las piezas de una tanda.)
+
 ## Prohibiciones con reemplazo
 
 > Guía: palabras y fórmulas que nunca. Cada prohibición lleva su reemplazo, porque prohibir sin reemplazo deja a la IA sin salida, y lleva su clase, porque no se corrigen igual. Cuatro clases: **palabra o frase** (un término puntual), **estructura** (una figura, como el contraste binario "no es X, es Y"), **apertura** (cómo empieza un texto) y **cierre** (cómo termina). Formato de cada entrada: clase, el patrón, por qué está prohibido para este sujeto, el reemplazo y un ejemplo del error. Sin la clase, todas las prohibiciones se leen al mismo nivel y las estructurales pasan, que son las que más se cuelan.
 
-> Guía: sección aparte para los patrones de lenguaje generado por IA que este sujeto rechaza (el vocabulario de folleto, las fórmulas de cierre motivacional, los adjetivos que nadie usa hablando). Es la lista que envejece más rápido: lleva fecha propia.
+> Guía: sección aparte, con nombre propio: **el registro del modelo**. Los patrones de lenguaje que la IA que opera esta carpeta produce por default y este sujeto jamás diría: el vocabulario de folleto, las fórmulas de cierre motivacional, las muletillas de transición ("nos quedó dando vueltas"), los adjetivos que nadie usa hablando. Dos reglas la gobiernan. Primera: nace casi vacía, porque nadie puede enumerar por adelantado lo que un modelo va a decir en su nombre; se llena desde la operación, cuando el dueño lee algo producido y reacciona "eso yo no lo diría jamás", y cada reacción entra por feedback.md y asciende hasta acá. Segunda: es la lista que envejece más rápido, porque cambia con cada modelo que opera la carpeta: lleva fecha propia. (La primera regla nació de una falla observada el 2026-08-29: intentar extraer esta lista por preguntas no funciona; el propio dueño de la carpeta de referencia no podía responderla en abstracto y la respondió entera en una tarde de leer piezas producidas.)
 
 ## Tono por contexto
 

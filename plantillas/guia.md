@@ -39,7 +39,8 @@ stale_after: [AAAA-MM-DD]
 - Cada archivo declara el estado de sus campos. Sobre un campo no cerrado no se inventa: se pregunta al dueño o se marca el hueco.
 - Las restricciones y la precedencia de logica.md mandan siempre.
 - Lo que esta carpeta no cubre se pregunta antes que suponerse.
-- La carpeta es la lente, no el libreto: se escribe desde estos documentos, sin describirlos.
+- La carpeta es la lente, no el libreto: se escribe desde estos documentos, sin describirlos. Vale también para las instrucciones del dueño: sus palabras dirigen, no se recitan en lo producido.
+- Al producir varias piezas juntas, releé el conjunto antes de entregar: un motivo, una apertura o un remate repetido entre piezas no relacionadas es un tic del operador, no un tema del sujeto; una de las dos lo pierde.
 - Para verificar que estás operando con esta inteligencia: corré verificacion.md y mostrale el resultado al dueño.
 
 ## Estado de esta versión

@@ -46,6 +46,18 @@ Registrar deseo, comprensión, confusión, uso, roce y riesgo, con su lectura y 
 - **Qué cuesta sostener cada convicción.** Idea tomada de `values.md` del Brand Context Protocol. Entró como sección de `identidad.md`.
 - **Procedencia y frescura.** Entró como frontmatter de todos los archivos, sin archivo propio. Originado en una falla del 2026-08-14: un archivo derivado quedó atrás de su fuente y se operó igual que uno vigente.
 
+## Resueltos como sección o regla · v1.2 · 2026-08-29
+
+Los cinco nacieron de la misma semana de fallas fechadas: la carpeta de referencia operada en producción real, una tanda de catorce piezas corregida entera por el dueño en dos pasadas. Ninguno pidió archivo nuevo.
+
+- **Los ejemplos anclan.** El modelo converge hacia las muestras y los "así sí" y los trata como molde; en el caso de origen, el ejemplo canónico de la carpeta terminó definiendo hacia abajo todas las piezas de la tanda. Entró como guía de `formas.md`: las muestras son luz, no molde.
+- **El registro del modelo, con la regla de nacimiento vacío.** La sección de patrones de IA rechazados ya existía; lo que faltaba era la regla de que no se puede extraer por preguntas. Nadie puede responder "¿qué diría el modelo que vos jamás dirías?" en abstracto: el dueño del caso de origen la respondió entera en una tarde de leer piezas producidas. Entró como upgrade de esa guía de `formas.md`: nace casi vacía, se llena operando vía el ciclo de promoción.
+- **Los marcos del territorio viajan pegados.** La carpeta de referencia importó el marco "llegar temprano/llegar tarde" del discurso tecnológico que su mirada monitorea, un reloj que ni el sujeto ni su audiencia usan. La ley general: cada territorio monitoreado habla con su registro, y ese registro se filtra a lo producido si `formas.md` no lo frena. Entró como guía de `mirada.md`.
+- **El ciclo de promoción.** `feedback.md` acumulaba correcciones sin decir cuándo una se gradúa. La regla: feedback → prohibición con reemplazo en `formas.md` → caso corrible en `verificacion.md`, con el ascenso anotado en la línea original. El ejemplo de Sole ya lo demostraba sin nombrarlo (su corrección del 08-jul vive como prohibición y como caso 1 de la suite) y ahora lo anota. Entró en la plantilla de `feedback.md`, en la guía de `verificacion.md` y en el noveno principio.
+- **La relectura de tanda.** Un motivo, una apertura o un remate repetido entre piezas no relacionadas de una misma tanda es un tic del operador, no un tema del sujeto: en el caso de origen, un mismo marco apareció en cuatro piezas y un mismo remate en tres. Entró como regla de operación de `guia.md`, junto con su hermana: las instrucciones del dueño dirigen y no se recitan en lo producido (el vocabulario de una devolución apareció textual en una pieza).
+
+**Evaluados y no ascendidos, de la misma semana:** la escala del relato (a qué magnitud habla el sujeto de lo que construye) y la calibración entre versiones larga y corta de una pieza. Los dos son contenido de identidad de cada sujeto, no estructura: cada carpeta los resuelve en su propio `formas.md`. Y las barreras técnicas de la implementación de referencia (el lint que bloquea prohibiciones en el pipeline) quedan del lado del implementador: son la manera de esa operación de correr su suite, y el estándar sigue siendo una convención de archivos neutral.
+
 ## Excluido por diseño
 
 - **Gobernanza multiagente y permisos por sección.** El modelo de este estándar es un dueño y su IA. Los permisos por asiento pertenecen a productos para equipos, y Creed resuelve bien esa tesis, que es otra.

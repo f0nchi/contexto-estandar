@@ -12,7 +12,7 @@ stale_after: [AAAA-MM-DD]
 
 # Mirada
 
-> Parte de la carpeta .contexto/ · estándar v1.1 · [fecha]
+> Parte de la carpeta .contexto/ · estándar v1.2 · [fecha]
 > Hacia dónde mira este sujeto, qué ve cuando mira, de qué se alimenta y qué hace con lo que ve.
 
 > Guía: esta capa existe porque el resto de la carpeta apunta hacia adentro. Cuando todos los archivos describen al sujeto, la única materia disponible para producir es el sujeto mismo, y una identidad codificada sin mirada solo puede hablar de sí. Acá se codifica la atención: no una lista de intereses ni un feed de noticias, sino qué observa este sujeto y con qué lente lo lee, para que cualquier operador sepa qué mirar y qué hacer con lo que ve sin preguntarlo cada vez. En marcas los interlocutores son mercado, categoría y clientes; en personas son colegas, equipos, jefes y oficio. La función es la misma.
@@ -28,6 +28,8 @@ stale_after: [AAAA-MM-DD]
 ## Fuentes de mundo
 
 > Guía: por dónde entra el mundo, con nombre concreto. Vale declarar fuentes humanas (una newsletter, una comunidad, la persona que trae las novedades, lo que el dueño trae en conversación) sin fingir automatización. Regla que acompaña: todo hallazgo entra con fecha y fuente, la evidencia secundaria se declara como tal, y cuando no hubo cosecha se declara el silencio en lugar de inventar actualidad.
+
+> Guía: lo que entra por la mirada viene con los marcos de su territorio pegados. Cada territorio monitoreado habla con su propio registro (la urgencia y el cronómetro en tecnología, la promesa de bienestar en salud, la solemnidad en lo legal), y ese registro se filtra a lo que el sujeto produce si nadie lo frena: los hallazgos son materia, su encuadre no. El filtro es formas.md, que manda sobre cualquier tono importado; cuando un marco ajeno aparece repetido en lo producido, es candidato directo a prohibición con reemplazo. (Regla nacida de una falla observada el 2026-08-29: la carpeta de referencia importó el marco "llegar temprano/llegar tarde" del discurso tecnológico que monitorea, un reloj que ni el sujeto ni su audiencia usan.)
 
 ## Señales que obligarían a revisar la tesis
 
