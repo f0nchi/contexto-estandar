@@ -1,3 +1,12 @@
+---
+type: identidad
+status: stable
+generated:
+  by: "human:sole + claude"
+  at: 2026-08-14
+stale_after: 2026-11-14
+---
+
 # Identidad
 
 > Parte de la carpeta .contexto/ de Sole (ejemplo) · estándar v1.1 · 2026-08-14
