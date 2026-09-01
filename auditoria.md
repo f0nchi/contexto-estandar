@@ -15,7 +15,7 @@ Auditá mi carpeta .contexto/ contra los nueve principios del estándar (github.
 4. Verificación corrible: ¿verificacion.md existe y sus casos se pueden correr de verdad? Corré dos y mostrame el resultado.
 5. Precedencia explícita: ¿la carpeta dice qué manda cuando dos reglas chocan? Buscá dos reglas mías que podrían chocar y decime si la carpeta resuelve el choque.
 6. La carpeta es la lente, no el libreto: ¿hay contenido que describe el método o los límites en vez de operar desde ellos?
-7. Hacia dónde mira: ¿mirada.md existe? ¿Los temas que sigue se pueden rastrear hasta una convicción o una decisión escrita en otro archivo, o son una lista de temas de actualidad? ¿La lente está escrita como preguntas aplicables a un hecho nuevo, y podría firmarlas otro del mismo rubro sin cambiar nada? ¿Declara qué evidencia lo haría cambiar de opinión?
+7. Hacia dónde mira: ¿mirada.md existe? ¿Los temas que sigue se pueden rastrear hasta una convicción o una decisión escrita en otro archivo, o son una lista de temas de actualidad? ¿La lente está escrita como preguntas aplicables a un hecho nuevo, y podría firmarlas otro del mismo rubro sin cambiar nada? ¿Dice qué lo haría cambiar de opinión?
 8. Primera y tercera persona: ¿existe representacion.md? ¿Sus descripciones aprobadas están en los tres largos, listas para copiar? ¿Hay material de tercera persona mezclado en los archivos de primera, o al revés?
 9. Memoria de correcciones: ¿feedback.md existe y tiene entradas con fecha, regla y ejemplo?
 
