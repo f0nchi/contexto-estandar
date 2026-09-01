@@ -41,6 +41,6 @@ stale_after: [AAAA-MM-DD]
 
 > Guía: los dos o tres frentes que están arriba ahora, con su horizonte. Campo perecedero: lleva fecha propia.
 
-## Qué NO está priorizando
+## Lo que dejás afuera a propósito
 
 > Guía: lo que está afuera a propósito, con el tradeoff dicho. Una prioridad sin su renuncia declarada es una lista de deseos, y sin este campo una IA trata cualquier oportunidad como bienvenida. Formato de cada entrada: qué queda afuera, qué se gana dejándolo afuera, y bajo qué condición volvería a entrar.

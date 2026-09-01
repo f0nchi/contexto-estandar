@@ -17,9 +17,9 @@ stale_after: [AAAA-MM-DD]
 
 > Guía: esta capa existe porque el resto de la carpeta apunta hacia adentro. Cuando todos los archivos describen al sujeto, la única materia disponible para producir es el sujeto mismo, y una identidad codificada sin mirada solo puede hablar de sí. Acá se codifica la atención: no una lista de intereses ni un feed de noticias, sino qué observa este sujeto y con qué lente lo lee, para que cualquier operador sepa qué mirar y qué hacer con lo que ve sin preguntarlo cada vez. En marcas los interlocutores son mercado, categoría y clientes; en personas son colegas, equipos, jefes y oficio. La función es la misma.
 
-## Universos de atención
+## De qué te ocupás
 
-> Guía: entre tres y seis territorios donde este sujeto mira, cada uno con una línea de por qué le importa. Se derivan de los documentos lentos (identidad, territorio, decisiones registradas) y se revisan cuando esos documentos cambian, nunca por moda ni por lo último trabajado. Una lista de temas de actualidad no es esto: si el universo no se puede rastrear hasta una decisión o una convicción escrita en otro archivo, todavía no es un universo de atención.
+> Guía: los universos de atención: entre tres y seis territorios donde este sujeto mira, cada uno con una línea de por qué le importa. Se derivan de los documentos lentos (identidad, territorio, decisiones registradas) y se revisan cuando esos documentos cambian, nunca por moda ni por lo último trabajado. Una lista de temas de actualidad no es esto: si el tema no se puede rastrear hasta una decisión o una convicción escrita en otro archivo, todavía no va acá.
 
 ## La lente
 

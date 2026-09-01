@@ -29,4 +29,4 @@ stale_after: [AAAA-MM-DD]
 
 ## Claims de oferta
 
-> Guía: qué promete siempre y qué no promete nunca, aunque el cliente lo pida o quede bien. Cada promesa permitida con su respaldo. Para personas: qué le daría vergüenza que una IA exagere (un skill inflado, un seniority que no tiene).
+> Guía: qué promete siempre y qué todavía no, aunque el cliente lo pida o quede bien. Cada promesa permitida con su respaldo. Para personas: qué no querés que una IA exagere de vos (un skill inflado, un seniority que no tenés).
