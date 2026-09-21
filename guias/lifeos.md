@@ -17,7 +17,7 @@ LifeOS resuelve qué puede hacer un sistema personal con IA: skills, agentes, tr
 | `rol.md` y el momento vigente de `identidad.md` | `GOALS` y proyectos | Los frentes abiertos y lo que NO se está priorizando, con su tradeoff. |
 | `audiencias.md` | Contexto de proyectos y relaciones | Perfiles con caso vivido, no categorías. |
 | `mirada.md` | Sin equivalente | LifeOS tiene memoria (Cortex); la atención codificada (universos, lente, señales contra la propia tesis) es aporte de `.contexto/`. |
-| `verificacion.md` | Sin equivalente | La suite corrible de identidad no existe en LifeOS: corré los casos contra tu instalación y comprobá que responde como vos. |
+| `verificacion.md` | Sin equivalente | La suite corrible de identidad no existe en LifeOS: corré los casos contra tu instalación y comprobá que responde desde tu carpeta. |
 | `feedback.md` | Pariente de la curación de Cortex | Las correcciones fechadas pueden alimentar las notas que Cortex promueve o vence. |
 
 ## Cómo se usa en la práctica
@@ -25,7 +25,7 @@ LifeOS resuelve qué puede hacer un sistema personal con IA: skills, agentes, tr
 1. Construí o conseguí tu carpeta `.contexto/` (a mano con las [plantillas](../plantillas/), o extraída en una sesión).
 2. Copiala dentro de tu instalación de LifeOS y volcá el mapeo de arriba en tus archivos TELOS, citando la carpeta como fuente.
 3. Conservá la carpeta como fuente única: cuando cambie, regenerá lo mapeado. El estándar trae `SHA256SUMS` para saber si tu copia sigue íntegra.
-4. Corré `verificacion.md` contra tu LifeOS: si responde tus casos como vos, la identidad viajó bien.
+4. Corré `verificacion.md` contra tu LifeOS: si responde tus casos desde tu carpeta, la identidad viajó bien.
 
 ## Qué no mapea, a propósito
 

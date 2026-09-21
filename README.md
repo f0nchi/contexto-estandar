@@ -26,7 +26,7 @@ Una carpeta `.contexto/` tiene trece archivos núcleo, uno de crecimiento y uno 
 | `audiencias.md` | Perfiles reales con caso vivido, para quién no es. Para personas: relaciones de trabajo. |
 | `arquitectura.md` | Pilares que sostienen el contenido, estructuras que ya funcionaron. |
 | `restricciones.md` | Qué nunca haría, condiciones operativas, estados de promesa. |
-| `logica.md` | Jurisprudencia: casos reales con fecha y porqué, reglas, y qué manda cuando dos reglas chocan. |
+| `logica.md` | Jurisprudencia: casos reales con fecha y porqué, reglas, y qué manda cuando dos reglas se contradicen. |
 | `evidencia.md` | Casos comprobables, qué es afirmable y qué todavía no, qué promesas están permitidas. |
 | `visual.md` | El sistema visual si existe. Si no existe, se declara: ninguna IA debe inventar uno. |
 | `representacion.md` | Qué puede decir de este sujeto una IA que no trabaja para él: descripciones aprobadas, con qué se confunde, qué nunca decir, y las trampas de encuadre. |
@@ -58,13 +58,13 @@ Lo que hace que una carpeta sea `.contexto/` son estas nueve reglas, antes que l
 
 **4. Verificación corrible.** La carpeta incluye su propia suite de pruebas: situación, respuesta esperada, qué nunca, y la regla que lo justifica. Cualquier IA que leyó la carpeta puede correrla, y el dueño puede comprobar que está siendo operado con su lógica y no improvisado.
 
-**5. Precedencia explícita.** Cuando dos reglas chocan, la carpeta dice cuál manda y bajo qué condición. Sin precedencia, la IA promedia; y promediar es la manera más silenciosa de traicionar una identidad.
+**5. Precedencia explícita.** Cuando dos reglas no pueden cumplirse a la vez, la carpeta dice cuál manda y bajo qué condición. Sin precedencia, la IA promedia; y promediar es la manera más silenciosa de traicionar una identidad.
 
 **6. La carpeta es la lente, no el libreto.** La IA escribe y decide desde estos documentos, sin describirlos ni convertir los límites, el método o los anti-ejemplos en contenido público.
 
 **7. Hacia dónde mira.** La identidad incluye su atención. Cuando todos los archivos describen al sujeto, la única materia disponible para producir es el sujeto mismo, y una identidad codificada sin mirada solo puede hablar de sí. `mirada.md` codifica qué observa, con qué lente lo lee y qué haría cambiar de opinión al dueño.
 
-**8. Primera y tercera persona separadas.** La carpeta sirve para que una IA escriba y decida como el dueño, y sirve para que un agente ajeno hable de él. Son dos materiales distintos y no se mezclan: lo que gobierna la escritura propia vive en toda la carpeta, y lo que un tercero puede decir vive solo en `representacion.md`, con lo que el dueño autoriza.
+**8. Primera y tercera persona separadas.** La carpeta sirve para que una IA trabaje en nombre del dueño, y sirve para que un agente ajeno hable de él. Son dos materiales distintos y no se mezclan: lo que gobierna la escritura propia vive en toda la carpeta, y lo que un tercero puede decir vive solo en `representacion.md`, con lo que el dueño autoriza.
 
 **9. Memoria de correcciones, con ciclo de promoción.** Cada corrección del dueño se propone como una línea nueva de `feedback.md`: fecha, regla aprendida, ejemplo. Y las correcciones que se repiten ascienden: primero a prohibición con reemplazo en `formas.md`, después a caso corrible en `verificacion.md`, con el ascenso anotado en la línea original. La identidad acumula jurisprudencia con el uso, y la jurisprudencia que importa se vuelve regla comprobable: una carpeta cuyas correcciones nunca ascienden está anotando en lugar de aprender.
 

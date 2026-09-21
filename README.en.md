@@ -64,7 +64,7 @@ What makes a folder a `.contexto/` folder are these nine rules, ahead of the fil
 
 **7. Where it looks.** Identity includes its attention. When every file describes the subject, the only available material to produce from is the subject itself, and an encoded identity with no gaze can only talk about itself. `mirada.md` encodes what it observes, the lens it reads through, and what would change the owner's mind.
 
-**8. First and third person kept apart.** The folder serves an AI writing and deciding as the owner, and it serves an outside agent describing them. Those are two different materials and they do not mix: what governs the owner's own writing lives across the whole folder, and what a third party may say lives only in `representacion.md`, limited to what the owner authorizes.
+**8. First and third person kept apart.** The folder serves an AI working on the owner's behalf, and it serves an outside agent describing them. Those are two different materials and they do not mix: what governs the owner's own writing lives across the whole folder, and what a third party may say lives only in `representacion.md`, limited to what the owner authorizes.
 
 **9. Memory of corrections, with a promotion cycle.** Every correction from the owner is proposed as a new line in `feedback.md`: date, rule learned, example. And corrections that repeat get promoted: first to a prohibition with replacement in `formas.md`, then to a runnable case in `verificacion.md`, with the promotion noted on the original line. The identity accumulates case law through use, and the case law that matters becomes a testable rule: a folder whose corrections never get promoted is taking notes instead of learning.
 

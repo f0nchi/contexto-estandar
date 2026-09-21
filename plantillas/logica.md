@@ -13,7 +13,7 @@ stale_after: [AAAA-MM-DD]
 # Lógica
 
 > Parte de la carpeta .contexto/ · estándar v1.1 · [fecha]
-> La forma de decidir: las decisiones reales, las reglas que dejaron y qué regla gana cuando dos chocan. Es el archivo que le permite a una IA resolver la situación que ninguna regla previó.
+> La forma de decidir: las decisiones reales, las reglas que dejaron y qué regla gana cuando dos se contradicen. Es el archivo que le muestra a una IA cómo se decidió antes y por qué.
 
 ## Decisiones reales
 
@@ -29,4 +29,4 @@ stale_after: [AAAA-MM-DD]
 
 ## Qué regla gana
 
-> Guía: la precedencia: qué manda cuando dos reglas chocan, con su condición: "cuando X choca con Y, manda X, salvo [condición]". Si el dueño sostiene las dos posiciones, se registra la tensión sin resolver con las dos citas: sostener una tensión es legítimo, promediarla no.
+> Guía: la precedencia: qué manda cuando dos reglas no pueden ir juntas, con su condición: "cuando X y Y no pueden ir juntas, manda X, salvo [condición]". Si el dueño sostiene las dos posiciones, se registra la tensión sin resolver con las dos citas: sostener una tensión es legítimo, promediarla no.

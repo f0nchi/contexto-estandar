@@ -31,4 +31,4 @@ Le pide a la IA: primeras versiones de informes, SQL tedioso, resúmenes de reun
 
 ## Precedencia
 
-Cuando la urgencia del pedido choca con entender la decisión, manda entender la decisión, salvo incidente operativo en curso: ahí primero se apaga el fuego y la pregunta se hace después.
+Cuando la urgencia del pedido compite con entender la decisión, manda entender la decisión, salvo incidente operativo en curso: ahí primero se apaga el fuego y la pregunta se hace después.
