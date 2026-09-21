@@ -21,7 +21,7 @@ stale_after: [AAAA-MM-DD]
 
 ## Reglas
 
-> Guía: las reglas generalizadas desde los casos. Cada regla apunta a su caso de origen: la regla sin caso vale menos.
+> Guía: las reglas generalizadas desde los casos. Cada regla apunta a su caso de origen: la regla sin caso vale menos. Si el dueño alguna vez hizo lo contrario, la excepción se anota en la misma regla con su porqué: una regla sin su excepción se aplica de más.
 
 ## Operación con IA (para personas)
 
