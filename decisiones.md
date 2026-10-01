@@ -58,6 +58,11 @@ Los cinco nacieron de fallas fechadas de la carpeta de referencia operada en pro
 
 **Evaluados y no ascendidos, de la misma semana:** la escala del relato (a qué magnitud habla el sujeto de lo que construye) y la calibración entre versiones larga y corta de una pieza. Los dos son contenido de identidad de cada sujeto, no estructura: cada carpeta los resuelve en su propio `formas.md`. Y las barreras técnicas de la implementación de referencia (el lint que bloquea prohibiciones en el pipeline) quedan del lado del implementador: son la manera de esa operación de correr su suite, y el estándar sigue siendo una convención de archivos neutral.
 
+## Resueltos como regla · v1.3 · 2026-10-01
+
+- **Para empezar.** El README abre con los cuatro archivos con los que una persona arranca (`guia.md`, `identidad.md`, `formas.md` y `restricciones.md`), cómo cargarlos y cómo se mantienen. El resto del estándar queda disponible para cuando el uso lo pide.
+- **La actualización con el uso.** El noveno principio describe cómo se mantiene la carpeta: cuando la IA no representa al dueño en algo que importa, se cambia el archivo que corresponde. `feedback.md` pasa a ser un registro opcional de criterios del dueño, que decide cuáles pasan a `formas.md` o a `verificacion.md`. `system-prompt.txt` queda en cinco pautas de trabajo.
+
 ## Excluido por diseño
 
 - **Gobernanza multiagente y permisos por sección.** El modelo de este estándar es un dueño y su IA. Los permisos por asiento pertenecen a productos para equipos, y Creed resuelve bien esa tesis, que es otra.

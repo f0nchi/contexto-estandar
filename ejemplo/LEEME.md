@@ -8,6 +8,6 @@ Qué mirar mientras la leés:
 - Cada regla tiene su caso de origen, y las situaciones que resuelve son distintas del caso que la produjo.
 - Los estados son honestos: lo vigente, lo que está en piloto, lo que es horizonte y lo que es historia se dicen distinto.
 - `verificacion.md` se puede correr de verdad: dásela a una IA que haya leído la carpeta y comparen respuestas.
-- `feedback.md` es la carpeta creciendo con el uso: tres correcciones reales convertidas en reglas con fecha.
+- `feedback.md` es opcional: Sole lo lleva porque trabaja con IA todos los días, con tres criterios propios y su fecha.
 
 Una carpeta real tiene más casos que esta. Lo que no cambia es el principio: todo verificable, nada inventado, los huecos declarados.

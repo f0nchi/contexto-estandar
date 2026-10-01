@@ -1,6 +1,6 @@
 # The .contexto/ standard
 
-**Version 1.2 · August 29, 2026 · Maintained by [Ideas Aumentadas](https://www.ideasaumentadas.com.ar) · CC BY 4.0**
+**Version 1.3 · October 1, 2026 · Maintained by [Ideas Aumentadas](https://www.ideasaumentadas.com.ar) · CC BY 4.0**
 
 An open convention for encoding the working intelligence of a person or a brand into a folder of plain text files that any AI can read and operate.
 
@@ -12,9 +12,13 @@ The intelligence of a job already exists: it lives in how you decide, in what yo
 
 This standard defines how to organize it so an AI does more than read it: so it can operate from it.
 
+## Getting started
+
+Four files are enough for an AI to start working with you: `guia.md`, `identidad.md`, `formas.md` and `restricciones.md`. Copy their templates from `plantillas/`, fill them with your own cases and your own words, load the folder into your AI with `system-prompt.txt`, and ask it to introduce you in one paragraph. When the AI misrepresents you in something that matters, change the file it comes from. The rest of the folder joins when use calls for it.
+
 ## The folder
 
-A `.contexto/` folder has thirteen core files, one that grows with use, and one specific to encoding a person.
+A `.contexto/` folder has thirteen core files, one specific to encoding a person, and one optional file.
 
 | File | What it encodes |
 |---|---|
@@ -32,11 +36,11 @@ A `.contexto/` folder has thirteen core files, one that grows with use, and one 
 | `representacion.md` | Representation. What an AI that does not work for the subject may say about them: approved descriptions, what it gets confused with, what never to say, framing traps. |
 | `verificacion.md` | Verification. The identity's test suite: cases any AI can run. |
 | `rol.md` | Role. People only: what the weeks actually look like, with whom, what they decide, what they delegate, and what they are NOT prioritizing, with the tradeoff. |
-| `feedback.md` | Feedback. The file that grows with use: every correction from the owner, one line with date, rule and example. |
+| `feedback.md` | Feedback. Optional: a record of the criteria the owner wants to keep while using the folder, with date and case. |
 
 ### Where to start
 
-The folder is built in order, and the order matters because the first files hold up the ones that follow: `guia.md`, `identidad.md`, `formas.md`, `restricciones.md`, `logica.md` and `verificacion.md` complete the first full loop, covering the subject, how they write, their limits, how they decide, and how to check that an AI is operating them well. Then come `mirada.md`, `territorio.md`, `audiencias.md`, `arquitectura.md`, `evidencia.md`, `visual.md`, `representacion.md` and, for people, `rol.md`. `feedback.md` starts filling up from the first day of use.
+The folder is built in order, and the order matters because the first files hold up the ones that follow: `guia.md`, `identidad.md`, `formas.md`, `restricciones.md`, `logica.md` and `verificacion.md` complete the first full loop, covering the subject, how they write, their limits, how they decide, and how to check that an AI is operating them well. Then come `mirada.md`, `territorio.md`, `audiencias.md`, `arquitectura.md`, `evidencia.md`, `visual.md`, `representacion.md` and, for people, `rol.md`. `feedback.md` joins when the owner wants to keep a record of their criteria.
 
 A folder halfway through is a legitimate state and it is declared in `guia.md`. What is not legitimate is leaving out something the subject does have: omission is valid when the field does not apply, never to get there sooner.
 
@@ -66,7 +70,7 @@ What makes a folder a `.contexto/` folder are these nine rules, ahead of the fil
 
 **8. First and third person kept apart.** The folder serves an AI working on the owner's behalf, and it serves an outside agent describing them. Those are two different materials and they do not mix: what governs the owner's own writing lives across the whole folder, and what a third party may say lives only in `representacion.md`, limited to what the owner authorizes.
 
-**9. Memory of corrections, with a promotion cycle.** Every correction from the owner is proposed as a new line in `feedback.md`: date, rule learned, example. And corrections that repeat get promoted: first to a prohibition with replacement in `formas.md`, then to a runnable case in `verificacion.md`, with the promotion noted on the original line. The identity accumulates case law through use, and the case law that matters becomes a testable rule: a folder whose corrections never get promoted is taking notes instead of learning.
+**9. The folder is updated through use.** When the AI does not represent the owner in something that matters, the corresponding file is changed, and the folder keeps pace with its owner as they change. Whoever wants to keep a record of the criteria they find along the way has `feedback.md`, with date, criterion and case, and decides which ones move into `formas.md` or `verificacion.md`.
 
 ## How it is installed
 
@@ -98,8 +102,9 @@ The category has several living formats. [interoperabilidad.en.md](interoperabil
 
 ## Versioning
 
-Changes to the standard are recorded in this file, with date and rationale.
+Changes to the standard are recorded in this file, with their date.
 
+- **v1.3 (2026-10-01).** The standard adds "Getting started": the four files a person begins with, how to load them and how they are kept current. The ninth principle describes how the folder is updated through use, and `feedback.md` becomes an optional record of the owner's criteria. `system-prompt.txt`, the `feedback.md` template and Sole's example follow.
 - **v1.2 (2026-08-29).** The standard adds how a folder stays sharp while it is in use. Four practices enter as rules of existing files, none as a new file. In `formas.md`: samples are marked as light rather than mold, and the section of AI language patterns is now named the model's register, born nearly empty and filled through operation. In `mirada.md`: what comes in from outside passes through `formas.md` before it becomes text. In `feedback.md` and the ninth principle: the promotion cycle, from correction to prohibition to runnable case; Sole's example shows it. In `guia.md`: two operating rules, the owner's instructions steer without being recited in the output, and a batch is re-read as a whole before it ships. Why: a folder used every day needs to know how to stay sharp. The detail of each evaluation lives in [decisiones.md](decisiones.md).
 - **v1.1 (2026-08-15).** The two decisions left open by the July map are closed. Integrity: `instalacion.md` documents how to generate and verify `SHA256SUMS`, and this repository publishes its own; cryptographic signing is declared out of scope. Publication: the standard recommends where and how to publish `representacion.md`, with the real effect of each path declared rather than promised.
 - **v1.1 (2026-08-14).** `mirada.md` enters as a core file and attention as the seventh principle: an encoded identity with no gaze can only talk about itself. `rol.md` enters for the person mode, carrying the "what I am NOT prioritizing" category with its tradeoffs, until now the most frequently flagged gap in the format. Every file gains provenance and freshness frontmatter (`status`, `generated`, `stale_after`, and `sources` when the file is derived from another source), compatible with the Open Knowledge Format. `representacion.md` enters, and with it the separation of first and third person as the ninth principle: answers about a subject are already being given by assistants that are not theirs, and without this file they get assembled from whatever is around. `formas.md` classifies its prohibitions by class (word, structure, opening, closing), because structural ones slip through when everything is read at the same level. `identidad.md` adds what each conviction costs to hold, and `visual.md` adds where the tokens live and the rule that they travel inside the folder when it is handed over. Why: a derived file that fell behind its source gets operated exactly like a current one, with no way to notice, and the case that produced the rule happened inside this standard's own reference folder.

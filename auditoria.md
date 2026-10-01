@@ -17,7 +17,7 @@ Auditá mi carpeta .contexto/ contra los nueve principios del estándar (github.
 6. La carpeta es la lente, no el libreto: ¿hay contenido que describe el método o los límites en vez de operar desde ellos?
 7. Hacia dónde mira: ¿mirada.md existe? ¿Los temas que sigue se pueden rastrear hasta una convicción o una decisión escrita en otro archivo, o son una lista de temas de actualidad? ¿La lente está escrita como preguntas aplicables a un hecho nuevo, y podría firmarlas otro del mismo rubro sin cambiar nada? ¿Dice qué lo haría cambiar de opinión?
 8. Primera y tercera persona: ¿existe representacion.md? ¿Sus descripciones aprobadas están en los tres largos, listas para copiar? ¿Hay material de tercera persona mezclado en los archivos de primera, o al revés?
-9. Memoria de correcciones: ¿feedback.md existe y tiene entradas con fecha, regla y ejemplo?
+9. Actualización con el uso: ¿los archivos reflejan al dueño de hoy, con fechas recientes donde hubo cambios?
 
 Además, para cada archivo: ¿el frontmatter declara `status` y `stale_after`? Si el archivo se deriva de otra fuente, ¿declara `sources` con su fecha? Marcá los derivados cuya fuente se movió después de la derivación: se operan igual que los vigentes y nadie lo nota.
 

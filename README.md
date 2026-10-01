@@ -1,6 +1,6 @@
 # El estándar .contexto/
 
-**Versión 1.2 · 29 de agosto de 2026 · Mantenido por [Ideas Aumentadas](https://www.ideasaumentadas.com.ar) · Licencia CC BY 4.0**
+**Versión 1.3 · 1 de octubre de 2026 · Mantenido por [Ideas Aumentadas](https://www.ideasaumentadas.com.ar) · Licencia CC BY 4.0**
 
 Una convención abierta, en español, para codificar la inteligencia de trabajo de una persona o una marca en una carpeta de archivos de texto plano que cualquier IA puede leer y operar.
 
@@ -12,9 +12,13 @@ La inteligencia de un trabajo existe: está en cómo decidís, en qué podés af
 
 Este estándar define cómo organizarla para que una IA no solo la lea: la opere.
 
+## Para empezar
+
+Con cuatro archivos una IA ya puede trabajar con vos: `guia.md`, `identidad.md`, `formas.md` y `restricciones.md`. Copiá sus plantillas de `plantillas/`, completalas con casos tuyos y tus propias palabras, cargá la carpeta en tu IA con `system-prompt.txt` y pedile que te presente en un párrafo. Cuando la IA no te represente en algo que importa, cambiá el archivo que corresponde. El resto de la carpeta se suma cuando el uso lo pide.
+
 ## La carpeta
 
-Una carpeta `.contexto/` tiene trece archivos núcleo, uno de crecimiento y uno propio del modo persona:
+Una carpeta `.contexto/` tiene trece archivos núcleo, uno propio del modo persona y uno opcional:
 
 | Archivo | Qué codifica |
 |---|---|
@@ -32,11 +36,11 @@ Una carpeta `.contexto/` tiene trece archivos núcleo, uno de crecimiento y uno 
 | `representacion.md` | Qué puede decir de este sujeto una IA que no trabaja para él: descripciones aprobadas, con qué se confunde, qué nunca decir, y las trampas de encuadre. |
 | `verificacion.md` | La suite de pruebas de la identidad: casos corribles por cualquier IA. |
 | `rol.md` | Solo personas: cómo son las semanas de verdad, con quién, qué decide, qué delega, y qué NO está priorizando con su tradeoff. |
-| `feedback.md` | El archivo que crece con el uso: cada corrección del dueño, en una línea con fecha, regla y ejemplo. |
+| `feedback.md` | Opcional: el registro de los criterios que el dueño quiere guardar mientras usa la carpeta, con fecha y caso. |
 
 ### Por dónde se empieza
 
-La carpeta se construye en orden, y el orden importa porque los primeros archivos sostienen a los que siguen: `guia.md`, `identidad.md`, `formas.md`, `restricciones.md`, `logica.md` y `verificacion.md` son los que dan la primera vuelta completa, con el sujeto, su forma de escribir, sus límites, su forma de decidir y la manera de comprobar que una IA lo está operando bien. Después entran `mirada.md`, `territorio.md`, `audiencias.md`, `arquitectura.md`, `evidencia.md`, `visual.md`, `representacion.md` y, en el modo persona, `rol.md`. `feedback.md` empieza a llenarse desde el primer día de uso.
+La carpeta se construye en orden, y el orden importa porque los primeros archivos sostienen a los que siguen: `guia.md`, `identidad.md`, `formas.md`, `restricciones.md`, `logica.md` y `verificacion.md` son los que dan la primera vuelta completa, con el sujeto, su forma de escribir, sus límites, su forma de decidir y la manera de comprobar que una IA lo está operando bien. Después entran `mirada.md`, `territorio.md`, `audiencias.md`, `arquitectura.md`, `evidencia.md`, `visual.md`, `representacion.md` y, en el modo persona, `rol.md`. `feedback.md` se suma cuando el dueño quiere llevar registro de sus criterios.
 
 Una carpeta a mitad de camino es un estado legítimo y se declara en `guia.md`. Lo que no es legítimo es dejar afuera algo que el sujeto sí tiene: la omisión vale cuando el campo no aplica, nunca para llegar antes.
 
@@ -66,7 +70,7 @@ Lo que hace que una carpeta sea `.contexto/` son estas nueve reglas, antes que l
 
 **8. Primera y tercera persona separadas.** La carpeta sirve para que una IA trabaje en nombre del dueño, y sirve para que un agente ajeno hable de él. Son dos materiales distintos y no se mezclan: lo que gobierna la escritura propia vive en toda la carpeta, y lo que un tercero puede decir vive solo en `representacion.md`, con lo que el dueño autoriza.
 
-**9. Memoria de correcciones, con ciclo de promoción.** Cada corrección del dueño se propone como una línea nueva de `feedback.md`: fecha, regla aprendida, ejemplo. Y las correcciones que se repiten ascienden: primero a prohibición con reemplazo en `formas.md`, después a caso corrible en `verificacion.md`, con el ascenso anotado en la línea original. La identidad acumula jurisprudencia con el uso, y la jurisprudencia que importa se vuelve regla comprobable: una carpeta cuyas correcciones nunca ascienden está anotando en lugar de aprender.
+**9. La carpeta se actualiza con el uso.** Cuando la IA no representa al dueño en algo que importa, se cambia el archivo que corresponde, y la carpeta acompaña a su dueño a medida que cambia. Quien quiera llevar registro de los criterios que va encontrando tiene `feedback.md`, con fecha, criterio y caso, y decide cuáles pasan a `formas.md` o a `verificacion.md`.
 
 ## Cómo se instala
 
@@ -98,8 +102,9 @@ La categoría tiene varios formatos vivos. [interoperabilidad.md](interoperabili
 
 ## Versionado
 
-Los cambios del estándar se registran en este archivo, con fecha y porqué.
+Los cambios del estándar se registran en este archivo, con su fecha.
 
+- **v1.3 (2026-10-01).** El estándar suma «Para empezar»: los cuatro archivos con los que una persona arranca, cómo cargarlos y cómo se mantienen. El noveno principio describe cómo la carpeta se actualiza con el uso, y `feedback.md` pasa a ser un registro opcional de criterios del dueño. `system-prompt.txt`, la plantilla de `feedback.md` y el ejemplo de Sole acompañan.
 - **v1.2 (2026-08-29).** El estándar suma cómo se mantiene afinada una carpeta mientras se usa. Cuatro prácticas entran como reglas de archivos existentes, ninguna como archivo nuevo. En `formas.md`: las muestras se marcan como luz y no como molde, y la sección de patrones de IA pasa a llamarse el registro del modelo, que nace casi vacío y se llena operando. En `mirada.md`: lo que entra de afuera pasa por `formas.md` antes de volverse texto. En `feedback.md` y el noveno principio: el ciclo de promoción, de corrección a prohibición y de ahí a caso corrible; el ejemplo de Sole lo muestra. En `guia.md`: dos reglas de operación, las instrucciones del dueño dirigen sin recitarse en lo producido, y una tanda se relee entera antes de salir. Por qué: una carpeta que se usa todos los días necesita saber cómo seguir afinada. El detalle de cada evaluación está en [decisiones.md](decisiones.md).
 - **Pasada de verificación de la mirada (2026-08-17).** El estándar no cambia; la suite aprende a probar su séptimo principio. La plantilla de verificación pide un caso de pedido abierto, sin tema, cuya respuesta esperada pasa por `mirada.md` y por un hallazgo con fecha, y el ejemplo de Sole lo demuestra. Por qué: la mirada nació de una falla observada en uso, contenido que solo hablaba del sujeto, y una capa que nació de una falla necesita en la suite el caso que la detecte si vuelve.
 - **v1.1 (2026-08-15).** El estándar tiene puerta en inglés: `README.en.md` y la segunda edición del mapa traducida. La categoría se escribe en inglés y ninguno de los formatos comparados es nativo en español, así que el español queda como diferencial y la puerta deja de faltar. Se cierran además las dos decisiones que quedaban del mapa de julio. Integridad: `instalacion.md` documenta cómo generar y verificar `SHA256SUMS`, y este repositorio publica el suyo; la firma criptográfica queda declarada fuera de alcance. Publicación: el estándar recomienda dónde y cómo publicar `representacion.md`, con el efecto real de cada vía declarado en vez de prometido.

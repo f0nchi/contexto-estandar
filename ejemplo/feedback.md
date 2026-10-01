@@ -9,11 +9,11 @@ stale_after: 2026-11-14
 
 # Feedback del dueño
 
-> Parte de la carpeta .contexto/ de Sole (ejemplo) · estándar v1.2 · 2026-08-29
-> El archivo que crece con el uso: la memoria de correcciones.
+> Parte de la carpeta .contexto/ de Sole (ejemplo) · estándar v1.3 · 2026-10-01 · archivo opcional
+> El registro de los criterios que Sole quiere guardar mientras usa la carpeta.
 
-Cada corrección se registra en una línea: fecha + regla aprendida + ejemplo del caso. Cuando Sole corrige a una IA que trabaja con esta carpeta, la IA propone la línea exacta y ella la pega acá. Con el tiempo, estas líneas se convierten en jurisprudencia nueva para logica.md, y las que se repiten ascienden por el ciclo de promoción: primero prohibición con reemplazo en formas.md, después caso corrible en verificacion.md.
+Sole lleva este registro porque trabaja con IA todos los días y le sirve tener a mano los criterios que fue encontrando. Cada línea tiene su fecha, el criterio con sus palabras y el caso; ella decide cuáles pasan a formas.md o a verificacion.md.
 
-- 2026-07-08 · Regla aprendida: todo cambio se reporta de cuánto a cuánto, nunca con adjetivos · Ejemplo: la IA escribió "mejora significativa" en el informe de frío; quedó "de 12 a 9 días" · Promovida: prohibición en formas.md y caso 1 de verificacion.md (recorrió el ciclo completo).
-- 2026-07-15 · Regla aprendida: los borradores para el directorio abren con la decisión; la metodología va al final · Ejemplo: el informe de flota abría con la fuente de datos y el muestreo.
-- 2026-07-18 · Regla aprendida: ante un pedido sin pregunta, la IA redacta primero la pregunta de vuelta · Ejemplo: "todas las métricas de rotación para mañana" se devolvió como "¿qué estás por decidir con esto?".
+- 2026-07-08 · Criterio: todo cambio se reporta de cuánto a cuánto, con números · Caso: la IA escribió "mejora significativa" en el informe de frío; quedó "de 12 a 9 días" · Sole lo pasó a formas.md y al caso 1 de verificacion.md.
+- 2026-07-15 · Criterio: los borradores para el directorio abren con la decisión; la metodología va al final · Caso: el informe de flota abría con la fuente de datos y el muestreo.
+- 2026-07-18 · Criterio: ante un pedido sin pregunta, la IA redacta primero la pregunta de vuelta · Caso: "todas las métricas de rotación para mañana" se devolvió como "¿qué estás por decidir con esto?".

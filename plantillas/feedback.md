@@ -12,13 +12,11 @@ stale_after: [AAAA-MM-DD]
 
 # Feedback del dueño
 
-> Parte de la carpeta .contexto/ · estándar v1.2 · [fecha]
-> El archivo que crece con el uso: la memoria de correcciones.
+> Parte de la carpeta .contexto/ · estándar v1.3 · [fecha] · archivo opcional
+> El registro de los criterios que el dueño quiere guardar mientras usa la carpeta.
 
-Cada corrección se registra en una línea: fecha + regla aprendida + ejemplo del caso.
+Cada línea guarda un criterio con su fecha y el caso donde apareció, dicho con las palabras del dueño. Entra lo que el dueño quiere conservar más allá de la pieza en la que surgió; lo de una pieza se resuelve en esa pieza.
 
-Cuando corrijas a una IA que trabaja con esta carpeta, pedile que proponga la línea exacta para este archivo. En plataformas de chat la IA no puede escribirlo por su cuenta: vos copiás la línea propuesta y la pegás acá. Con el tiempo, este archivo se convierte en jurisprudencia nueva para logica.md.
+El dueño decide cuándo un criterio pasa a `formas.md` como forma propia o a `verificacion.md` como caso, y lo anota en la línea.
 
-**El ciclo de promoción.** Una línea de este archivo no se queda acá para siempre: cuando una corrección se repite, o cuando toca algo que ninguna pieza puede violar, asciende. El camino tiene tres estaciones: la línea de feedback (lo que el dueño corrigió una vez), la prohibición con reemplazo en formas.md (lo que ya no se negocia), y el caso corrible en verificacion.md (lo que cualquier IA puede comprobar que respeta). Cada ascenso se anota en la línea original ("promovida a formas.md, [fecha]"), así este archivo muestra qué aprendió la carpeta y no solo qué se dijo. Una carpeta cuyas correcciones nunca ascienden está anotando en lugar de aprender.
-
-- [fecha] · Regla aprendida: [qué queda establecido] · Ejemplo: [el caso concreto que la produjo]
+- [fecha] · Criterio: [lo que el dueño quiere conservar] · Caso: [dónde apareció]
