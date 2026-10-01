@@ -39,7 +39,6 @@ La inteligencia de trabajo de Sole, analista de datos en una empresa de logísti
 
 ## Estado de esta versión
 
-- Con contenido: identidad.md, mirada.md, rol.md, formas.md, representacion.md, audiencias.md, restricciones.md, logica.md, evidencia.md, verificacion.md, feedback.md.
+- Con contenido: identidad.md, mirada.md, rol.md, formas.md, representacion.md, con-quien-trabajo.md, restricciones.md, logica.md, casos.md, verificacion.md, feedback.md, y tareas/ con una skill.
 - Nuevos en v1.1: mirada.md, rol.md y representacion.md. En rol.md vive "qué NO está priorizando" con su tradeoff; identidad.md conserva solo el horizonte.
-- Omitidos a propósito: territorio.md, arquitectura.md y visual.md. Sole es un perfil profesional sin mercado propio: no publica contenido a una audiencia ni tiene sistema visual. La omisión se declara acá, como pide el estándar; si algún día arma marca propia, esos archivos se suman sin rehacer el resto.
-- El campo mensaje_por_etapa de audiencias.md tampoco aplica y queda declarado en ese archivo.
+- Omitidos a propósito: territorio.md, arquitectura.md e identidad-visual.md. Sole es un perfil profesional sin mercado propio: no publica contenido a una audiencia ni tiene sistema visual. La omisión se declara acá, como pide el estándar; si algún día arma marca propia, esos archivos se suman sin rehacer el resto.

@@ -1,6 +1,6 @@
 # The .contexto/ standard
 
-**Version 1.3 · October 1, 2026 · Maintained by [Ideas Aumentadas](https://www.ideasaumentadas.com.ar) · CC BY 4.0**
+**Version 1.4 · October 1, 2026 · Maintained by [Ideas Aumentadas](https://www.ideasaumentadas.com.ar) · CC BY 4.0**
 
 An open convention for encoding the working intelligence of a person or a brand into a folder of plain text files that any AI can read and operate.
 
@@ -18,7 +18,7 @@ Three files are enough for an AI to start working with you: `guia.md`, `identida
 
 ## The folder
 
-A `.contexto/` folder has thirteen core files, one specific to encoding a person, and one optional file.
+A `.contexto/` folder has thirteen core files, two specific to encoding a person, the tasks folder, and one optional file.
 
 | File | What it encodes |
 |---|---|
@@ -31,16 +31,18 @@ A `.contexto/` folder has thirteen core files, one specific to encoding a person
 | `arquitectura.md` | Architecture. Pillars that hold the content up, structures that already worked. |
 | `restricciones.md` | Constraints. What it would never do, operating conditions, promise states. |
 | `logica.md` | Logic. Case law: real cases with date and rationale, rules, and what wins when two rules collide. |
-| `evidencia.md` | Evidence. Verifiable cases, what can be claimed and what cannot yet, which promises are allowed. |
-| `visual.md` | Visual. The visual system if one exists. If it does not, that is declared: no AI should invent one. |
+| `casos.md` | Cases. Verifiable cases with their data, what can be claimed, which promises are allowed. |
+| `identidad-visual.md` | Visual identity. The visual system if one exists. If it does not, that is declared: no AI should invent one. |
 | `representacion.md` | Representation. What an AI that does not work for the subject may say about them: approved descriptions, what it gets confused with, what never to say, framing traps. |
 | `verificacion.md` | Verification. The identity's test suite: cases any AI can run. |
 | `rol.md` | Role. People only: what the weeks actually look like, with whom, what they decide, what they delegate, and what they are NOT prioritizing, with the tradeoff. |
+| `con-quien-trabajo.md` | Who I work with. People only: the real people they work with and how they talk to each one. |
+| `tareas/` | Tasks. One folder per task, each with its `SKILL.md`: who it is for, what it has to achieve, and an example that went well. It is the standard skills format, so each task installs as is in the tools that read skills. |
 | `feedback.md` | Feedback. Optional: a record of the criteria the owner wants to keep while using the folder, with date and case. |
 
 ### Where to start
 
-The folder is built in order, and the order matters because the first files hold up the ones that follow: `guia.md`, `identidad.md`, `formas.md`, `restricciones.md`, `logica.md` and `verificacion.md` complete the first full loop, covering the subject, how they write, their limits, how they decide, and how to check that an AI is operating them well. Then come `mirada.md`, `territorio.md`, `audiencias.md`, `arquitectura.md`, `evidencia.md`, `visual.md`, `representacion.md` and, for people, `rol.md`. `feedback.md` joins when the owner wants to keep a record of their criteria.
+The folder is built in order, and the order matters because the first files hold up the ones that follow: `guia.md`, `identidad.md`, `formas.md`, `restricciones.md`, `logica.md` and `verificacion.md` complete the first full loop, covering the subject, how they write, their limits, how they decide, and how to check that an AI is operating them well. Then come `mirada.md`, `territorio.md`, `audiencias.md`, `arquitectura.md`, `casos.md`, `identidad-visual.md`, `representacion.md` and, for people, `rol.md` and `con-quien-trabajo.md`. `tareas/` grows with every task the owner wants to hand to their AI. `feedback.md` joins when the owner wants to keep a record of their criteria.
 
 A folder halfway through is a legitimate state and it is declared in `guia.md`. What is not legitimate is leaving out something the subject does have: omission is valid when the field does not apply, never to get there sooner.
 
@@ -104,6 +106,7 @@ The category has several living formats. [interoperabilidad.en.md](interoperabil
 
 Changes to the standard are recorded in this file, with their date.
 
+- **v1.4 (2026-10-01).** The standard adds `tareas/`: one folder per task, each with its `SKILL.md`, in the skills format. Person mode adds `con-quien-trabajo.md`. Two files take more direct names: `casos.md` (formerly `evidencia.md`) and `identidad-visual.md` (formerly `visual.md`); existing folders remain valid with the previous names. Sole's example includes a task.
 - **v1.3 (2026-10-01).** The standard adds "Getting started": the three files a person begins with, how to load them and how they are kept current. The ninth principle describes how the folder is updated through use, and `feedback.md` becomes an optional record of the owner's criteria. `system-prompt.txt`, the `feedback.md` template and Sole's example follow.
 - **v1.2 (2026-08-29).** The standard adds how a folder stays sharp while it is in use. Four practices enter as rules of existing files, none as a new file. In `formas.md`: samples are marked as light rather than mold, and the section of AI language patterns is now named the model's register, born nearly empty and filled through operation. In `mirada.md`: what comes in from outside passes through `formas.md` before it becomes text. In `feedback.md` and the ninth principle: the promotion cycle, from correction to prohibition to runnable case; Sole's example shows it. In `guia.md`: two operating rules, the owner's instructions steer without being recited in the output, and a batch is re-read as a whole before it ships. Why: a folder used every day needs to know how to stay sharp. The detail of each evaluation lives in [decisiones.md](decisiones.md).
 - **v1.1 (2026-08-15).** The two decisions left open by the July map are closed. Integrity: `instalacion.md` documents how to generate and verify `SHA256SUMS`, and this repository publishes its own; cryptographic signing is declared out of scope. Publication: the standard recommends where and how to publish `representacion.md`, with the real effect of each path declared rather than promised.

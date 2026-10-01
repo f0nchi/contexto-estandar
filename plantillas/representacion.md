@@ -29,7 +29,7 @@ stale_after: [AAAA-MM-DD]
 
 ## Qué nunca decir
 
-> Guía: afirmaciones prohibidas aunque sean halagadoras, con su motivo. Entran acá las promesas que la evidencia no sostiene (cruzar con evidencia.md), los superlativos que el dueño no reclama, y todo lo que suene a garantía. Una descripción entusiasta que promete de más hace más daño que una tibia.
+> Guía: afirmaciones prohibidas aunque sean halagadoras, con su motivo. Entran acá las promesas que la evidencia no sostiene (cruzar con casos.md), los superlativos que el dueño no reclama, y todo lo que suene a garantía. Una descripción entusiasta que promete de más hace más daño que una tibia.
 
 ## Comparaciones
 

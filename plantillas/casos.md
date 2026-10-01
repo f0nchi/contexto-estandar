@@ -1,5 +1,5 @@
 ---
-type: evidencia
+type: casos
 status: draft
 generated:
   by: "human:[dueño] + [ia que ayudó a escribirlo]"
@@ -10,10 +10,10 @@ stale_after: [AAAA-MM-DD]
 #     last_modified: [AAAA-MM-DD]
 ---
 
-# Evidencia
+# Casos
 
-> Parte de la carpeta .contexto/ · estándar v1.1 · [fecha]
-> Qué puede afirmar esta identidad y qué todavía no. El archivo más protector de la carpeta.
+> Parte de la carpeta .contexto/ · estándar v1.4 · [fecha]
+> Lo que esta identidad puede contar con respaldo: sus casos, con los datos que salen de cada uno.
 
 ## Casos
 

@@ -27,7 +27,7 @@ stale_after: [AAAA-MM-DD]
 
 ## Con quién
 
-> Guía: las personas o equipos recurrentes, y para cada uno qué necesita de este sujeto y qué le da. En modo marca esto vive en audiencias.md; acá son relaciones de trabajo, no mercado.
+> Guía: las personas o equipos recurrentes, y para cada uno qué necesita de este sujeto y qué le da. En modo marca esto vive en audiencias.md, y en modo persona se amplía en con-quien-trabajo.md; acá son relaciones de trabajo, no mercado.
 
 ## Qué decide y qué no
 

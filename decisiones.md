@@ -42,7 +42,7 @@ Registrar deseo, comprensión, confusión, uso, roce y riesgo, con su lectura y 
 ## Resueltos como sección, no como archivo
 
 - **Patrones de lenguaje generado por IA.** El Brand Context Protocol les da un archivo propio. Acá entraron como sección tipificada de `formas.md`, porque comparten naturaleza con el resto de las prohibiciones y separarlos hacía que se leyeran como un tema aparte.
-- **Tokens de diseño en formato de máquina.** Entraron como sección de `visual.md`, con la regla de que viajen dentro de la carpeta cuando se entrega a un tercero.
+- **Tokens de diseño en formato de máquina.** Entraron como sección de `identidad-visual.md`, con la regla de que viajen dentro de la carpeta cuando se entrega a un tercero.
 - **Qué cuesta sostener cada convicción.** Idea tomada de `values.md` del Brand Context Protocol. Entró como sección de `identidad.md`.
 - **Procedencia y frescura.** Entró como frontmatter de todos los archivos, sin archivo propio. Originado en una falla del 2026-08-14: un archivo derivado quedó atrás de su fuente y se operó igual que uno vigente.
 
@@ -57,6 +57,12 @@ Los cinco nacieron de fallas fechadas de la carpeta de referencia operada en pro
 - **La relectura de tanda.** Un motivo, una apertura o un remate repetido entre piezas no relacionadas de una misma tanda es un tic del operador, no un tema del sujeto: en el caso de origen, un mismo marco apareció en cuatro piezas y un mismo remate en tres. Entró como regla de operación de `guia.md`, junto con su hermana: las instrucciones del dueño dirigen y no se recitan en lo producido (el vocabulario de una devolución apareció textual en una pieza).
 
 **Evaluados y no ascendidos, de la misma semana:** la escala del relato (a qué magnitud habla el sujeto de lo que construye) y la calibración entre versiones larga y corta de una pieza. Los dos son contenido de identidad de cada sujeto, no estructura: cada carpeta los resuelve en su propio `formas.md`. Y las barreras técnicas de la implementación de referencia (el lint que bloquea prohibiciones en el pipeline) quedan del lado del implementador: son la manera de esa operación de correr su suite, y el estándar sigue siendo una convención de archivos neutral.
+
+## Resueltos · v1.4 · 2026-10-01
+
+- **`tareas/`, una carpeta por tarea con su `SKILL.md`.** Responde una pregunta que ningún otro archivo responde: qué le pasa el dueño a su IA y cómo se ve cuando sale bien. Nació de una prueba del 2026-10-01 con tres sujetos y quince tareas, juzgadas a ciegas: la receta por tarea, con un ejemplo propio, fue lo que más acercó las salidas a lo que el dueño mandaría tal cual. Usa el formato de skills que ya leen Claude, Copilot y Codex. El ejemplo de Sole lo demuestra con su reporte semanal.
+- **`con-quien-trabajo.md` para el modo persona.** Las personas reales con las que trabaja y cómo le habla a cada una. En modo marca ese lugar lo ocupa `audiencias.md`.
+- **`casos.md` e `identidad-visual.md`.** Los nombres dicen lo que hay adentro. Las carpetas existentes siguen siendo válidas con `evidencia.md` y `visual.md`.
 
 ## Resueltos como regla · v1.3 · 2026-10-01
 

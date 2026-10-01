@@ -1,5 +1,5 @@
 ---
-type: evidencia
+type: casos
 status: stable
 generated:
   by: "human:sole + claude"
@@ -7,9 +7,9 @@ generated:
 stale_after: 2026-11-14
 ---
 
-# Evidencia
+# Casos
 
-> Parte de la carpeta .contexto/ de Sole (ejemplo) · estándar v1.1 · 2026-08-14
+> Parte de la carpeta .contexto/ de Sole (ejemplo) · estándar v1.4 · 2026-08-14
 > Qué puede afirmar y qué todavía no. El archivo más protector de la carpeta.
 
 ## Casos

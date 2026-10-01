@@ -1,6 +1,6 @@
 # El estándar .contexto/
 
-**Versión 1.3 · 1 de octubre de 2026 · Mantenido por [Ideas Aumentadas](https://www.ideasaumentadas.com.ar) · Licencia CC BY 4.0**
+**Versión 1.4 · 1 de octubre de 2026 · Mantenido por [Ideas Aumentadas](https://www.ideasaumentadas.com.ar) · Licencia CC BY 4.0**
 
 Una convención abierta, en español, para codificar la inteligencia de trabajo de una persona o una marca en una carpeta de archivos de texto plano que cualquier IA puede leer y operar.
 
@@ -18,7 +18,7 @@ Con tres archivos una IA ya puede trabajar con vos: `guia.md`, `identidad.md` y 
 
 ## La carpeta
 
-Una carpeta `.contexto/` tiene trece archivos núcleo, uno propio del modo persona y uno opcional:
+Una carpeta `.contexto/` tiene trece archivos núcleo, dos propios del modo persona, la carpeta de tareas y un archivo opcional:
 
 | Archivo | Qué codifica |
 |---|---|
@@ -27,20 +27,22 @@ Una carpeta `.contexto/` tiene trece archivos núcleo, uno propio del modo perso
 | `mirada.md` | Hacia dónde mira: universos de atención, la lente con la que lee un hecho nuevo, de qué se alimenta, y qué evidencia iría en contra de su propia tesis. |
 | `formas.md` | Cómo escribe y habla: síntesis, muestras reales de así sí y así no, prohibiciones con su reemplazo, tono por contexto. |
 | `territorio.md` | De qué habla, de qué no, dónde está la frontera, niveles de conversación. |
-| `audiencias.md` | Perfiles reales con caso vivido, para quién no es. Para personas: relaciones de trabajo. |
+| `audiencias.md` | Perfiles reales con caso vivido, para quién no es. |
 | `arquitectura.md` | Pilares que sostienen el contenido, estructuras que ya funcionaron. |
 | `restricciones.md` | Qué nunca haría, condiciones operativas, estados de promesa. |
 | `logica.md` | Jurisprudencia: casos reales con fecha y porqué, reglas, y qué manda cuando dos reglas se contradicen. |
-| `evidencia.md` | Casos comprobables, qué es afirmable y qué todavía no, qué promesas están permitidas. |
-| `visual.md` | El sistema visual si existe. Si no existe, se declara: ninguna IA debe inventar uno. |
+| `casos.md` | Casos comprobables con sus datos, qué es afirmable y qué promesas están permitidas. |
+| `identidad-visual.md` | El sistema visual si existe. Si no existe, se declara: ninguna IA debe inventar uno. |
 | `representacion.md` | Qué puede decir de este sujeto una IA que no trabaja para él: descripciones aprobadas, con qué se confunde, qué nunca decir, y las trampas de encuadre. |
 | `verificacion.md` | La suite de pruebas de la identidad: casos corribles por cualquier IA. |
 | `rol.md` | Solo personas: cómo son las semanas de verdad, con quién, qué decide, qué delega, y qué NO está priorizando con su tradeoff. |
+| `con-quien-trabajo.md` | Solo personas: las personas reales con las que trabaja y cómo le habla a cada una. |
+| `tareas/` | Una carpeta por tarea, cada una con su `SKILL.md`: para quién es, qué tiene que lograr y un ejemplo que salió bien. Es el formato estándar de skills, así que cada tarea se instala tal cual en las herramientas que las leen. |
 | `feedback.md` | Opcional: el registro de los criterios que el dueño quiere guardar mientras usa la carpeta, con fecha y caso. |
 
 ### Por dónde se empieza
 
-La carpeta se construye en orden, y el orden importa porque los primeros archivos sostienen a los que siguen: `guia.md`, `identidad.md`, `formas.md`, `restricciones.md`, `logica.md` y `verificacion.md` son los que dan la primera vuelta completa, con el sujeto, su forma de escribir, sus límites, su forma de decidir y la manera de comprobar que una IA lo está operando bien. Después entran `mirada.md`, `territorio.md`, `audiencias.md`, `arquitectura.md`, `evidencia.md`, `visual.md`, `representacion.md` y, en el modo persona, `rol.md`. `feedback.md` se suma cuando el dueño quiere llevar registro de sus criterios.
+La carpeta se construye en orden, y el orden importa porque los primeros archivos sostienen a los que siguen: `guia.md`, `identidad.md`, `formas.md`, `restricciones.md`, `logica.md` y `verificacion.md` son los que dan la primera vuelta completa, con el sujeto, su forma de escribir, sus límites, su forma de decidir y la manera de comprobar que una IA lo está operando bien. Después entran `mirada.md`, `territorio.md`, `audiencias.md`, `arquitectura.md`, `casos.md`, `identidad-visual.md`, `representacion.md` y, en el modo persona, `rol.md` y `con-quien-trabajo.md`. `tareas/` crece con cada tarea que el dueño quiere pasarle a su IA. `feedback.md` se suma cuando el dueño quiere llevar registro de sus criterios.
 
 Una carpeta a mitad de camino es un estado legítimo y se declara en `guia.md`. Lo que no es legítimo es dejar afuera algo que el sujeto sí tiene: la omisión vale cuando el campo no aplica, nunca para llegar antes.
 
@@ -48,7 +50,7 @@ Una carpeta a mitad de camino es un estado legítimo y se declara en `guia.md`. 
 
 Este estándar crece con cuidado, y la vara para sumar un archivo es esta: responde una pregunta que ninguno de los existentes responde, nació de una falla observada en uso con su fecha y su caso, el ejemplo lo puede demostrar con contenido real, y su ausencia se nota en lo que la IA produce y no solamente en la prolijidad del esquema. Un candidato que no pasa los cuatro entra como sección de un archivo existente, y la mayoría de los candidatos son eso. Cada evaluación queda registrada en [decisiones.md](decisiones.md), incluidas las negativas: un estándar que solo muestra lo que aceptó no deja ver su vara.
 
-No todos los archivos aplican a todos los casos. Un perfil profesional puede omitir territorio, arquitectura y visual; una marca omite `rol.md`. La omisión se declara en `guia.md`, nunca se disimula.
+No todos los archivos aplican a todos los casos. Un perfil profesional puede omitir territorio, arquitectura e identidad visual; una marca omite `rol.md`. La omisión se declara en `guia.md`, nunca se disimula.
 
 ## Los principios
 
@@ -104,6 +106,7 @@ La categoría tiene varios formatos vivos. [interoperabilidad.md](interoperabili
 
 Los cambios del estándar se registran en este archivo, con su fecha.
 
+- **v1.4 (2026-10-01).** El estándar suma `tareas/`: una carpeta por tarea, cada una con su `SKILL.md`, en el formato de skills. El modo persona suma `con-quien-trabajo.md`. Dos archivos toman nombres más directos: `casos.md` (era `evidencia.md`) e `identidad-visual.md` (era `visual.md`); las carpetas existentes siguen siendo válidas con los nombres anteriores. El ejemplo de Sole trae una tarea.
 - **v1.3 (2026-10-01).** El estándar suma «Para empezar»: los tres archivos con los que una persona arranca, cómo cargarlos y cómo se mantienen. El noveno principio describe cómo la carpeta se actualiza con el uso, y `feedback.md` pasa a ser un registro opcional de criterios del dueño. `system-prompt.txt`, la plantilla de `feedback.md` y el ejemplo de Sole acompañan.
 - **v1.2 (2026-08-29).** El estándar suma cómo se mantiene afinada una carpeta mientras se usa. Cuatro prácticas entran como reglas de archivos existentes, ninguna como archivo nuevo. En `formas.md`: las muestras se marcan como luz y no como molde, y la sección de patrones de IA pasa a llamarse el registro del modelo, que nace casi vacío y se llena operando. En `mirada.md`: lo que entra de afuera pasa por `formas.md` antes de volverse texto. En `feedback.md` y el noveno principio: el ciclo de promoción, de corrección a prohibición y de ahí a caso corrible; el ejemplo de Sole lo muestra. En `guia.md`: dos reglas de operación, las instrucciones del dueño dirigen sin recitarse en lo producido, y una tanda se relee entera antes de salir. Por qué: una carpeta que se usa todos los días necesita saber cómo seguir afinada. El detalle de cada evaluación está en [decisiones.md](decisiones.md).
 - **Pasada de verificación de la mirada (2026-08-17).** El estándar no cambia; la suite aprende a probar su séptimo principio. La plantilla de verificación pide un caso de pedido abierto, sin tema, cuya respuesta esperada pasa por `mirada.md` y por un hallazgo con fecha, y el ejemplo de Sole lo demuestra. Por qué: la mirada nació de una falla observada en uso, contenido que solo hablaba del sujeto, y una capa que nació de una falla necesita en la suite el caso que la detecte si vuelve.
