@@ -60,7 +60,7 @@ Los cinco nacieron de fallas fechadas de la carpeta de referencia operada en pro
 
 ## Resueltos como regla · v1.3 · 2026-10-01
 
-- **Para empezar.** El README abre con los cuatro archivos con los que una persona arranca (`guia.md`, `identidad.md`, `formas.md` y `restricciones.md`), cómo cargarlos y cómo se mantienen. El resto del estándar queda disponible para cuando el uso lo pide.
+- **Para empezar.** El README abre con los tres archivos con los que una persona arranca (`guia.md`, `identidad.md` y `formas.md`), cómo cargarlos y cómo se mantienen. El resto del estándar queda disponible para cuando el uso lo pide.
 - **La actualización con el uso.** El noveno principio describe cómo se mantiene la carpeta: cuando la IA no representa al dueño en algo que importa, se cambia el archivo que corresponde. `feedback.md` pasa a ser un registro opcional de criterios del dueño, que decide cuáles pasan a `formas.md` o a `verificacion.md`. `system-prompt.txt` queda en cinco pautas de trabajo.
 
 ## Excluido por diseño
