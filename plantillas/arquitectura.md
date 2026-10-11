@@ -12,7 +12,7 @@ stale_after: [AAAA-MM-DD]
 
 # Arquitectura
 
-> Parte de la carpeta .contexto/ · estándar v1.1 · [fecha]
+> Parte de la carpeta .contexto/ · estándar v1.5 · [fecha]
 > Los pilares que sostienen el contenido y las estructuras que ya funcionaron.
 
 ## Pilares
@@ -21,4 +21,4 @@ stale_after: [AAAA-MM-DD]
 
 ## Estructuras
 
-> Guía: la pieza que mejor funcionó, con su esqueleto explícito: cómo abre, qué lleva, cómo termina. Si la pieza que funcionó y la que hizo ruido en formas.md son la misma, esa tensión se registra: funciona lo que no lo representa es una de las tensiones más valiosas de una identidad.
+> Guía: registrá rutas que ya funcionaron y rutas que la marca quiere explorar. Para cada una, explicitá cómo abre, qué lleva, cómo termina y qué materiales puede usar. Una estructura es un punto de partida ampliable, no un molde obligatorio ni una prueba de identidad.

@@ -12,17 +12,17 @@ stale_after: [AAAA-MM-DD]
 
 # Audiencias
 
-> Parte de la carpeta .contexto/ · estándar v1.1 · [fecha]
-> Para quién trabaja esta identidad. Para personas sin mercado propio: las relaciones de trabajo.
+> Parte de la carpeta .contexto/ · estándar v1.5 · [fecha]
+> Personas y situaciones con las que la marca o la persona puede crear, conversar y hacer cosas.
 
-## Perfiles
+## Personas y situaciones
 
-> Guía: cada perfil sale de una persona real: quién era, qué le resolviste que otro no le hubiera resuelto igual, con qué palabras te lo pidió. El lenguaje del cliente citado textual vale más que cualquier segmentación. "Pymes" no es un perfil: es una categoría sin escena.
+> Guía: cada entrada parte de una persona o grupo concreto, la situación en la que está y las palabras con las que la contó. "Pymes" no alcanza: hace falta una escena.
 
-## Para quién no es
+## Qué puede hacer con cada una
 
-> Guía: al menos un anti-perfil con señal detectable antes ("pide X en la primera reunión"), salido de un caso que fue un error tomar. Si no hay anti-perfil, se declara: "la IA no filtra prospectos por su cuenta".
+> Guía: posibilidades para decir, mostrar, ofrecer, preguntar, acompañar o invitar. Sumá una primera aplicación concreta y otras que valga la pena explorar.
 
 ## Mensaje por etapa
 
-> Guía: qué necesita escuchar cada perfil cuando no te conoce, cuando te evalúa y cuando está por decidir. Derivado de los casos y marcado como derivado hasta que el dueño lo corrija.
+> Guía: qué materiales pueden ser útiles en cada momento: una explicación, un caso, una demostración, una comparación, una invitación o una respuesta. Marcá como hipótesis lo que todavía no tenga evidencia.

@@ -12,20 +12,20 @@ stale_after: [AAAA-MM-DD]
 
 # Territorio
 
-> Parte de la carpeta .contexto/ · estándar v1.1 · [fecha]
-> De qué habla esta identidad, de qué no, y dónde está la frontera.
+> Parte de la carpeta .contexto/ · estándar v1.5 · [fecha]
+> Temas, escenas y preguntas que puede explorar; rutas para abrir conversaciones nuevas.
 
-## De qué habla
+## Territorios disponibles
 
-> Guía: dos a cuatro territorios con ángulo propio: no el tema ("marketing") sino qué dice de ese tema que los demás del rubro no dicen. Cada territorio con la última vez que hablar de eso trajo algo: un cliente, una puerta, un reconocimiento. Un solo territorio también cierra: foco no es defecto.
+> Guía: dos a cuatro temas o escenas con material concreto: casos, preguntas, datos, referencias o experiencias. Un solo territorio también sirve como punto de partida.
 
-## De qué no habla
+## Preguntas que puede abrir
 
-> Guía: al menos un tema que le piden seguido y siempre declina, con el porqué en sus palabras. Si no hay no-temas, se declara: "sin no-temas declarados; la IA consulta ante temas nuevos".
+> Guía: preguntas que podrían convertirse en posteos, campañas, presentaciones, conversaciones o investigaciones. Incluí algunas que todavía no haya trabajado.
 
-## Frontera
+## Rutas de expansión
 
-> Guía: la regla que decide si un tema nuevo entra o queda afuera, y qué hace la IA cuando algo fuera de frontera se vuelve tendencia: silencio, o ángulo desde territorio propio. Nunca sumarse por tracción.
+> Guía: conexiones posibles entre territorios, audiencias, momentos y capacidades. Cuando aparece un tema nuevo, proponé una aplicación y marcá la evidencia que habría que verificar.
 
 ## Niveles de conversación
 

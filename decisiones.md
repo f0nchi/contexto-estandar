@@ -2,11 +2,18 @@
 
 > Parte del estándar [.contexto/](README.md). El registro de qué entró, qué quedó afuera y por qué.
 
-Cada archivo candidato se evalúa contra la vara de admisión del README: responde una pregunta que ninguno de los existentes responde, nació de una falla observada en uso con su fecha y su caso, el ejemplo lo puede demostrar con contenido real, y su ausencia se nota en lo que la IA produce. Los cuatro, o entra como sección de un archivo existente.
+Desde v1.5, un archivo puede abrir una capacidad, organizar materiales o resolver una necesidad observada. Lo acompaña una aplicación concreta que muestre su utilidad; cuando alcanza con una sección de un archivo existente, se empieza ahí. Las evaluaciones anteriores conservan el criterio y la evidencia de su momento.
 
 Acá quedan las evaluaciones, incluidas las negativas. Un estándar que solo muestra lo que aceptó no deja ver su vara.
 
 ## Aceptados
+
+### Potencial operativo como principio rector · v1.5 · 2026-10-11
+
+**Pregunta propia:** qué puede empezar a hacer, decir, usar o mostrar una persona o una marca con IA a partir de esta carpeta.
+**Falla que lo originó:** el formato había acumulado límites, afirmaciones permitidas y pruebas de fidelidad hasta hacer que la experiencia se sintiera como una revisión permanente de identidad. La primera pieza funcionaba como veredicto en vez de abrir el trabajo.
+**Resolución:** los nombres de archivo y los IDs se conservan. `tareas/` pasa a leerse como capacidades ampliables, la primera aplicación pone la base en uso y los ejemplos pasan a ser material de partida. La carpeta también admite referencias y direcciones para trabajo que todavía no se hizo. `restricciones.md` conserva privacidad, normas, condiciones operativas y veracidad factual. La guía de instalación y el ejemplo parten de una aplicación concreta; la verificación se ocupa de datos, formatos y operación.
+**Se nota en el output:** sí. La carpeta termina en una primera aplicación y tres caminos abiertos: usarla, ampliar una capacidad o probar otra cosa.
 
 ### `mirada.md` · v1.1 · 2026-08-13
 

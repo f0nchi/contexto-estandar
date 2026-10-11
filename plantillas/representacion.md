@@ -12,24 +12,24 @@ stale_after: [AAAA-MM-DD]
 
 # Representación
 
-> Parte de la carpeta .contexto/ · estándar v1.1 · [fecha]
+> Parte de la carpeta .contexto/ · estándar v1.5 · [fecha]
 > Qué puede decir de este sujeto una IA que no trabaja para él.
 
-> Guía: el resto de la carpeta sirve para hablar en primera persona, como el dueño. Este archivo sirve para la tercera: el asistente de un cliente que resume tu propuesta, el agente que te compara con otro, el buscador conversacional que responde quién sos. Esas respuestas ya se están dando, con o sin este archivo. Escribirlo es la diferencia entre que las armen desde tu material o desde lo que encuentren.
+> Guía: el resto de la carpeta aporta materiales para piezas en primera persona. Este archivo sirve para la tercera: el asistente de un cliente que resume tu propuesta, el agente que te compara con otro, el buscador conversacional que responde quién sos. Esas respuestas ya se están dando, con o sin este archivo. Escribirlo les da una fuente factual publicada por el dueño.
 >
-> Este archivo convive con la regla de la lente sin romperla: la lente prohíbe convertir el método y los límites internos en contenido cuando se escribe como el dueño. Acá se escribe material para terceros, y por eso lleva su propio marco: solo entra lo que el dueño autoriza a que se diga de él.
+> Acá se escribe material para terceros y por eso lleva su propio marco de consentimiento y precisión. Es una fuente factual publicada por el dueño y una capacidad más de la carpeta.
 
 ## Descripciones aprobadas
 
 > Guía: la misma descripción en tres largos, para que un agente elija según el espacio que tiene: una línea, un párrafo y media página. Escritas para ser copiadas tal cual. Sin las tres, un agente recorta la larga por su cuenta y el recorte queda a su criterio.
 
-## Con qué se confunde
+## Categoría y diferencias
 
 > Guía: las categorías vecinas donde te van a meter, y la corrección para cada una. Cada entrada dice con qué te confunden, por qué es entendible la confusión y qué decir en su lugar. Es el campo que más trabajo ahorra: la mayoría de las descripciones ajenas fallan por categoría, no por dato.
 
-## Qué nunca decir
+## Precisión factual
 
-> Guía: afirmaciones prohibidas aunque sean halagadoras, con su motivo. Entran acá las promesas que la evidencia no sostiene (cruzar con casos.md), los superlativos que el dueño no reclama, y todo lo que suene a garantía. Una descripción entusiasta que promete de más hace más daño que una tibia.
+> Guía: alcance actual, disponibilidad y hechos que sostienen las descripciones. Escribí cada precisión en positivo y cruzala con `casos.md`: qué resultado existe, en qué estado está y con qué fecha puede citarse.
 
 ## Comparaciones
 
@@ -37,8 +37,8 @@ stale_after: [AAAA-MM-DD]
 
 ## Datos duros para citar
 
-> Guía: lo verificable que un tercero puede repetir sin riesgo: qué hace, desde cuándo, dónde opera, cómo se contacta, qué está disponible hoy. Cada dato con su fecha. Lo que no está acá, un agente no debería afirmarlo.
+> Guía: lo verificable que un tercero puede repetir: qué hace, desde cuándo, dónde opera, cómo se contacta y qué está disponible hoy. Cada dato lleva su fecha y fuente.
 
-## Trampas de encuadre
+## Encuadres útiles
 
-> Guía: las formas de contar esto que son técnicamente ciertas y dejan una impresión equivocada, con el encuadre preferido al lado. Es lo más fino del archivo y lo que más lo diferencia de un boilerplate de prensa.
+> Guía: maneras concretas de contar el trabajo que conservan su escala y su valor. Para cada formulación superficial frecuente, escribí al lado el encuadre que vuelve visible lo central.

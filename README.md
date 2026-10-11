@@ -1,20 +1,20 @@
 # El estándar .contexto/
 
-**Versión 1.4 · 1 de octubre de 2026 · Mantenido por [Ideas Aumentadas](https://www.ideasaumentadas.com.ar) · Licencia CC BY 4.0**
+**Versión 1.5 · 11 de octubre de 2026 · Mantenido por [Ideas Aumentadas](https://www.ideasaumentadas.com.ar) · Licencia CC BY 4.0**
 
-Una convención abierta, en español, para codificar la inteligencia de trabajo de una persona o una marca en una carpeta de archivos de texto plano que cualquier IA puede leer y operar.
+Una convención abierta, en español, para organizar el contexto, los materiales y las capacidades de una persona o una marca en archivos de texto plano que cualquier IA puede leer, usar y ampliar.
 
 Repositorio canónico: https://github.com/f0nchi/contexto-estandar · Página del estándar: https://www.ideasaumentadas.com.ar/estandar · English: [README.en.md](README.en.md)
 
 ## Por qué una carpeta de texto plano
 
-La inteligencia de un trabajo existe: está en cómo decidís, en qué podés afirmar, en lo que nunca harías, en la lógica detrás de cada posición tomada. Cuando esa inteligencia queda escrita en markdown plano, pasa tres pruebas a la vez: cualquier IA la lee nativamente, cualquier humano la puede abrir y editar, y es tuya para siempre, portable entre plataformas, sin lock-in de ningún proveedor.
+El contexto de un trabajo ya existe: está en lo que hacés, en tus materiales, en las personas con las que trabajás y en las posibilidades que querés abrir. Cuando queda escrito en markdown plano, pasa tres pruebas a la vez: cualquier IA lo lee nativamente, cualquier humano lo puede abrir y editar, y es tuyo para siempre, portable entre plataformas, sin lock-in de ningún proveedor.
 
 Este estándar define cómo organizarla para que una IA no solo la lea: la opere.
 
 ## Para empezar
 
-Con tres archivos una IA ya puede trabajar con vos: `guia.md`, `identidad.md` y `formas.md`. Copiá sus plantillas de `plantillas/`, completalas con casos tuyos y tus propias palabras, cargá la carpeta en tu IA con `system-prompt.txt` y pedile que te presente en un párrafo. Cuando la IA no te represente en algo que importa, cambiá el archivo que corresponde. El resto de la carpeta se suma cuando el uso lo pide.
+Con tres archivos una IA ya puede empezar a crear con vos: `guia.md`, `identidad.md` y `formas.md`. Copiá sus plantillas de `plantillas/`, completalas con materiales reales y tus propias palabras, cargá la carpeta en tu IA con `system-prompt.txt` y pedile una primera aplicación concreta. Después podés usarla, ampliar una capacidad o probar otra cosa. El resto de la carpeta se suma con el uso.
 
 ## La carpeta
 
@@ -23,56 +23,58 @@ Una carpeta `.contexto/` tiene trece archivos núcleo, dos propios del modo pers
 | Archivo | Qué codifica |
 |---|---|
 | `guia.md` | Punto de entrada: qué es la carpeta, orden de lectura, reglas de operación, estado de la versión. |
-| `identidad.md` | Por qué existe este trabajo o esta marca, qué mundo empuja, qué no debe perder. Para personas: también el momento vigente. |
+| `identidad.md` | Qué hace hoy, para quién, con qué materiales y qué posibilidades quiere abrir. Para personas: también el momento vigente. |
 | `mirada.md` | Hacia dónde mira: universos de atención, la lente con la que lee un hecho nuevo, de qué se alimenta, y qué evidencia iría en contra de su propia tesis. |
-| `formas.md` | Cómo escribe y habla: síntesis, muestras reales de así sí y así no, prohibiciones con su reemplazo, tono por contexto. |
-| `territorio.md` | De qué habla, de qué no, dónde está la frontera, niveles de conversación. |
-| `audiencias.md` | Perfiles reales con caso vivido, para quién no es. |
-| `arquitectura.md` | Pilares que sostienen el contenido, estructuras que ya funcionaron. |
-| `restricciones.md` | Qué nunca haría, condiciones operativas, estados de promesa. |
+| `formas.md` | Recursos para escribir y hablar: textos reales, ritmo, estructuras, palabras y posibilidades a explorar. |
+| `territorio.md` | Temas, escenas y preguntas que puede explorar; rutas para abrir conversaciones nuevas. |
+| `audiencias.md` | Personas y situaciones reales: qué puede decirles, mostrarles u ofrecerles. |
+| `arquitectura.md` | Rutas de creación que pueden convertirse en contenido, campañas, presentaciones o piezas. |
+| `restricciones.md` | Condiciones operativas, privacidad, normas y resguardos factuales. No define el potencial de la carpeta. |
 | `logica.md` | Jurisprudencia: casos reales con fecha y porqué, reglas, y qué manda cuando dos reglas se contradicen. |
-| `casos.md` | Casos comprobables con sus datos, qué es afirmable y qué promesas están permitidas. |
-| `identidad-visual.md` | El sistema visual si existe. Si no existe, se declara: ninguna IA debe inventar uno. |
-| `representacion.md` | Qué puede decir de este sujeto una IA que no trabaja para él: descripciones aprobadas, con qué se confunde, qué nunca decir, y las trampas de encuadre. |
-| `verificacion.md` | La suite de pruebas de la identidad: casos corribles por cualquier IA. |
+| `casos.md` | Casos, datos y hechos disponibles como material verificable para crear. |
+| `identidad-visual.md` | Colores, tipografías, composición, alineación, logos, recursos y referencias para crear piezas visuales. |
+| `representacion.md` | Material para que otra IA lo describa: descripciones listas, categoría y diferencias, precisión factual, comparaciones y encuadres útiles. |
+| `verificacion.md` | Casos corribles para comprobar hechos, formatos y condiciones operativas. |
 | `rol.md` | Solo personas: cómo son las semanas de verdad, con quién, qué decide, qué delega, y qué NO está priorizando con su tradeoff. |
 | `con-quien-trabajo.md` | Solo personas: las personas reales con las que trabaja y cómo le habla a cada una. |
-| `tareas/` | Una carpeta por tarea, cada una con su `SKILL.md`: para quién es, qué tiene que lograr y un ejemplo que salió bien. Es el formato estándar de skills, así que cada tarea se instala tal cual en las herramientas que las leen. |
+| `tareas/` | Una carpeta por capacidad, cada una con su `SKILL.md`: qué permite hacer, para quién, con qué materiales y una primera aplicación. Mantiene el formato estándar de skills. |
 | `feedback.md` | Opcional: el registro de los criterios que el dueño quiere guardar mientras usa la carpeta, con fecha y caso. |
 
 ### Por dónde se empieza
 
-La carpeta se construye en orden, y el orden importa porque los primeros archivos sostienen a los que siguen: `guia.md`, `identidad.md`, `formas.md`, `restricciones.md`, `logica.md` y `verificacion.md` son los que dan la primera vuelta completa, con el sujeto, su forma de escribir, sus límites, su forma de decidir y la manera de comprobar que una IA lo está operando bien. Después entran `mirada.md`, `territorio.md`, `audiencias.md`, `arquitectura.md`, `casos.md`, `identidad-visual.md`, `representacion.md` y, en el modo persona, `rol.md` y `con-quien-trabajo.md`. `tareas/` crece con cada tarea que el dueño quiere pasarle a su IA. `feedback.md` se suma cuando el dueño quiere llevar registro de sus criterios.
+La carpeta empieza con una base usable: `guia.md`, `identidad.md`, `formas.md` y al menos una capacidad en `tareas/`. La capacidad puede escribirse al producir la primera aplicación real. Después entran `mirada.md`, `territorio.md`, `audiencias.md`, `arquitectura.md`, `casos.md`, `identidad-visual.md`, `logica.md`, `restricciones.md`, `verificacion.md`, `representacion.md` y, en el modo persona, `rol.md` y `con-quien-trabajo.md`. Cada archivo amplía lo que la IA puede hacer y suma material para nuevas aplicaciones.
 
-Una carpeta a mitad de camino es un estado legítimo y se declara en `guia.md`. Lo que no es legítimo es dejar afuera algo que el sujeto sí tiene: la omisión vale cuando el campo no aplica, nunca para llegar antes.
+La base puede crecer por etapas. `guia.md` indica qué materiales están disponibles y qué se puede sumar después; una primera aplicación permite empezar a trabajar con lo que ya hay.
 
 ### Criterio de admisión de archivos nuevos
 
-Este estándar crece con cuidado, y la vara para sumar un archivo es esta: responde una pregunta que ninguno de los existentes responde, nació de una falla observada en uso con su fecha y su caso, el ejemplo lo puede demostrar con contenido real, y su ausencia se nota en lo que la IA produce y no solamente en la prolijidad del esquema. Un candidato que no pasa los cuatro entra como sección de un archivo existente, y la mayoría de los candidatos son eso. Cada evaluación queda registrada en [decisiones.md](decisiones.md), incluidas las negativas: un estándar que solo muestra lo que aceptó no deja ver su vara.
+Un archivo nuevo tiene sentido cuando abre una capacidad, organiza materiales que necesitan un lugar propio o resuelve una necesidad observada en uso. Se acompaña con una aplicación concreta que muestre para qué sirve. Cuando alcanza con ampliar un archivo existente, se empieza ahí. Las decisiones sobre el formato se registran en [decisiones.md](decisiones.md); cada persona puede extender su carpeta según el trabajo que quiere hacer.
 
 No todos los archivos aplican a todos los casos. Un perfil profesional puede omitir territorio, arquitectura e identidad visual; una marca omite `rol.md`. La omisión se declara en `guia.md`, nunca se disimula.
 
 ## Los principios
 
-Lo que hace que una carpeta sea `.contexto/` son estas nueve reglas, antes que los nombres de archivo.
+Lo que hace que una carpeta sea `.contexto/` son estos diez principios, antes que los nombres de archivo.
 
-**1. Casos reales, frases literales.** Cada entrada sale de algo que pasó, con las palabras del dueño citadas textuales. Una autodefinición que serviría para cualquiera del rubro todavía no es contenido.
+**1. El potencial va primero.** La carpeta existe para abrir capacidades: cosas que una persona o una marca puede hacer, decir, usar o mostrar con IA. Los antecedentes sirven como material de partida, no como frontera de lo posible.
 
-**2. Estados honestos.** Cada campo declara su estado: cerrado, extracción parcial, baja definición, o vacío declarado. Sobre un campo no cerrado la IA no inventa: pregunta o marca el hueco. El vacío declarado es contenido legítimo ("esta marca no tiene casos públicos todavía; la IA afirma método, no resultados").
+**2. Materiales reales, direcciones explícitas.** La base reúne textos, referencias, casos, recursos y las posibilidades que el dueño quiere explorar. Las citas conservan sus palabras; los hechos llevan su fuente y las propuestas se presentan como propuestas. También puede orientar trabajo que todavía no se hizo.
 
-**3. Jurisprudencia con fecha.** Las decisiones se registran como casos: qué pasó, qué regla dejó, cuándo. La regla sin su caso de origen vale menos: el caso es lo que le permite a una IA razonar situaciones nuevas.
+**3. Estados honestos.** Cada campo declara su estado: cerrado, extracción parcial, baja definición, o vacío declarado. Sobre un campo no cerrado la IA no inventa hechos: pregunta, propone una hipótesis rotulada o marca el hueco.
 
-**4. Verificación corrible.** La carpeta incluye su propia suite de pruebas: situación, respuesta esperada, qué nunca, y la regla que lo justifica. Cualquier IA que leyó la carpeta puede correrla, y el dueño puede comprobar que está siendo operado con su lógica y no improvisado.
+**4. Jurisprudencia con fecha.** Las decisiones se registran como casos: qué pasó, qué regla dejó, cuándo. La regla sin su caso de origen vale menos: el caso es lo que le permite a una IA razonar situaciones nuevas.
 
-**5. Precedencia explícita.** Cuando dos reglas no pueden cumplirse a la vez, la carpeta dice cuál manda y bajo qué condición. Sin precedencia, la IA promedia; y promediar es la manera más silenciosa de traicionar una identidad.
+**5. Verificación corrible.** La carpeta incluye casos que permiten comprobar hechos, formatos y condiciones operativas. Cada revisión deja una aplicación más clara y material útil para la siguiente.
 
-**6. La carpeta es la lente, no el libreto.** La IA escribe y decide desde estos documentos, sin describirlos ni convertir los límites, el método o los anti-ejemplos en contenido público.
+**6. Precedencia explícita.** Cuando dos instrucciones no pueden cumplirse a la vez, la carpeta dice cuál manda y bajo qué condición.
 
-**7. Hacia dónde mira.** La identidad incluye su atención. Cuando todos los archivos describen al sujeto, la única materia disponible para producir es el sujeto mismo, y una identidad codificada sin mirada solo puede hablar de sí. `mirada.md` codifica qué observa, con qué lente lo lee y qué haría cambiar de opinión al dueño.
+**7. La carpeta es la base, no el libreto.** La IA crea desde estos documentos sin recitarlos ni tratarlos como un techo. Una primera pieza pone la carpeta en uso y abre el trabajo que sigue.
 
-**8. Primera y tercera persona separadas.** La carpeta sirve para que una IA trabaje en nombre del dueño, y sirve para que un agente ajeno hable de él. Son dos materiales distintos y no se mezclan: lo que gobierna la escritura propia vive en toda la carpeta, y lo que un tercero puede decir vive solo en `representacion.md`, con lo que el dueño autoriza.
+**8. Hacia dónde mira.** La identidad incluye su atención. `mirada.md` codifica qué observa, con qué lente lo lee y qué nuevos materiales puede traer a la creación.
 
-**9. La carpeta se actualiza con el uso.** Cuando la IA no representa al dueño en algo que importa, se cambia el archivo que corresponde, y la carpeta acompaña a su dueño a medida que cambia. Quien quiera llevar registro de los criterios que va encontrando tiene `feedback.md`, con fecha, criterio y caso, y decide cuáles pasan a `formas.md` o a `verificacion.md`.
+**9. Primera y tercera persona separadas.** La carpeta sirve para que una IA trabaje con el dueño, y también puede ofrecer material factual para que un agente ajeno lo describa. Son dos usos distintos y no se mezclan.
+
+**10. La carpeta se amplía con el uso.** Cada aplicación puede sumar material, ajustar una instrucción o abrir una capacidad. `feedback.md` permite guardar aprendizajes con fecha y caso; el dueño decide cuáles pasan a `formas.md`, `tareas/` o `verificacion.md`.
 
 ## Cómo se instala
 
@@ -94,9 +96,9 @@ Los tres últimos son una apuesta, y conviene decirlo con todas las letras: al a
 
 ## Cómo crear la tuya
 
-Las plantillas de la carpeta `plantillas/` de este repositorio tienen la estructura de cada archivo con guía adentro, para armarla a mano. En `ejemplo/` está la carpeta completa de Sole, un perfil profesional de muestra que además demuestra la regla de omisión declarada. Y para usarla desde el primer día: `system-prompt.txt` (el bloque listo para pegar en cualquier IA), `instalacion.md` (cómo cargarla en ChatGPT, Claude, Gemini y agentes de código) y `auditoria.md` (un prompt para que cualquier IA revise tu carpeta contra los nueve principios y te diga qué le falta).
+Las plantillas de la carpeta `plantillas/` de este repositorio tienen la estructura de cada archivo con guía adentro, para armarla a mano. En `ejemplo/` está la carpeta completa de Sole. Para usarla desde el primer día están `system-prompt.txt`, `instalacion.md` y `auditoria.md`, que revisa la carpeta contra los diez principios y propone la próxima capacidad útil.
 
-La manera asistida existe en [Ideas Aumentadas](https://www.ideasaumentadas.com.ar): un primer archivo de contexto gratis en el navegador, y sesiones de extracción con un agente que trabaja con casos reales y entrega la carpeta completa con su suite de verificación.
+La manera asistida existe en [Ideas Aumentadas](https://www.ideasaumentadas.com.ar): un primer archivo de contexto gratis en el navegador, y Trama para construir una base ampliable con materiales, instrucciones y capacidades de creación.
 
 ## Cómo se relaciona con los otros formatos
 
@@ -106,6 +108,7 @@ La categoría tiene varios formatos vivos. [interoperabilidad.md](interoperabili
 
 Los cambios del estándar se registran en este archivo, con su fecha.
 
+- **v1.5 (2026-10-11).** La carpeta pasa a organizarse desde su potencial operativo: contexto y materiales que abren capacidades para hacer, decir, usar y mostrar con IA. `tareas/` conserva nombre y formato por compatibilidad, pero cada entrada se entiende como una capacidad ampliable. La primera aplicación deja de ser una prueba final de fidelidad y pasa a demostrar que la base ya se puede usar. `identidad-visual.md` detalla composición, alineación, tipografía, logo, recursos y referencias. Los resguardos factuales, la privacidad y las normas permanecen; dejan de funcionar como centro narrativo del producto.
 - **v1.4 (2026-10-01).** El estándar suma `tareas/`: una carpeta por tarea, cada una con su `SKILL.md`, en el formato de skills. El modo persona suma `con-quien-trabajo.md`. Dos archivos toman nombres más directos: `casos.md` (era `evidencia.md`) e `identidad-visual.md` (era `visual.md`); las carpetas existentes siguen siendo válidas con los nombres anteriores. El ejemplo de Sole trae una tarea.
 - **v1.3 (2026-10-01).** El estándar suma «Para empezar»: los tres archivos con los que una persona arranca, cómo cargarlos y cómo se mantienen. El noveno principio describe cómo la carpeta se actualiza con el uso, y `feedback.md` pasa a ser un registro opcional de criterios del dueño. `system-prompt.txt`, la plantilla de `feedback.md` y el ejemplo de Sole acompañan.
 - **v1.2 (2026-08-29).** El estándar suma cómo se mantiene afinada una carpeta mientras se usa. Cuatro prácticas entran como reglas de archivos existentes, ninguna como archivo nuevo. En `formas.md`: las muestras se marcan como luz y no como molde, y la sección de patrones de IA pasa a llamarse el registro del modelo, que nace casi vacío y se llena operando. En `mirada.md`: lo que entra de afuera pasa por `formas.md` antes de volverse texto. En `feedback.md` y el noveno principio: el ciclo de promoción, de corrección a prohibición y de ahí a caso corrible; el ejemplo de Sole lo muestra. En `guia.md`: dos reglas de operación, las instrucciones del dueño dirigen sin recitarse en lo producido, y una tanda se relee entera antes de salir. Por qué: una carpeta que se usa todos los días necesita saber cómo seguir afinada. El detalle de cada evaluación está en [decisiones.md](decisiones.md).

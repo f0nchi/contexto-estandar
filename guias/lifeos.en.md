@@ -5,7 +5,7 @@
 
 ## Why they meet
 
-LifeOS solves what a personal AI system can do: skills, agents, scheduled jobs, memory. Its identity layer (TELOS: mission, beliefs, goals, projects, writing style) is filled by hand by each installer. `.contexto/` solves exactly that layer: identity extracted from real cases, with a runnable verification suite. A well-built folder is the best input for a TELOS; a LifeOS is one of the best places for a folder to work.
+LifeOS solves what a personal AI system can do: skills, agents, scheduled jobs, memory. Its context layer (TELOS: mission, beliefs, goals, projects, writing style) is filled by hand by each installer. `.contexto/` contributes a portable base of materials, capabilities, and instructions, with runnable checks. A well-built folder is a useful input for TELOS; LifeOS is one place where that folder can activate work.
 
 ## The mapping, file by file
 
@@ -17,7 +17,7 @@ LifeOS solves what a personal AI system can do: skills, agents, scheduled jobs, 
 | `rol.md` plus the current moment in `identidad.md` | `GOALS` and projects | Open fronts and what is deliberately NOT being prioritized, with its tradeoff. |
 | `audiencias.md` | Project and relationship context | Profiles built from lived cases, not categories. |
 | `mirada.md` | No equivalent | LifeOS has memory (Cortex); codified attention (universes, the reading lens, signals against your own thesis) is a `.contexto/` contribution. |
-| `verificacion.md` | No equivalent | A runnable identity test suite does not exist in LifeOS: run the cases against your install and check it answers from your folder. |
+| `verificacion.md` | No equivalent | Runnable checks for facts, formats, and operating conditions do not exist in LifeOS: run the cases against your install and inspect the concrete result. |
 | `feedback.md` | Cousin of Cortex curation | Dated corrections can feed the notes Cortex promotes or expires. |
 
 ## In practice
@@ -25,7 +25,7 @@ LifeOS solves what a personal AI system can do: skills, agents, scheduled jobs, 
 1. Build or get your `.contexto/` folder (by hand with the [templates](../plantillas/), or extracted in a session).
 2. Copy it into your LifeOS install and pour the mapping above into your TELOS files, citing the folder as source.
 3. Keep the folder as the single source: when it changes, regenerate what you mapped. The standard ships `SHA256SUMS` so you know your copy is intact.
-4. Run `verificacion.md` against your LifeOS: if it answers your cases from your folder, the identity traveled well.
+4. Run `verificacion.md` against your LifeOS: check facts, formats, and operating conditions in one concrete application.
 
 ## What deliberately does not map
 

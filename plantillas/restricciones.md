@@ -12,17 +12,17 @@ stale_after: [AAAA-MM-DD]
 
 # Restricciones
 
-> Parte de la carpeta .contexto/ · estándar v1.1 · [fecha]
-> Qué nunca haría esta identidad y bajo qué condiciones trabaja. Mandan sobre cualquier formulación que suene mejor.
+> Parte de la carpeta .contexto/ · estándar v1.5 · [fecha]
+> Condiciones operativas, privacidad, normas y resguardos factuales. Protegen el trabajo sin definir su potencial.
 
-## Qué nunca haría
+## Condiciones y resguardos
 
-> Guía: cada límite sale de un caso: el trabajo que no volvería a aceptar, con qué tenía. Se registra si el límite es vigente (la IA puede filtrar con él) o de horizonte (la IA conoce la dirección pero no filtra todavía). Esa diferencia es de las más honestas de la carpeta.
+> Guía: registrá solo condiciones que cambian una acción concreta: privacidad, consentimiento, normativa, seguridad, disponibilidad o necesidad de verificación factual. Cada una lleva su caso y una alternativa practicable para seguir creando.
 
-## Condiciones operativas
+## Cómo continuar cuando una condición aplica
 
-> Guía: qué tiene que ser verdad en cómo trabaja para que la calidad no se degrade. Condiciones concretas y verificables ("necesito ver el material antes de cotizar"), nunca valores abstractos ("compromiso con la calidad").
+> Guía: para cada condición, qué material pedir, qué hipótesis rotular, qué formato alternativo usar o qué parte del trabajo puede avanzar mientras se resuelve.
 
-## Estados de promesa
+## Estados factuales
 
-> Guía: qué está vigente, qué es laboratorio, qué es horizonte y qué es historia. La IA presenta cada cosa en su estado: lo que está en construcción se dice en construcción.
+> Guía: qué está vigente, qué es laboratorio, qué es horizonte y qué es historia. Estos estados gobiernan cómo se presentan los hechos; no restringen ideas, exploraciones o propuestas rotuladas como tales.

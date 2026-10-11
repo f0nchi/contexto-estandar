@@ -1,20 +1,20 @@
 # The .contexto/ standard
 
-**Version 1.4 · October 1, 2026 · Maintained by [Ideas Aumentadas](https://www.ideasaumentadas.com.ar) · CC BY 4.0**
+**Version 1.5 · October 11, 2026 · Maintained by [Ideas Aumentadas](https://www.ideasaumentadas.com.ar) · CC BY 4.0**
 
-An open convention for encoding the working intelligence of a person or a brand into a folder of plain text files that any AI can read and operate.
+An open convention for organizing the context, materials, and capabilities of a person or brand in plain text files that any AI can read, use, and expand.
 
 The standard is written in Spanish and its file names are Spanish. This is the English guide to it. Canonical repository: https://github.com/f0nchi/contexto-estandar · Standard page: https://www.ideasaumentadas.com.ar/estandar
 
 ## Why a folder of plain text
 
-The intelligence of a job already exists: it lives in how you decide, in what you can claim, in what you would never do, in the reasoning behind every position you have taken. Written down in plain markdown, that intelligence passes three tests at once: any AI reads it natively, any human can open and edit it, and it is yours for good, portable across platforms, with no vendor lock-in.
+The context of a job already exists: it lives in what you do, the materials you use, the people you work with, and the possibilities you want to open. Written down in plain markdown, that context passes three tests at once: any AI reads it natively, any human can open and edit it, and it is yours for good, portable across platforms, with no vendor lock-in.
 
 This standard defines how to organize it so an AI does more than read it: so it can operate from it.
 
 ## Getting started
 
-Three files are enough for an AI to start working with you: `guia.md`, `identidad.md` and `formas.md`. Copy their templates from `plantillas/`, fill them with your own cases and your own words, load the folder into your AI with `system-prompt.txt`, and ask it to introduce you in one paragraph. When the AI misrepresents you in something that matters, change the file it comes from. The rest of the folder joins when use calls for it.
+Three files are enough for an AI to start creating with you: `guia.md`, `identidad.md` and `formas.md`. Copy their templates from `plantillas/`, fill them with real materials and your own words, load the folder with `system-prompt.txt`, and ask for one concrete first application. Then use it, expand a capability, or try something else. The rest of the folder grows through use.
 
 ## The folder
 
@@ -23,56 +23,58 @@ A `.contexto/` folder has thirteen core files, two specific to encoding a person
 | File | What it encodes |
 |---|---|
 | `guia.md` | Guide. Entry point: what the folder is, reading order, operating rules, state of this version. |
-| `identidad.md` | Identity. Why this work or this brand exists, what world it pushes for, what it must not lose. For people: the current moment as well. |
+| `identidad.md` | Identity. What it does today, for whom, with which materials, and which possibilities it wants to open. For people: the current moment as well. |
 | `mirada.md` | Gaze. Where the subject looks: fields of attention, the lens it reads a new fact through, what feeds it, and what evidence would count against its own thesis. |
-| `formas.md` | Forms. How it writes and speaks: synthesis, real samples of yes-like-this and not-like-this, prohibitions with their replacement, tone by context. |
-| `territorio.md` | Territory. What it talks about, what it does not, where the border runs, levels of conversation. |
-| `audiencias.md` | Audiences. Real profiles with a lived case, who it is not for. For people: working relationships. |
-| `arquitectura.md` | Architecture. Pillars that hold the content up, structures that already worked. |
-| `restricciones.md` | Constraints. What it would never do, operating conditions, promise states. |
+| `formas.md` | Forms. Resources for writing and speaking: real samples, rhythm, structures, words, and possibilities to explore. |
+| `territorio.md` | Territory. Topics, scenes, and questions it can explore; routes into new conversations. |
+| `audiencias.md` | Audiences. Real people and situations: what it can say, show, or offer them. |
+| `arquitectura.md` | Architecture. Creation routes that can become content, campaigns, presentations, or other pieces. |
+| `restricciones.md` | Constraints. Operating conditions, privacy, applicable rules, and factual safeguards. These do not define the folder's potential. |
 | `logica.md` | Logic. Case law: real cases with date and rationale, rules, and what wins when two rules collide. |
-| `casos.md` | Cases. Verifiable cases with their data, what can be claimed, which promises are allowed. |
-| `identidad-visual.md` | Visual identity. The visual system if one exists. If it does not, that is declared: no AI should invent one. |
-| `representacion.md` | Representation. What an AI that does not work for the subject may say about them: approved descriptions, what it gets confused with, what never to say, framing traps. |
-| `verificacion.md` | Verification. The identity's test suite: cases any AI can run. |
+| `casos.md` | Cases. Cases, data, and facts available as verifiable source material. |
+| `identidad-visual.md` | Visual identity. Colors, typography, composition, alignment, logo use, assets, and references for visual creation. |
+| `representacion.md` | Material another AI can use to describe the subject: ready-to-use descriptions, category and differences, factual precision, comparisons, and useful frames. |
+| `verificacion.md` | Verification. Runnable checks for facts, formats, and operating conditions. |
 | `rol.md` | Role. People only: what the weeks actually look like, with whom, what they decide, what they delegate, and what they are NOT prioritizing, with the tradeoff. |
 | `con-quien-trabajo.md` | Who I work with. People only: the real people they work with and how they talk to each one. |
-| `tareas/` | Tasks. One folder per task, each with its `SKILL.md`: who it is for, what it has to achieve, and an example that went well. It is the standard skills format, so each task installs as is in the tools that read skills. |
+| `tareas/` | Capabilities. One folder per capability, each with its `SKILL.md`: what it enables, who it is for, which materials it uses, and a first application. The folder name stays stable for compatibility. |
 | `feedback.md` | Feedback. Optional: a record of the criteria the owner wants to keep while using the folder, with date and case. |
 
 ### Where to start
 
-The folder is built in order, and the order matters because the first files hold up the ones that follow: `guia.md`, `identidad.md`, `formas.md`, `restricciones.md`, `logica.md` and `verificacion.md` complete the first full loop, covering the subject, how they write, their limits, how they decide, and how to check that an AI is operating them well. Then come `mirada.md`, `territorio.md`, `audiencias.md`, `arquitectura.md`, `casos.md`, `identidad-visual.md`, `representacion.md` and, for people, `rol.md` and `con-quien-trabajo.md`. `tareas/` grows with every task the owner wants to hand to their AI. `feedback.md` joins when the owner wants to keep a record of their criteria.
+The folder starts with a usable base: `guia.md`, `identidad.md`, `formas.md`, and at least one capability in `tareas/`. The capability can be written while producing the first real application. Then add `mirada.md`, `territorio.md`, `audiencias.md`, `arquitectura.md`, `casos.md`, `identidad-visual.md`, `logica.md`, `restricciones.md`, `verificacion.md`, `representacion.md`, and, for people, `rol.md` and `con-quien-trabajo.md`. Each file expands what the AI can do and adds material for new applications.
 
-A folder halfway through is a legitimate state and it is declared in `guia.md`. What is not legitimate is leaving out something the subject does have: omission is valid when the field does not apply, never to get there sooner.
+The base can grow in stages. `guia.md` names the materials available now and what can be added later; a first application lets you start working with what you already have.
 
 ### Admission criteria for new files
 
-This standard grows carefully, and the bar for adding a file is this: it answers a question none of the existing files answer, it was born from a failure observed in use with its date and its case, the example can demonstrate it with real content, and its absence shows up in what the AI produces rather than only in the tidiness of the schema. A candidate that fails any of the four goes in as a section of an existing file, and most candidates are exactly that. Every evaluation is recorded in [decisiones.md](decisiones.md), including the negative ones: a standard that only shows what it accepted never reveals its bar.
+A new file makes sense when it opens a capability, gives materials a useful home, or addresses a need observed in use. Include a concrete application showing what it enables. When extending an existing file is enough, start there. Decisions about the format are recorded in [decisiones.md](decisiones.md); each person can extend their folder for the work they want to do.
 
 Not every file applies to every case. A professional profile can omit territory, architecture and visual; a brand omits `rol.md`. The omission is declared in `guia.md`, never disguised.
 
 ## The principles
 
-What makes a folder a `.contexto/` folder are these nine rules, ahead of the file names.
+What makes a folder a `.contexto/` folder are these ten principles, ahead of the file names.
 
-**1. Real cases, literal phrases.** Every entry comes from something that happened, with the owner's own words quoted verbatim. A self-definition that would fit anyone in the same field is not content yet.
+**1. Potential comes first.** The folder exists to open things a person or brand can do, say, use, or show with AI. Prior work is source material, not the boundary of what is possible.
 
-**2. Honest states.** Every field declares its state: closed, partially extracted, low definition, or declared empty. On a field that is not closed the AI does not invent: it asks or flags the gap. A declared emptiness is legitimate content ("this brand has no public cases yet; the AI claims method, not results").
+**2. Real materials, explicit directions.** The base brings together writing, references, cases, assets, and possibilities the owner wants to explore. Quotes preserve their words, facts name their source, and proposals are presented as proposals. It can also guide work that has not been done yet.
 
-**3. Case law with dates.** Decisions are recorded as cases: what happened, what rule it left, when. A rule without its originating case is worth less: the case is what lets an AI reason through situations nobody anticipated.
+**3. Honest states.** Every field declares its state: closed, partially extracted, low definition, or declared empty. On a field that is not closed the AI does not invent facts: it asks, proposes a labelled hypothesis, or flags the gap.
 
-**4. Runnable verification.** The folder carries its own test suite: situation, expected response, what never, and the rule that justifies it. Any AI that has read the folder can run it, and the owner can check they are being operated with their own logic instead of improvisation.
+**4. Case law with dates.** Decisions are recorded as cases: what happened, what rule it left, when. A rule without its originating case is worth less: the case is what lets an AI reason through situations nobody anticipated.
 
-**5. Explicit precedence.** When two rules collide, the folder says which one wins and under what condition. Without precedence the AI averages, and averaging is the quietest way to betray an identity.
+**5. Runnable verification.** The folder carries cases that can verify facts, formats, and operating conditions. Each review leaves a clearer application and useful material for the next one.
 
-**6. The folder is the lens, not the script.** The AI writes and decides from these documents without describing them, and without turning the limits, the method or the anti-examples into public content.
+**6. Explicit precedence.** When two instructions collide, the folder says which one wins and under what condition.
 
-**7. Where it looks.** Identity includes its attention. When every file describes the subject, the only available material to produce from is the subject itself, and an encoded identity with no gaze can only talk about itself. `mirada.md` encodes what it observes, the lens it reads through, and what would change the owner's mind.
+**7. The folder is the base, not the script.** The AI creates from these documents without reciting them or treating them as a ceiling. A first application puts the folder to work and opens what comes next.
 
-**8. First and third person kept apart.** The folder serves an AI working on the owner's behalf, and it serves an outside agent describing them. Those are two different materials and they do not mix: what governs the owner's own writing lives across the whole folder, and what a third party may say lives only in `representacion.md`, limited to what the owner authorizes.
+**8. Where it looks.** Identity includes its attention. `mirada.md` encodes what it observes, the lens it reads through, and which new materials it can bring into the work.
 
-**9. The folder is updated through use.** When the AI does not represent the owner in something that matters, the corresponding file is changed, and the folder keeps pace with its owner as they change. Whoever wants to keep a record of the criteria they find along the way has `feedback.md`, with date, criterion and case, and decides which ones move into `formas.md` or `verificacion.md`.
+**9. First and third person kept apart.** The folder serves the owner's own work and can provide factual material to an outside agent describing them. Those are two different uses and their materials do not mix.
+
+**10. The folder expands through use.** Each application can add material, adjust an instruction, or open a capability. `feedback.md` can preserve what was learned with its date and case; the owner decides what moves into `formas.md`, `tareas/`, or `verificacion.md`.
 
 ## How it is installed
 
@@ -94,9 +96,9 @@ The last three are a bet, and it is worth saying so plainly: as of August 2026 n
 
 ## How to build yours
 
-The templates in `plantillas/` carry the structure of each file with its guidance inside, to fill in by hand. In `ejemplo/` there is Sole's complete folder, a sample professional profile that also demonstrates the declared-omission rule. And to use it from day one: `system-prompt.txt` (the block ready to paste into any AI), `instalacion.md` (how to load it into ChatGPT, Claude, Gemini and coding agents) and `auditoria.md` (a prompt for any AI to audit your folder against the nine principles and tell you what is missing).
+The templates in `plantillas/` carry the structure of each file with its guidance inside, to fill in by hand. In `ejemplo/` there is Sole's complete folder, a sample professional profile that also demonstrates the declared-omission rule. And to use it from day one: `system-prompt.txt` (the block ready to paste into any AI), `instalacion.md` (how to load it into ChatGPT, Claude, Gemini and coding agents) and `auditoria.md` (a prompt for any AI to audit your folder against the ten principles and suggest which capability to use, expand, or explore next).
 
-The assisted path exists at [Ideas Aumentadas](https://www.ideasaumentadas.com.ar): a first context file free in the browser, and extraction sessions with an agent that works from real cases and delivers the full folder with its verification suite.
+The assisted path exists at [Ideas Aumentadas](https://www.ideasaumentadas.com.ar): a first context file free in the browser, and sessions with an agent that organizes real materials, produces a first application, and delivers the full portable folder.
 
 ## How it relates to other formats
 
@@ -106,6 +108,7 @@ The category has several living formats. [interoperabilidad.en.md](interoperabil
 
 Changes to the standard are recorded in this file, with their date.
 
+- **v1.5 (2026-10-11).** The folder is organized around operational potential: context and materials open capabilities to do, say, use, and show things with AI. `tareas/` keeps its name and schema for compatibility, while each entry becomes an expandable capability. The first application proves the base can be used; it is no longer a final fidelity verdict. Visual identity now explicitly covers composition, alignment, typography, logo use, resources, and references. Factual safeguards, privacy, and applicable rules remain intact without defining the product's center of gravity.
 - **v1.4 (2026-10-01).** The standard adds `tareas/`: one folder per task, each with its `SKILL.md`, in the skills format. Person mode adds `con-quien-trabajo.md`. Two files take more direct names: `casos.md` (formerly `evidencia.md`) and `identidad-visual.md` (formerly `visual.md`); existing folders remain valid with the previous names. Sole's example includes a task.
 - **v1.3 (2026-10-01).** The standard adds "Getting started": the three files a person begins with, how to load them and how they are kept current. The ninth principle describes how the folder is updated through use, and `feedback.md` becomes an optional record of the owner's criteria. `system-prompt.txt`, the `feedback.md` template and Sole's example follow.
 - **v1.2 (2026-08-29).** The standard adds how a folder stays sharp while it is in use. Four practices enter as rules of existing files, none as a new file. In `formas.md`: samples are marked as light rather than mold, and the section of AI language patterns is now named the model's register, born nearly empty and filled through operation. In `mirada.md`: what comes in from outside passes through `formas.md` before it becomes text. In `feedback.md` and the ninth principle: the promotion cycle, from correction to prohibition to runnable case; Sole's example shows it. In `guia.md`: two operating rules, the owner's instructions steer without being recited in the output, and a batch is re-read as a whole before it ships. Why: a folder used every day needs to know how to stay sharp. The detail of each evaluation lives in [decisiones.md](decisiones.md).

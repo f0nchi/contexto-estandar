@@ -5,7 +5,7 @@
 
 ## Por qué se tocan
 
-LifeOS resuelve qué puede hacer un sistema personal con IA: skills, agentes, trabajos programados, memoria. Su capa de identidad (TELOS: misión, creencias, metas, proyectos, estilo de escritura) la llena cada instalador a mano. `.contexto/` resuelve exactamente esa capa: la identidad extraída de casos reales, con verificación corrible. Una carpeta bien construida es el mejor insumo para llenar un TELOS; un LifeOS es uno de los mejores lugares donde una carpeta puede trabajar.
+LifeOS resuelve qué puede hacer un sistema personal con IA: skills, agentes, trabajos programados, memoria. Su capa de contexto (TELOS: misión, creencias, metas, proyectos, estilo de escritura) la llena cada instalador a mano. `.contexto/` aporta una base portable de materiales, capacidades e instrucciones, con comprobaciones corribles. Una carpeta bien construida es un insumo útil para llenar un TELOS; un LifeOS es uno de los lugares donde esa carpeta puede activar trabajo.
 
 ## El mapeo, archivo por archivo
 
@@ -17,7 +17,7 @@ LifeOS resuelve qué puede hacer un sistema personal con IA: skills, agentes, tr
 | `rol.md` y el momento vigente de `identidad.md` | `GOALS` y proyectos | Los frentes abiertos y lo que NO se está priorizando, con su tradeoff. |
 | `audiencias.md` | Contexto de proyectos y relaciones | Perfiles con caso vivido, no categorías. |
 | `mirada.md` | Sin equivalente | LifeOS tiene memoria (Cortex); la atención codificada (universos, lente, señales contra la propia tesis) es aporte de `.contexto/`. |
-| `verificacion.md` | Sin equivalente | La suite corrible de identidad no existe en LifeOS: corré los casos contra tu instalación y comprobá que responde desde tu carpeta. |
+| `verificacion.md` | Sin equivalente | Las comprobaciones de hechos, formatos y condiciones operativas no existen en LifeOS: corré los casos contra tu instalación e inspeccioná el resultado concreto. |
 | `feedback.md` | Pariente de la curación de Cortex | Las correcciones fechadas pueden alimentar las notas que Cortex promueve o vence. |
 
 ## Cómo se usa en la práctica
@@ -25,7 +25,7 @@ LifeOS resuelve qué puede hacer un sistema personal con IA: skills, agentes, tr
 1. Construí o conseguí tu carpeta `.contexto/` (a mano con las [plantillas](../plantillas/), o extraída en una sesión).
 2. Copiala dentro de tu instalación de LifeOS y volcá el mapeo de arriba en tus archivos TELOS, citando la carpeta como fuente.
 3. Conservá la carpeta como fuente única: cuando cambie, regenerá lo mapeado. El estándar trae `SHA256SUMS` para saber si tu copia sigue íntegra.
-4. Corré `verificacion.md` contra tu LifeOS: si responde tus casos desde tu carpeta, la identidad viajó bien.
+4. Corré `verificacion.md` contra tu LifeOS: comprobá hechos, formatos y condiciones operativas en una aplicación concreta.
 
 ## Qué no mapea, a propósito
 

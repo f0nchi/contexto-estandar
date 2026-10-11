@@ -54,7 +54,7 @@ Los formatos no compiten todos entre sí. Responden preguntas distintas y convie
 | **Visual** | `identidad-visual.md`, con la regla de declarar la ausencia si no hay sistema | `visual.md` más extensiones opcionales (`tokens.json`, `tokens.css`, `DESIGN.md`) | Capa **Visual**: logo, core colors, typefaces, imagery, art direction | Archivo de assets |
 | **Límites** | `restricciones.md`, con estados de promesa | `boundaries.md`: hard nos categóricos y soft nos con su condición | `guardrails` dentro de Strategy, con herencia que endurece y nunca debilita | Archivo de gobernanza |
 | **Afirmaciones** | `casos.md`: afirmable, no afirmable, promesas permitidas | `claims.md`: claim, evidence, `proof_status` (approved, requires_caveat, forbidden, expired, aspirational, unknown), `valid_from` y `valid_until` | **Claims** en Governance: solo afirmaciones aprobadas por un humano o con prueba citada | Reglas ancla numeradas |
-| **Cómo te describe un tercero** | `representacion.md` (v1.1): descripciones aprobadas en tres largos, con qué se confunde, qué nunca decir, comparaciones, trampas de encuadre | `representation.md`: descripciones aprobadas por longitud, con qué no confundir la marca, qué nunca decir, contra quién compara de verdad | No cubierto | No cubierto |
+| **Cómo te describe un tercero** | `representacion.md` (v1.1): descripciones en tres largos, categoría y diferencias, precisión factual, comparaciones y encuadres útiles | `representation.md`: descripciones aprobadas por longitud, con qué no confundir la marca, qué nunca decir, contra quién compara de verdad | No cubierto | No cubierto |
 | **Descubrimiento** | Parcial: publica `representacion.md` en una ubicación conocida, enlazado y en datos estructurados, y declara que la ubicación conocida todavía no tiene consumidores. El resto de la carpeta queda privado a propósito | Resuelto: URL bien conocida en el dominio, más registro hosteado que firma los archivos y los sirve por MCP | Herencia por directorios dentro de un proyecto | No verificado en detalle |
 | **Precedencia** | Entre reglas que se contradicen, por contenido y con su condición | Entre archivos, por jerarquía: campaña, producto, audiencia, locale, hija por defecto, raíz | Entre padre e hijo: los guardrails se fusionan, el hijo endurece | Referencias cruzadas entre secciones |
 | **Estado y frescura** | Estados honestos por campo, incluido el vacío declarado, más frontmatter de procedencia y caducidad por archivo (v1.1) | Tres niveles de conformidad, `last_updated` por archivo, fechas de validez en claims | `specVersion` como puerta de validación, `version` entero incremental | Versionado tipo software |
@@ -68,7 +68,7 @@ En el borde de esta familia hay tres formatos más que resuelven la capa visual 
 
 De los doce formatos revisados para esta edición, ninguno codifica hacia dónde mira el sujeto.
 
-Todos resuelven la expresión: cómo suena, cómo se ve, qué puede afirmar, qué límites tiene, cómo debe describirlo un tercero. Ninguno resuelve la atención: qué universos observa, por dónde le entra el mundo, con qué lente lee un hecho nuevo y qué hace con lo que ve.
+Todos reúnen material para la expresión: cómo suena, cómo se ve, qué hechos tiene disponibles, qué condiciones operativas aplican y cómo puede describirlo un tercero. Ninguno resuelve la atención: qué universos observa, por dónde le entra el mundo, con qué lente lee un hecho nuevo y qué hace con lo que ve.
 
 La consecuencia es estructural y se puede enunciar con precisión: cuando todos los archivos de una carpeta describen al sujeto, la única materia disponible para producir es el sujeto mismo. Una identidad codificada sin atención puede sostener el tono indefinidamente y solo puede hablar de sí.
 
@@ -76,9 +76,9 @@ La implementación de referencia de `.contexto/` corre `mirada.md` desde el 2026
 
 ## 5. Dos distinciones que parecen la misma cosa
 
-**Validar formato y verificar comportamiento.** El Brand Context Protocol declara conformidad cuando el archivo está en la URI correcta, el markdown y el YAML son válidos y las hijas son alcanzables. `verificacion.md` de `.contexto/` corre situaciones y compara la respuesta contra la esperada, con la regla que la justifica. La primera comprueba que el envase esté bien armado; la segunda, que la identidad esté siendo operada. Un archivo puede ser perfectamente conforme y producir salidas que traicionan al sujeto.
+**Validar formato y verificar una aplicación.** El Brand Context Protocol declara conformidad cuando el archivo está en la URI correcta, el markdown y el YAML son válidos y las hijas son alcanzables. `verificacion.md` de `.contexto/` corre situaciones y compara hechos, formatos y condiciones operativas contra lo esperado. La primera comprueba que el envase esté bien armado; la segunda ayuda a mejorar una aplicación concreta y deja material para la próxima.
 
-Con la misma honestidad: la suite de `.contexto/` verifica fidelidad a lo declarado, con casos escritos en la propia carpeta. Verificar juicio, con casos retenidos fuera de la carpeta y comparación a ciegas, es una segunda forma que ningún formato de la categoría implementa todavía, este incluido.
+Con la misma honestidad: la suite de `.contexto/` usa casos escritos en la propia carpeta para comprobar elementos observables. No certifica el juicio, la sensibilidad ni la representación total de una persona o una marca.
 
 **Precedencia entre archivos y precedencia entre reglas.** BCP resuelve qué archivo gana cuando dos aplican: una hija de campaña pisa a una de producto, que pisa a la raíz. `.contexto/` resuelve qué regla gana cuando dos principios del sujeto no pueden ir juntos, con su condición explícita, y admite registrar una tensión sin resolver cuando el dueño sostiene las dos posiciones. Son problemas distintos: uno es de resolución de alcance, el otro es de conflicto de valores.
 
@@ -86,7 +86,7 @@ Con la misma honestidad: la suite de `.contexto/` verifica fidelidad a lo declar
 
 ### `.contexto/`
 
-Tiene: nueve principios explícitos y auditables, con un prompt de auditoría corrible. Jurisprudencia con caso, fecha y regla derivada, la dimensión más fuerte de toda la categoría. Precedencia entre reglas en conflicto, incluida la posibilidad de sostener una tensión sin promediarla. La regla de estados honestos, donde el vacío declarado es contenido legítimo. La regla de omisión declarada, que el ejemplo de Sole demuestra omitiendo tres archivos. Una suite de verificación de comportamiento. Un archivo que crece con las correcciones del dueño. Y es el único nativo en español de los doce, y el único que usa la misma estructura para una persona y para una marca.
+Tiene: diez principios explícitos y auditables, con un prompt de auditoría corrible. Potencial operativo como punto de partida, capacidades ampliables, jurisprudencia con caso y fecha, y precedencia entre instrucciones en conflicto. Suma estados honestos, omisión declarada, comprobaciones corribles de hechos, formatos y condiciones operativas, y un registro opcional que crece con el uso. Es el único nativo en español de los doce y usa la misma estructura para una persona y para una marca.
 
 **Resuelto en v1.1 (2026-08-14):** `mirada.md` para la atención, `rol.md` con la categoría "qué NO estoy priorizando" y sus tradeoffs, `representacion.md` para la tercera persona, y frontmatter de procedencia y frescura por archivo, compatible con el Open Knowledge Format, para que un derivado declare de dónde sale y cuándo caduca.
 

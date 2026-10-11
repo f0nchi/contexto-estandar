@@ -1,25 +1,25 @@
 ---
 name: nombre-de-la-tarea
-description: "Usala cuando el dueño te pida [la tarea, con sus palabras]."
+description: "Usala cuando el dueño quiera [crear, resolver o explorar esta posibilidad, con sus palabras]."
 ---
 
-# [Nombre de la tarea]
+# [Nombre de la capacidad]
 
-> Parte de la carpeta .contexto/ · estándar v1.4 · una carpeta por tarea, cada una con su SKILL.md.
+> Parte de la carpeta .contexto/ · estándar v1.5 · una carpeta por capacidad, cada una con su SKILL.md. La ruta `tareas/` se conserva por compatibilidad.
 > El encabezado de arriba es el del formato de skills: `name` es el nombre de la carpeta y `description` dice cuándo usarla.
 
 ## Para quién es
 
 > Guía: la persona o el tipo de persona que la recibe, con un caso real.
 
-## Qué tiene que lograr
+## Qué puede producir o mover
 
-> Guía: qué tiene que pasar después de que la otra persona la lea: que conteste, que pague, que apruebe, que entienda.
+> Guía: qué aplicación se quiere crear y qué podría pasar después: una respuesta, una decisión, una conversación, una compra, una explicación o una exploración nueva.
 
-## Qué tiene que tener sí o sí
+## Materiales e instrucciones disponibles
 
-> Guía: los datos y las formas sin los cuales el dueño la rehace: el precio, la fecha, el largo, cómo abre.
+> Guía: datos, textos, casos, recursos visuales, formatos y condiciones que dan una buena base. Los ejemplos orientan; no fijan un techo.
 
-## Un ejemplo que le salió bien
+## Primera aplicación
 
-> Guía: el texto real, completo y tal cual lo mandó. Si todavía tiene que salir, se anota así y se completa con la primera que funcione.
+> Guía: una aplicación concreta producida desde la carpeta. Sirve como punto de partida para usar, ampliar o probar otra cosa.

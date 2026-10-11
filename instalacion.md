@@ -1,6 +1,6 @@
 # Instalación por plataforma
 
-> Parte del estándar .contexto/ · v1.1
+> Parte del estándar .contexto/ · v1.5
 > Cómo cargar tu carpeta para que una IA la opere. En todas las plataformas el principio es el mismo: los archivos como conocimiento, y una instrucción que ordene leer `guia.md` primero (el bloque listo está en `system-prompt.txt`).
 
 ## ChatGPT
@@ -21,11 +21,11 @@ Poné la carpeta `.contexto/` en la raíz del proyecto y agregá una línea en e
 
 ## Si la plataforma acepta pocos archivos
 
-Uní el contenido en un solo documento respetando el orden de lectura de `guia.md` (la guía primero, después restricciones y lógica, después el resto). El estándar no cambia: cambia el empaque.
+Uní el contenido en un solo documento respetando el orden de lectura de `guia.md` (la guía primero y después los materiales de la capacidad que vas a usar). El estándar no cambia: cambia el empaque.
 
-## Cómo saber si quedó bien
+## Empezar a usarla
 
-Pedile a la IA que te presente en un párrafo. Si suena a cualquiera de tu rubro, el problema no es la instalación: es que a la carpeta le faltan casos. Y para una prueba completa, corré `verificacion.md` o la auditoría de `auditoria.md`.
+Pedile una aplicación concreta: un texto, una presentación o una propuesta visual con los materiales de tu carpeta. Comprobá que puede leer los archivos y seguir las instrucciones del formato. A partir de esa primera aplicación podés desarrollar la pieza, sumar referencias o abrir otra capacidad. `verificacion.md` ayuda a revisar datos y condiciones operativas; `auditoria.md` propone cómo ampliar la base.
 
 ## Comprobar que la carpeta no fue alterada
 

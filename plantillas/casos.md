@@ -12,21 +12,21 @@ stale_after: [AAAA-MM-DD]
 
 # Casos
 
-> Parte de la carpeta .contexto/ · estándar v1.4 · [fecha]
-> Lo que esta identidad puede contar con respaldo: sus casos, con los datos que salen de cada uno.
+> Parte de la carpeta .contexto/ · estándar v1.5 · [fecha]
+> Casos, hechos y datos disponibles como material verificable para crear.
 
 ## Casos
 
 > Guía: el mejor caso comprobable: qué recibió, qué hizo, qué cambió, con los números o hechos que sostendría delante del cliente (o en una entrevista, para personas).
 
-## Afirmable
+## Material factual disponible
 
-> Guía: la lista de lo que es verificable si alguien pregunta. La IA solo afirma lo que está acá.
+> Guía: hechos, citas, números y resultados que una IA puede usar con su fuente y contexto.
 
-## No afirmable
+## Preguntas abiertas
 
-> Guía: lo que suena bien pero no tiene respaldo todavía, y lo que le gustaría poder decir en un año con su condición de desbloqueo. La IA lo presenta como construcción u horizonte, nunca como vigente. Una identidad joven sin casos también cierra honesta: "sin casos públicos; la IA afirma método, no resultados".
+> Guía: datos que todavía habría que conseguir o verificar para convertirlos en material. No funcionan como prohibición creativa: se los nombra como hipótesis, horizonte o pregunta, nunca como hecho vigente.
 
-## Claims de oferta
+## Estados de la oferta
 
-> Guía: qué promete siempre y qué todavía no, aunque el cliente lo pida o quede bien. Cada promesa permitida con su respaldo. Para personas: qué no querés que una IA exagere de vos (un skill inflado, un seniority que no tenés).
+> Guía: qué está vigente, qué está en prueba, qué es horizonte y qué es historia, siempre con respaldo. Las propuestas nuevas pueden explorar más; al comunicarlas se rotula su estado y no se presentan hipótesis como hechos.
