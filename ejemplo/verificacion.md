@@ -9,7 +9,7 @@ stale_after: 2026-11-14
 
 # Verificación
 
-> Parte de la carpeta .contexto/ de Sole (ejemplo) · estándar v1.5 · revisión operativa 2026-10-11; situaciones del ejemplo de agosto
+> Parte de la carpeta .contexto/ de Sole (ejemplo) · estándar v1.6 · revisión operativa 2026-10-11; situaciones del ejemplo de agosto
 
 Cómo correr esta suite: pedile a una IA que ya leyó la carpeta que responda cada situación, y comparen contra la respuesta esperada.
 

@@ -12,7 +12,7 @@ stale_after: [AAAA-MM-DD]
 
 # Identidad
 
-> Parte de la carpeta .contexto/ · estándar v1.5 · [fecha]
+> Parte de la carpeta .contexto/ · estándar v1.6 · [fecha]
 > Una base concreta: qué hace hoy, para quién, con qué materiales y qué posibilidades quiere abrir.
 
 ## Qué hace hoy

@@ -12,7 +12,7 @@ stale_after: [AAAA-MM-DD]
 
 # Identidad visual
 
-> Parte de la carpeta .contexto/ · estándar v1.5 · [fecha]
+> Parte de la carpeta .contexto/ · estándar v1.6 · [fecha]
 > El sistema y los recursos visuales disponibles para crear piezas.
 
 ## Sistema visual

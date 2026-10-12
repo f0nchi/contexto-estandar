@@ -12,7 +12,7 @@ stale_after: [AAAA-MM-DD]
 
 # Representación
 
-> Parte de la carpeta .contexto/ · estándar v1.5 · [fecha]
+> Parte de la carpeta .contexto/ · estándar v1.6 · [fecha]
 > Qué puede decir de este sujeto una IA que no trabaja para él.
 
 > Guía: el resto de la carpeta aporta materiales para piezas en primera persona. Este archivo sirve para la tercera: el asistente de un cliente que resume tu propuesta, el agente que te compara con otro, el buscador conversacional que responde quién sos. Esas respuestas ya se están dando, con o sin este archivo. Escribirlo les da una fuente factual publicada por el dueño.

@@ -99,6 +99,12 @@ De esas cuatro vías, la única con consumidores reales hoy son los datos estruc
 
 Lo que sigue abierto: publicar la carpeta completa, que este estándar no recomienda. `logica.md` y `restricciones.md` gobiernan decisiones y no son material de terceros.
 
+## Resueltos el 2026-10-12
+
+### Los resguardos salen del núcleo
+
+Qué se evaluó: si `restricciones.md`, `verificacion.md` y `logica.md` siguen siendo archivos núcleo o pasan a resguardos opcionales. Qué se decidió: pasan a resguardos opcionales, cortos y al final. Por qué: el producto que entrega carpetas (Trama) lo hace con nueve archivos de material y las capacidades, y en las tres carpetas de referencia los resguardos pesaban tanto como el material; la carpeta rinde más cuando lo primero que una IA encuentra es con qué crear. Los tres archivos siguen definidos y con plantilla, para quien los necesite.
+
 ## Abierto
 
 - **Herencia entre marca madre, producto y submarca.** `brand.md` lo resuelve con fusión de guardrails, donde un hijo endurece y nunca debilita. Falta decidir la forma acá: carpetas anidadas que heredan, o un campo de alcance dentro de cada archivo.

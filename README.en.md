@@ -1,6 +1,6 @@
 # The .contexto/ standard
 
-**Version 1.5 · October 11, 2026 · Maintained by [Ideas Aumentadas](https://www.ideasaumentadas.com.ar) · CC BY 4.0**
+**Version 1.6 · October 12, 2026 · Maintained by [Ideas Aumentadas](https://www.ideasaumentadas.com.ar) · CC BY 4.0**
 
 An open convention for organizing the context, materials, and capabilities of a person or brand in plain text files that any AI can read, use, and expand.
 
@@ -18,31 +18,48 @@ Three files are enough for an AI to start creating with you: `guia.md`, `identid
 
 ## The folder
 
-A `.contexto/` folder has thirteen core files, two specific to encoding a person, the tasks folder, and one optional file.
+A `.contexto/` folder has nine material files, the capabilities folder, one file so another AI can describe the owner, two files for the person mode, and four optional safeguards.
 
-| File | What it encodes |
+**Material to create with**
+
+| File | What it brings |
 |---|---|
-| `guia.md` | Guide. Entry point: what the folder is, reading order, operating rules, state of this version. |
-| `identidad.md` | Identity. What it does today, for whom, with which materials, and which possibilities it wants to open. For people: the current moment as well. |
-| `mirada.md` | Gaze. Where the subject looks: fields of attention, the lens it reads a new fact through, what feeds it, and what evidence would count against its own thesis. |
-| `formas.md` | Forms. Resources for writing and speaking: real samples, rhythm, structures, words, and possibilities to explore. |
-| `territorio.md` | Territory. Topics, scenes, and questions it can explore; routes into new conversations. |
+| `guia.md` | Guide. Entry point: what is in the folder, reading order, how it is used, and the state of this version. |
+| `identidad.md` | Identity. What it does today, for whom, with which materials, and what it wants to be able to do. For people: the current moment as well. |
+| `formas.md` | Forms. How it writes and speaks: complete real samples, rhythm, structures, and its own words. |
+| `casos.md` | Cases. Cases, data, and facts available as material to create with. |
+| `identidad-visual.md` | Visual identity. Colors, typography, composition, alignment, logo use, assets, and references for visual pieces. |
+| `mirada.md` | References. What it follows, where it learns about it, and which sources and examples help its work. |
 | `audiencias.md` | Audiences. Real people and situations: what it can say, show, or offer them. |
-| `arquitectura.md` | Architecture. Creation routes that can become content, campaigns, presentations, or other pieces. |
-| `restricciones.md` | Constraints. Operating conditions, privacy, applicable rules, and factual safeguards. These do not define the folder's potential. |
-| `logica.md` | Logic. Case law: real cases with date and rationale, rules, and what wins when two rules collide. |
-| `casos.md` | Cases. Cases, data, and facts available as verifiable source material. |
-| `identidad-visual.md` | Visual identity. Colors, typography, composition, alignment, logo use, assets, and references for visual creation. |
-| `representacion.md` | Material another AI can use to describe the subject: ready-to-use descriptions, category and differences, factual precision, comparisons, and useful frames. |
-| `verificacion.md` | Verification. Runnable checks for facts, formats, and operating conditions. |
-| `rol.md` | Role. People only: what the weeks actually look like, with whom, what they decide, what they delegate, and what they are NOT prioritizing, with the tradeoff. |
-| `con-quien-trabajo.md` | Who I work with. People only: the real people they work with and how they talk to each one. |
-| `tareas/` | Capabilities. One folder per capability, each with its `SKILL.md`: what it enables, who it is for, which materials it uses, and a first application. The folder name stays stable for compatibility. |
-| `feedback.md` | Feedback. Optional: a record of the criteria the owner wants to keep while using the folder, with date and case. |
+| `territorio.md` | Territory. Topics, scenes, and questions it can work on. |
+| `arquitectura.md` | Architecture. Creation routes: structures and pillars that can become content, campaigns, presentations, or other pieces. |
+| `tareas/` | Capabilities. One folder per capability, each with its `SKILL.md`: what it produces, who it is for, which materials and instructions it uses, and a first application when there is one. Standard skills format. |
+
+**So another AI can describe the owner**
+
+| File | What it brings |
+|---|---|
+| `representacion.md` | Approved descriptions, category and differences, dated facts, and useful frames to present the owner from the outside. |
+
+**Person mode**
+
+| File | What it brings |
+|---|---|
+| `rol.md` | Role. What the weeks actually look like, with whom, what they decide, what they delegate, and what they leave out, with its cost. |
+| `con-quien-trabajo.md` | Who I work with. The real people they work with and how they talk to each one. |
+
+**Safeguards, optional**
+
+| File | What it brings |
+|---|---|
+| `restricciones.md` | Operating conditions: data, privacy, third parties, states of what is promised, applicable rules. One line per condition, with what to do. |
+| `verificacion.md` | Checks on facts, formats, and conditions: prices, names, figures, dates, and delivery formats, with the place where each one is verified. |
+| `logica.md` | Dated decisions: what happened, what stayed, when; and which instruction goes first when two collide. |
+| `feedback.md` | A record of the criteria the owner keeps while using the folder, with date and case. |
 
 ### Where to start
 
-The folder starts with a usable base: `guia.md`, `identidad.md`, `formas.md`, and at least one capability in `tareas/`. The capability can be written while producing the first real application. Then add `mirada.md`, `territorio.md`, `audiencias.md`, `arquitectura.md`, `casos.md`, `identidad-visual.md`, `logica.md`, `restricciones.md`, `verificacion.md`, `representacion.md`, and, for people, `rol.md` and `con-quien-trabajo.md`. Each file expands what the AI can do and adds material for new applications.
+The folder starts usable with `guia.md`, `identidad.md`, `formas.md`, and one capability in `tareas/`; the capability can be written while making the first piece. Then come `casos.md`, `identidad-visual.md`, `mirada.md`, `audiencias.md`, `territorio.md`, and `arquitectura.md`, as a task asks for them. `representacion.md` comes in when another AI has to describe the owner. The safeguards come in when a piece touches prices, data, third parties, or rules, and they stay short. In person mode, `rol.md` and `con-quien-trabajo.md` come in when the work needs them. Each file adds material for new pieces.
 
 The base can grow in stages. `guia.md` names the materials available now and what can be added later; a first application lets you start working with what you already have.
 
@@ -62,11 +79,11 @@ What makes a folder a `.contexto/` folder are these ten principles, ahead of the
 
 **3. Honest states.** Every field declares its state: closed, partially extracted, low definition, or declared empty. On a field that is not closed the AI does not invent facts: it asks, proposes a labelled hypothesis, or flags the gap.
 
-**4. Case law with dates.** Decisions are recorded as cases: what happened, what rule it left, when. A rule without its originating case is worth less: the case is what lets an AI reason through situations nobody anticipated.
+**4. The owner's decisions keep their date.** When the owner corrects a piece or sets a criterion, the folder keeps it as a case: what happened, what stayed, when. The next piece starts knowing that.
 
-**5. Runnable verification.** The folder carries cases that can verify facts, formats, and operating conditions. Each review leaves a clearer application and useful material for the next one.
+**5. Facts are checked before going out.** Prices, names, figures, dates, and delivery formats have a place where they are verified, and the folder says which one for each.
 
-**6. Explicit precedence.** When two instructions collide, the folder says which one wins and under what condition.
+**6. When two instructions collide, the folder says which one goes first.** A newer criterion from the owner replaces the earlier one; a condition about data or third parties comes before a style preference.
 
 **7. The folder is the base, not the script.** The AI creates from these documents without reciting them or treating them as a ceiling. A first application puts the folder to work and opens what comes next.
 
@@ -108,6 +125,7 @@ The category has several living formats. [interoperabilidad.en.md](interoperabil
 
 Changes to the standard are recorded in this file, with their date.
 
+- **v1.6 (2026-10-12).** The folder is ordered by what an AI uses to create: nine material files and the capabilities folder, in the order a task asks for them. `restricciones.md`, `verificacion.md`, and `logica.md` accompany as optional safeguards, short and at the end, and principles 4, 5, and 6 are written from their use: dated decisions, facts that get checked, and which instruction goes first when two collide. This is the shape Trama has delivered since October 11 and the one the Ideas Aumentadas, Fonchi, and Orkos folders have. Why: a folder an AI creates with works best when the first thing it finds is the material and what it can do with it; the safeguards keep caring for facts and data, in their place.
 - **v1.5 (2026-10-11).** The folder is organized around operational potential: context and materials open capabilities to do, say, use, and show things with AI. `tareas/` keeps its name and schema for compatibility, while each entry becomes an expandable capability. The first application proves the base can be used; it is no longer a final fidelity verdict. Visual identity now explicitly covers composition, alignment, typography, logo use, resources, and references. Factual safeguards, privacy, and applicable rules remain intact without defining the product's center of gravity.
 - **v1.4 (2026-10-01).** The standard adds `tareas/`: one folder per task, each with its `SKILL.md`, in the skills format. Person mode adds `con-quien-trabajo.md`. Two files take more direct names: `casos.md` (formerly `evidencia.md`) and `identidad-visual.md` (formerly `visual.md`); existing folders remain valid with the previous names. Sole's example includes a task.
 - **v1.3 (2026-10-01).** The standard adds "Getting started": the three files a person begins with, how to load them and how they are kept current. The ninth principle describes how the folder is updated through use, and `feedback.md` becomes an optional record of the owner's criteria. `system-prompt.txt`, the `feedback.md` template and Sole's example follow.

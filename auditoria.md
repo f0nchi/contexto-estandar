@@ -1,6 +1,6 @@
 # Revisión para ampliar la carpeta
 
-> Parte del estándar .contexto/ · v1.5
+> Parte del estándar .contexto/ · v1.6
 > El estándar se define por diez principios, y una carpeta puede revisarse contra ellos. Cualquier IA que haya leído tu carpeta puede correr esta revisión y proponer la próxima capacidad útil.
 
 Pegale esto a una IA que ya tenga tu carpeta cargada:

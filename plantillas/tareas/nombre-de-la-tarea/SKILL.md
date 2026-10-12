@@ -5,7 +5,7 @@ description: "Usala cuando el dueño quiera [crear, resolver o explorar esta pos
 
 # [Nombre de la capacidad]
 
-> Parte de la carpeta .contexto/ · estándar v1.5 · una carpeta por capacidad, cada una con su SKILL.md. La ruta `tareas/` se conserva por compatibilidad.
+> Parte de la carpeta .contexto/ · estándar v1.6 · una carpeta por capacidad, cada una con su SKILL.md. La ruta `tareas/` se conserva por compatibilidad.
 > El encabezado de arriba es el del formato de skills: `name` es el nombre de la carpeta y `description` dice cuándo usarla.
 
 ## Para quién es

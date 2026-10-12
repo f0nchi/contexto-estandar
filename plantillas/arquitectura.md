@@ -12,7 +12,7 @@ stale_after: [AAAA-MM-DD]
 
 # Arquitectura
 
-> Parte de la carpeta .contexto/ · estándar v1.5 · [fecha]
+> Parte de la carpeta .contexto/ · estándar v1.6 · [fecha]
 > Los pilares que sostienen el contenido y las estructuras que ya funcionaron.
 
 ## Pilares

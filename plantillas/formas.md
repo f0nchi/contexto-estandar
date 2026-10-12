@@ -12,7 +12,7 @@ stale_after: [AAAA-MM-DD]
 
 # Formas
 
-> Parte de la carpeta .contexto/ · estándar v1.5 · [fecha]
+> Parte de la carpeta .contexto/ · estándar v1.6 · [fecha]
 > Materiales y recursos para escribir, hablar y explorar formas nuevas.
 
 ## Síntesis

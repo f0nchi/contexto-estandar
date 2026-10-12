@@ -6,6 +6,8 @@ El mapa cubre la categoría entera: qué resuelve cada formato, dónde `.context
 
 Las ausencias de cada formato se nombran en dos categorías distintas, porque son cosas distintas: **pendiente**, cuando el formato reconoce el hueco y está en camino de cubrirlo, y **excluido por diseño**, cuando la ausencia es una decisión de tesis con su razón declarada. Esta distinción aplica el principio de estados honestos de `.contexto/` al estándar mismo.
 
+> Desde la v1.6 (12-oct-2026), `restricciones.md`, `verificacion.md` y `logica.md` son resguardos opcionales de la carpeta; las comparaciones de abajo describen lo que cada archivo aporta cuando está.
+
 ## Qué cambió desde la primera edición
 
 En tres semanas el terreno pasó de una familia a tres.

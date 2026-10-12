@@ -6,6 +6,8 @@ The map covers the whole category: what each format solves, where `.contexto/` i
 
 Each format's absences are named in two distinct categories, because they are distinct things: **pending**, when the format acknowledges the gap and is on its way to covering it, and **excluded by design**, when the absence is a thesis decision with its reason stated. This distinction applies `.contexto/`'s honest-states principle to the standard itself.
 
+> Since v1.6 (October 12, 2026), `restricciones.md`, `verificacion.md`, and `logica.md` are optional safeguards of the folder; the comparisons below describe what each file brings when it is present.
+
 ## What changed since the first edition
 
 In three weeks the terrain went from one family to three.

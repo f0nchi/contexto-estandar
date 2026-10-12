@@ -12,7 +12,7 @@ stale_after: [AAAA-MM-DD]
 
 # Audiencias
 
-> Parte de la carpeta .contexto/ · estándar v1.5 · [fecha]
+> Parte de la carpeta .contexto/ · estándar v1.6 · [fecha]
 > Personas y situaciones con las que la marca o la persona puede crear, conversar y hacer cosas.
 
 ## Personas y situaciones

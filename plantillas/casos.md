@@ -12,7 +12,7 @@ stale_after: [AAAA-MM-DD]
 
 # Casos
 
-> Parte de la carpeta .contexto/ · estándar v1.5 · [fecha]
+> Parte de la carpeta .contexto/ · estándar v1.6 · [fecha]
 > Casos, hechos y datos disponibles como material verificable para crear.
 
 ## Casos

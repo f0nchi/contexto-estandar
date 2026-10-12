@@ -9,7 +9,7 @@ stale_after: 2026-11-14
 
 # Guía de operación
 
-> Parte de la carpeta .contexto/ de Sole (ejemplo) · estándar v1.5 · guía actualizada el 2026-10-11; materiales del ejemplo de agosto y octubre
+> Parte de la carpeta .contexto/ de Sole (ejemplo) · estándar v1.6 · guía actualizada el 2026-10-11; materiales del ejemplo de agosto y octubre
 > Punto de entrada para cualquier IA que opere esta identidad.
 
 ## Qué es esta carpeta

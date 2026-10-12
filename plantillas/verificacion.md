@@ -12,7 +12,8 @@ stale_after: [AAAA-MM-DD]
 
 # Verificación
 
-> Parte de la carpeta .contexto/ · estándar v1.5 · [fecha]
+> Parte de la carpeta .contexto/ · estándar v1.6 · [fecha]
+> Resguardo opcional. Cinco a siete comprobaciones de hechos, formatos y condiciones, cada una con dónde se verifica.
 > Comprobaciones de hechos, formatos y condiciones operativas que cualquier IA puede correr.
 
 Cómo correr esta suite: pedile a una IA que ya leyó la carpeta que responda cada situación y compare el resultado con las condiciones esperadas. Sirve para corregir una aplicación concreta; no decide si una pieza representa una identidad ni fija el techo de lo que se puede crear.

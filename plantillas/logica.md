@@ -13,6 +13,7 @@ stale_after: [AAAA-MM-DD]
 # Lógica
 
 > Parte de la carpeta .contexto/ · estándar v1.1 · [fecha]
+> Resguardo opcional. Decisiones con fecha, cada una en tres o cuatro líneas, y qué instrucción sigue cuando dos chocan.
 > La forma de decidir: las decisiones reales, las reglas que dejaron y qué regla gana cuando dos se contradicen. Es el archivo que le muestra a una IA cómo se decidió antes y por qué.
 
 ## Decisiones reales

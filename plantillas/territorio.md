@@ -12,7 +12,7 @@ stale_after: [AAAA-MM-DD]
 
 # Territorio
 
-> Parte de la carpeta .contexto/ · estándar v1.5 · [fecha]
+> Parte de la carpeta .contexto/ · estándar v1.6 · [fecha]
 > Temas, escenas y preguntas que puede explorar; rutas para abrir conversaciones nuevas.
 
 ## Territorios disponibles
