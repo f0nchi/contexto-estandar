@@ -1,7 +1,9 @@
 # Revisión para ampliar la carpeta
 
-> Parte del estándar .contexto/ · v1.6
+> Parte del estándar .contexto/ · v2.0
 > El estándar se define por diez principios, y una carpeta puede revisarse contra ellos. Cualquier IA que haya leído tu carpeta puede correr esta revisión y proponer la próxima capacidad útil.
+
+Esta revisión mira la carpeta contra los principios. En una carpeta de trabajo, la revisión de todos los meses es la de `carpeta/auditoria.md`, que se pide con «revisemos» y ordena lo que se fue juntando con el uso.
 
 Pegale esto a una IA que ya tenga tu carpeta cargada:
 

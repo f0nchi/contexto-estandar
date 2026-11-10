@@ -12,7 +12,7 @@ stale_after: [AAAA-MM-DD]
 
 # Guía de operación
 
-> Parte de la carpeta .contexto/ · estándar v1.6 · [fecha]
+> Parte de la carpeta .contexto/ · estándar v2.0 · [fecha]
 > Punto de entrada para cualquier IA que opere esta identidad.
 
 > Guía: este archivo se escribe al final, cuando el resto ya existe. Las líneas que empiezan con "Guía:" se borran al completar.

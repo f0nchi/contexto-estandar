@@ -1,6 +1,6 @@
 # El estándar .contexto/
 
-**Versión 1.6 · 12 de octubre de 2026 · Mantenido por [Ideas Aumentadas](https://www.ideasaumentadas.com.ar) · Licencia CC BY 4.0**
+**Versión 2.0 · 10 de noviembre de 2026 · Mantenido por [Ideas Aumentadas](https://www.ideasaumentadas.com.ar) · Licencia CC BY 4.0**
 
 Una convención abierta, en español, para organizar el contexto, los materiales y las capacidades de una persona o una marca en archivos de texto plano que cualquier IA puede leer, usar y ampliar.
 
@@ -14,7 +14,9 @@ Este estándar define cómo organizarla para que una IA no solo la lea: la opere
 
 ## Para empezar
 
-Con tres archivos una IA ya puede empezar a crear con vos: `guia.md`, `identidad.md` y `formas.md`. Copiá sus plantillas de `plantillas/`, completalas con materiales reales y tus propias palabras, cargá la carpeta en tu IA con `system-prompt.txt` y pedile una primera aplicación concreta. Después podés usarla, ampliar una capacidad o probar otra cosa. El resto de la carpeta se suma con el uso.
+La manera más corta: bajá la carpeta de trabajo (`carpeta/` en este repositorio, o desde [ideasaumentadas.com.ar/trama](https://www.ideasaumentadas.com.ar/trama)), abrila con una app de IA que trabaje sobre las carpetas de tu computadora y escribí «empecemos». La IA pregunta y va escribiendo los documentos.
+
+A mano: con tres archivos una IA ya puede empezar a crear con vos: `guia.md`, `identidad.md` y `formas.md`. Copiá sus plantillas de `plantillas/`, completalas con materiales reales y tus propias palabras, cargá la carpeta en tu IA con `system-prompt.txt` y pedile una primera aplicación concreta. Después podés usarla, ampliar una capacidad o probar otra cosa. El resto de la carpeta se suma con el uso.
 
 ## La carpeta
 
@@ -69,6 +71,52 @@ Un archivo nuevo tiene sentido cuando abre una capacidad, organiza materiales qu
 
 No todos los archivos aplican a todos los casos. Un perfil profesional puede omitir territorio, arquitectura e identidad visual; una marca omite `rol.md`. La omisión se declara en `guia.md`, nunca se disimula.
 
+## La carpeta de trabajo
+
+Desde la v2.0 el estándar describe también la carpeta en la que la IA trabaja todos los días. La carpeta de contexto queda adentro, visible, con el nombre `contexto/`, para que la persona la encuentre en su explorador de archivos. En un repositorio de código puede seguir oculta como `.contexto/`.
+
+```
+mi-carpeta/
+├── AGENTS.md        cómo trabaja la IA en esta carpeta
+├── CLAUDE.md        trae AGENTS.md y contexto/guia.md en las apps de Claude
+├── LEEME.md         la explicación para la persona
+├── sesion.md        la conversación que arma el contexto
+├── auditoria.md     la revisión periódica
+├── pasos.md         los pasos para darle más trabajo a la IA
+├── contexto/        la carpeta de contexto: documentos y tareas/
+└── trabajo/         lo que la IA produce
+    ├── registro.md  lo hecho y lo pendiente
+    └── <asunto>/    una carpeta por cliente o proyecto, con su estado.md
+```
+
+| Archivo | Qué trae |
+|---|---|
+| `AGENTS.md` | El método: qué lee la IA antes de trabajar, cómo trabaja, qué aprueba la persona y cómo se cierra cada trabajo. Es el archivo que leen los agentes por convención. |
+| `CLAUDE.md` | Dos líneas que traen `AGENTS.md` y `contexto/guia.md` en las apps de Claude. |
+| `LEEME.md` | La explicación para la persona: cómo se empieza y qué hay en la carpeta. |
+| `sesion.md` | La conversación con la que la IA arma el contexto: pregunta, la persona cuenta y la IA escribe los documentos. |
+| `auditoria.md` | La revisión periódica: ordena la carpeta, saca lo que quedó viejo y propone qué sumar. |
+| `pasos.md` | Los pasos por los que una persona le va pasando más trabajo a su IA, con la señal que indica cuándo proponer cada uno. |
+| `contexto/` | La carpeta de contexto que define este estándar. |
+| `trabajo/` | Lo que la IA produce. `registro.md` lleva lo hecho y lo pendiente. Cada cliente o proyecto tiene su carpeta con un `estado.md`: quiénes participan, qué se acordó, qué está hecho y qué falta. |
+
+### Cómo se trabaja en ella
+
+Son seis reglas. El texto completo está en `AGENTS.md`.
+
+1. **Primero se lee.** Antes de responder, la IA lee `contexto/guia.md`. Si el pedido corresponde a una capacidad, lee su `SKILL.md`. Si es de un cliente o proyecto con carpeta propia, lee su `estado.md`.
+2. **El trabajo queda guardado.** Lo que la persona va a retomar o reutilizar queda en un archivo dentro de `trabajo/`.
+3. **Cada corrección se escribe una sola vez, en su lugar.** Cómo se hace una tarea, en su skill. Cómo escribe la persona, en `formas.md`. Cómo quiere que la ayuden y qué permisos dio, en `guia.md`. Un dato nuevo, en el documento que corresponda. Una decisión que rige de ahí en adelante, en `logica.md`, con fecha.
+4. **Lo que sale de la carpeta se aprueba.** Antes de mandar, publicar, pagar, borrar o cambiar algo fuera de la carpeta, la IA muestra qué va a hacer y espera el sí. Un permiso permanente se anota en `guia.md` con la fecha y las palabras de la persona.
+5. **Cada trabajo se cierra.** La IA actualiza el estado del cliente o proyecto y el registro, y le cuenta a la persona qué dejó escrito.
+6. **Tres palabras.** «empecemos» arma el contexto con `sesion.md`. «sumemos» agrega una capacidad o un documento. «revisemos» ordena la carpeta con `auditoria.md`.
+
+`guia.md` declara el estado de la carpeta: «sin empezar», «sesión a medio hacer» con la lista de lo que quedó sin contar, o completa, con el paso de `pasos.md` en el que está la persona.
+
+La carpeta lista para usar está en [`carpeta/`](carpeta/) de este repositorio. Es la misma que entrega [Trama](https://www.ideasaumentadas.com.ar/trama). Trae once skills de base en `contexto/tareas/`, para las tareas más comunes: sirven desde el primer día y se ajustan a la persona con el uso.
+
+Una carpeta `.contexto/` sola, cargada en un proyecto de chat o en un repositorio, sigue siendo válida. La carpeta de trabajo es la forma completa, para quien usa una app que lee y escribe archivos en su computadora.
+
 ## Los principios
 
 Lo que hace que una carpeta sea `.contexto/` son estos diez principios, antes que los nombres de archivo.
@@ -95,6 +143,8 @@ Lo que hace que una carpeta sea `.contexto/` son estos diez principios, antes qu
 
 ## Cómo se instala
 
+Con una app que trabaja sobre las carpetas de la computadora (la app de escritorio de Claude en su pestaña Code, Codex y los agentes que leen `AGENTS.md`): se abre la app en la carpeta de trabajo. `AGENTS.md` y `CLAUDE.md` ya ordenan leer `contexto/guia.md` primero. Donde la app no cargue esos archivos por su cuenta, la primera línea de la conversación es «leé AGENTS.md y seguilo».
+
 En plataformas de chat (ChatGPT, Claude, Gemini): un proyecto o asistente propio, la carpeta como archivos de conocimiento, y un bloque de instrucciones que ordene leer `guia.md` primero. En editores y agentes de código (Cursor, Claude Code): la carpeta en la raíz del proyecto, y una línea en el archivo de reglas del agente: "Antes de trabajar conmigo, leé `.contexto/guia.md`".
 
 ## Cómo se publica
@@ -113,9 +163,9 @@ Los tres últimos son una apuesta, y conviene decirlo con todas las letras: al a
 
 ## Cómo crear la tuya
 
-Las plantillas de la carpeta `plantillas/` de este repositorio tienen la estructura de cada archivo con guía adentro, para armarla a mano. En `ejemplo/` está la carpeta completa de Sole. Para usarla desde el primer día están `system-prompt.txt`, `instalacion.md` y `auditoria.md`, que revisa la carpeta contra los diez principios y propone la próxima capacidad útil.
+Las plantillas de la carpeta `plantillas/` de este repositorio tienen la estructura de cada archivo con guía adentro, para armarla a mano. En `ejemplo/` está la carpeta completa de Sole, y en `carpeta/`, la carpeta de trabajo lista para usar. Para usarla desde el primer día están `system-prompt.txt`, `instalacion.md` y `auditoria.md`, que revisa la carpeta contra los diez principios y propone la próxima capacidad útil.
 
-La manera asistida existe en [Ideas Aumentadas](https://www.ideasaumentadas.com.ar): un primer archivo de contexto gratis en el navegador, y Trama para construir una base ampliable con materiales, instrucciones y capacidades de creación.
+La manera asistida es [Trama](https://www.ideasaumentadas.com.ar/trama), de Ideas Aumentadas: la carpeta de trabajo de este estándar, gratis, que se descarga con los primeros documentos ya escritos a partir de cuatro preguntas.
 
 ## Cómo se relaciona con los otros formatos
 
@@ -125,6 +175,7 @@ La categoría tiene varios formatos vivos. [interoperabilidad.md](interoperabili
 
 Los cambios del estándar se registran en este archivo, con su fecha.
 
+- **v2.0 (2026-11-10).** Versión mayor, porque cambia qué describe el estándar: de la carpeta de contexto a la carpeta de trabajo entera. El estándar suma la carpeta de trabajo: la carpeta en la que la IA trabaja todos los días, con `contexto/` adentro, `trabajo/` para lo producido y los archivos que ordenan el método (`AGENTS.md`, `CLAUDE.md`, `sesion.md`, `auditoria.md`, `pasos.md`). Quedan escritas seis reglas: qué se lee antes de trabajar, dónde se guarda el trabajo, dónde queda cada corrección, qué se aprueba antes de salir de la carpeta, cómo se cierra un trabajo y las tres palabras que abren cada momento. La carpeta lista para usar se publica en `carpeta/` y es la que entrega Trama. Las carpetas `.contexto/` existentes siguen siendo válidas sin cambios. Por qué: las apps de IA pasaron a trabajar sobre las carpetas de la computadora, y un contexto bien escrito rinde más cuando viene con el lugar donde queda el trabajo y con la manera de trabajar.
 - **v1.6 (2026-10-12).** La carpeta se ordena por lo que una IA usa para crear: nueve archivos de material y la carpeta de capacidades, en el orden en que una tarea los pide. `restricciones.md`, `verificacion.md` y `logica.md` acompañan como resguardos opcionales, cortos y al final, y los principios 4, 5 y 6 se escriben desde su uso: decisiones con fecha, hechos que se comprueban y qué instrucción sigue cuando dos chocan. Es la forma que Trama entrega desde el 11-oct y la que tienen las carpetas de Ideas Aumentadas, Fonchi y Orkos. Por qué: una carpeta que una IA usa para crear rinde más cuando lo primero que encuentra es el material y lo que puede hacer con él; los resguardos siguen cuidando hechos y datos, en el lugar que les corresponde.
 - **v1.5 (2026-10-11).** La carpeta pasa a organizarse desde su potencial operativo: contexto y materiales que abren capacidades para hacer, decir, usar y mostrar con IA. `tareas/` conserva nombre y formato por compatibilidad, pero cada entrada se entiende como una capacidad ampliable. La primera aplicación deja de ser una prueba final de fidelidad y pasa a demostrar que la base ya se puede usar. `identidad-visual.md` detalla composición, alineación, tipografía, logo, recursos y referencias. Los resguardos factuales, la privacidad y las normas permanecen; dejan de funcionar como centro narrativo del producto.
 - **v1.4 (2026-10-01).** El estándar suma `tareas/`: una carpeta por tarea, cada una con su `SKILL.md`, en el formato de skills. El modo persona suma `con-quien-trabajo.md`. Dos archivos toman nombres más directos: `casos.md` (era `evidencia.md`) e `identidad-visual.md` (era `visual.md`); las carpetas existentes siguen siendo válidas con los nombres anteriores. El ejemplo de Sole trae una tarea.

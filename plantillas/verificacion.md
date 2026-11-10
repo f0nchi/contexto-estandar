@@ -12,7 +12,7 @@ stale_after: [AAAA-MM-DD]
 
 # Verificación
 
-> Parte de la carpeta .contexto/ · estándar v1.6 · [fecha]
+> Parte de la carpeta .contexto/ · estándar v2.0 · [fecha]
 > Resguardo opcional. Cinco a siete comprobaciones de hechos, formatos y condiciones, cada una con dónde se verifica.
 > Comprobaciones de hechos, formatos y condiciones operativas que cualquier IA puede correr.
 

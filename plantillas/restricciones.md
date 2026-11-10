@@ -12,7 +12,7 @@ stale_after: [AAAA-MM-DD]
 
 # Restricciones
 
-> Parte de la carpeta .contexto/ · estándar v1.6 · [fecha]
+> Parte de la carpeta .contexto/ · estándar v2.0 · [fecha]
 > Resguardo opcional. Se mantiene corto: una línea por condición, con qué se hace.
 > Condiciones operativas, privacidad, normas y resguardos factuales. Protegen el trabajo sin definir su potencial.
 

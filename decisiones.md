@@ -105,6 +105,14 @@ Lo que sigue abierto: publicar la carpeta completa, que este estándar no recomi
 
 Qué se evaluó: si `restricciones.md`, `verificacion.md` y `logica.md` siguen siendo archivos núcleo o pasan a resguardos opcionales. Qué se decidió: pasan a resguardos opcionales, cortos y al final. Por qué: el producto que entrega carpetas (Trama) lo hace con nueve archivos de material y las capacidades, y en las tres carpetas de referencia los resguardos pesaban tanto como el material; la carpeta rinde más cuando lo primero que una IA encuentra es con qué crear. Los tres archivos siguen definidos y con plantilla, para quien los necesite.
 
+## Resueltos el 2026-11-10
+
+### El estándar suma la carpeta de trabajo
+
+Qué se evaluó: si el estándar sigue describiendo solo la carpeta de contexto o pasa a describir también la carpeta en la que la IA trabaja. Qué se decidió: la describe entera. `contexto/` queda adentro de una carpeta de trabajo que trae el método (`AGENTS.md`), la conversación que arma el contexto (`sesion.md`), la revisión (`auditoria.md`), los pasos para delegar más (`pasos.md`) y el lugar de lo producido (`trabajo/`). Por qué: las apps de escritorio de Claude y de ChatGPT trabajan sobre las carpetas de la computadora, y la carpeta que entrega Trama ya tenía esa forma. Un estándar que describía una parte dejaba sin definir dónde queda el trabajo, dónde va cada corrección y qué aprueba la persona. Los diez principios no cambian, y una carpeta `.contexto/` sola sigue siendo válida.
+
+Lo que sigue abierto de esta decisión: hay dos revisiones con el mismo nombre, `auditoria.md` del repositorio (contra los principios) y `auditoria.md` de la carpeta de trabajo (orden y ampliación), y conviene unificarlas. Y la carga automática de `AGENTS.md` y `CLAUDE.md` está documentada para la pestaña Code de Claude y para Codex; en otros modos de esas apps no lo está, y por eso la instalación indica la línea que la reemplaza.
+
 ## Abierto
 
 - **Herencia entre marca madre, producto y submarca.** `brand.md` lo resuelve con fusión de guardrails, donde un hijo endurece y nunca debilita. Falta decidir la forma acá: carpetas anidadas que heredan, o un campo de alcance dentro de cada archivo.

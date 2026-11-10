@@ -1,7 +1,17 @@
 # Instalación por plataforma
 
-> Parte del estándar .contexto/ · v1.6
+> Parte del estándar .contexto/ · v2.0
 > Cómo cargar tu carpeta para que una IA la opere. En todas las plataformas el principio es el mismo: los archivos como conocimiento, y una instrucción que ordene leer `guia.md` primero (el bloque listo está en `system-prompt.txt`).
+
+## Apps que trabajan sobre las carpetas de tu computadora
+
+Es la manera completa. Copiá `carpeta/` a tu computadora con el nombre que quieras, abrí la app en esa carpeta y escribí «empecemos».
+
+- **Claude, app de escritorio, pestaña Code.** Lee `CLAUDE.md`, que trae `AGENTS.md` y `contexto/guia.md`.
+- **Codex y los agentes que siguen la convención `AGENTS.md`.** Leen `AGENTS.md` al abrir la carpeta.
+- **Otras apps y modos.** Si la app no carga esos archivos por su cuenta, empezá la conversación con «leé AGENTS.md y seguilo».
+
+La app va a pedir permiso para escribir en la carpeta: hace falta, porque la IA guarda ahí lo que le contás y lo que produce.
 
 ## ChatGPT
 
@@ -25,7 +35,7 @@ Uní el contenido en un solo documento respetando el orden de lectura de `guia.m
 
 ## Empezar a usarla
 
-Pedile una aplicación concreta: un texto, una presentación o una propuesta visual con los materiales de tu carpeta. Comprobá que puede leer los archivos y seguir las instrucciones del formato. A partir de esa primera aplicación podés desarrollar la pieza, sumar referencias o abrir otra capacidad. `verificacion.md` ayuda a revisar datos y condiciones operativas; `auditoria.md` propone cómo ampliar la base.
+Pedile una aplicación concreta: un texto, una presentación o una propuesta visual con los materiales de tu carpeta. Comprobá que puede leer los archivos y seguir las instrucciones del formato. A partir de esa primera aplicación podés desarrollar la pieza, sumar referencias o abrir otra capacidad. `verificacion.md` ayuda a revisar datos y condiciones operativas; `auditoria.md` propone cómo ampliar la base. En una carpeta de trabajo, la revisión periódica se pide con «revisemos».
 
 ## Comprobar que la carpeta no fue alterada
 
