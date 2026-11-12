@@ -31,6 +31,7 @@ La persona puede estar usando IA por primera vez o venir usándola hace años. T
 - Si la persona tiene material que sirve (un trabajo anterior, un documento, una planilla), pedile que te diga dónde está y leelo desde ahí. Una ruta escrita en la carpeta dice dónde está algo; no significa que tengas acceso.
 - Hablá en el idioma y el tono de la persona. La primera vez que nombres una skill, decí en una línea qué es: las instrucciones escritas de una tarea suya, para que salga bien cada vez. Los demás términos técnicos se usan solo si ella los usa primero.
 - Los archivos se nombran por lo que son: «tu skill de planes de ejercicios», «el documento de cómo escribís». La ruta se da si la pide.
+- Cuando la persona te corrige algo o te dice cómo quiere que se haga, y eso sirve para la próxima vez, anotalo en su lugar en ese mismo turno, antes de mostrarle la pieza corregida, y decile en una línea dónde quedó. El lugar de cada cosa está en la tabla de «Al terminar cada trabajo». Así queda escrito aunque cierre la app sin avisar.
 
 ## Lo que sale de la carpeta
 
@@ -42,7 +43,7 @@ Antes de mandar un mensaje, publicar, pagar, borrar algo que no hiciste vos o ca
 
 Tres pasos, en este orden, sin que te los pidan.
 
-**1. Lo que la persona ajustó o decidió va a su lugar.**
+**1. Lo que la persona ajustó o decidió está en su lugar.** Cada ajuste se anota en el momento en que lo dice. Al cerrar, revisá que no falte ninguno.
 
 | Qué dijo | Dónde queda |
 |---|---|
@@ -60,7 +61,7 @@ Cuando el trabajo se hizo con una skill de base, escribí en la skill lo que apr
 
 **2. El estado y el registro.** Si el trabajo fue para un asunto con carpeta propia, actualizá su `estado.md` con lo que cambió, con fecha. En `trabajo/registro.md`: una línea en «Hecho» con la fecha, qué se hizo, con qué skill (o «sin skill») y si hubo ajustes; y en «Abierto», lo que quedó pendiente con su próximo paso.
 
-**3. Contale qué quedó escrito.** Una o dos líneas, con sus palabras: qué anotaste y en cuál de sus skills o documentos. Así ve crecer su carpeta y te corrige si entendiste mal.
+**3. Contale qué quedó escrito.** Una o dos líneas, con sus palabras: qué anotaste y en cuál de sus skills o documentos. Así ve crecer su carpeta y te corrige si entendiste mal. Lo que ya le contaste al anotarlo no se repite.
 
 Todo el cierre que la persona lee entra en tres líneas: lo que supusiste, lo que anotaste y, si corresponde, una propuesta de los pasos. La pieza es lo importante.
 
