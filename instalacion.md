@@ -1,58 +1,25 @@
-# Instalación por plataforma
+# Usar una carpeta .contexto/
 
-> Parte del estándar .contexto/ · v2.0
-> Cómo cargar tu carpeta para que una IA la opere. En todas las plataformas el principio es el mismo: los archivos como conocimiento, y una instrucción que ordene leer `guia.md` primero (el bloque listo está en `system-prompt.txt`).
+> Guía complementaria · v2.1 · 2026-11-17
 
-## Apps que trabajan sobre las carpetas de tu computadora
+La carpeta necesita estar al alcance de la herramienta que la va a leer. Su entrada es `guia.md`. Los permisos y los nombres de las funciones dependen de cada aplicación; consultá su documentación vigente para configurarlos.
 
-Es la manera completa. Copiá `carpeta/` a tu computadora con el nombre que quieras, abrí la app en esa carpeta y escribí «empecemos».
+## Leerla
 
-- **Claude, app de escritorio, pestaña Code.** Lee `CLAUDE.md`, que trae `AGENTS.md` y `contexto/guia.md`.
-- **Codex y los agentes que siguen la convención `AGENTS.md`.** Leen `AGENTS.md` al abrir la carpeta.
-- **Otras apps y modos.** Si la app no carga esos archivos por su cuenta, empezá la conversación con «leé AGENTS.md y seguilo».
+Podés adjuntar los documentos pertinentes como material de un proyecto o darle acceso a la carpeta local. La instrucción opcional de `system-prompt.txt` indica por dónde entrar. Si una aplicación admite pocos archivos, podés reunirlos conservando sus títulos, estado y orden de lectura. El empaque no cambia el formato.
 
-La app va a pedir permiso para escribir en la carpeta: hace falta, porque la IA guarda ahí lo que le contás y lo que produce.
+## Actualizarla
 
-## ChatGPT
+Leer una copia adjunta no implica poder modificar la carpeta original. Para mantenerla desde una IA, comprobá qué acceso de escritura tiene y dónde quedan los cambios. También podés editarla a mano o guardar las modificaciones que te proponga. Una ruta escrita en un documento solo indica ubicación.
 
-Creá un Proyecto (o un GPT propio). Subí los archivos de tu carpeta como archivos del proyecto y pegá el contenido de `system-prompt.txt` en las instrucciones. Cada conversación nueva dentro del proyecto arranca con tu contexto cargado.
+Cada herramienta tiene su forma de cargar instrucciones de proyecto; el estándar no exige una aplicación ni un archivo de entrada específico para agentes.
 
-## Claude
+## Ejemplo de uso
 
-Creá un Proyecto y subí los archivos al conocimiento del proyecto. Pegá `system-prompt.txt` en las instrucciones personalizadas. En Claude Code, alcanza con la carpeta en el repo (ver abajo).
+Dale a la IA la guía y los materiales de una capacidad, pedile una aplicación y comprobá si usó los hechos y criterios pertinentes. Si se actualiza la base, verificá que lo guardado represente lo que se decidió y que otra sesión pueda encontrarlo.
 
-## Gemini
+Para una experiencia ya preparada, [Trama](https://www.ideasaumentadas.com.ar/trama) distribuye por separado el método de trabajo, la sesión inicial y las skills de base.
 
-Creá un Gem. Subí los archivos como conocimiento y usá `system-prompt.txt` como instrucción del Gem.
+## Integridad de una descarga
 
-## Cursor, Claude Code y agentes de código
-
-Poné la carpeta `.contexto/` en la raíz del proyecto y agregá una línea en el archivo de reglas del agente (`.cursorrules`, `CLAUDE.md`, `AGENTS.md`): "Antes de trabajar conmigo, leé `.contexto/guia.md`".
-
-## Si la plataforma acepta pocos archivos
-
-Uní el contenido en un solo documento respetando el orden de lectura de `guia.md` (la guía primero y después los materiales de la capacidad que vas a usar). El estándar no cambia: cambia el empaque.
-
-## Empezar a usarla
-
-Pedile una aplicación concreta: un texto, una presentación o una propuesta visual con los materiales de tu carpeta. Comprobá que puede leer los archivos y seguir las instrucciones del formato. A partir de esa primera aplicación podés desarrollar la pieza, sumar referencias o abrir otra capacidad. `verificacion.md` ayuda a revisar datos y condiciones operativas; `auditoria.md` propone cómo ampliar la base. En una carpeta de trabajo, la revisión periódica se pide con «revisemos».
-
-## Comprobar que la carpeta no fue alterada
-
-Una carpeta `.contexto/` viaja: se manda por mail, se sube a un proyecto de chat, se comparte con un equipo. Quien la recibe puede comprobar que llegó tal como salió, y quien la entrega puede dejar esa prueba adentro.
-
-Para generar la huella, parado en la carpeta:
-
-```
-shasum -a 256 *.md > SHA256SUMS
-```
-
-Para comprobarla, quien la recibe corre:
-
-```
-shasum -a 256 -c SHA256SUMS
-```
-
-Cada archivo responde `OK` o `FAILED`. En Windows, `certutil -hashfile archivo.md SHA256`. En Linux, `sha256sum` con las mismas opciones.
-
-`SHA256SUMS` se regenera cada vez que la carpeta cambia, y por eso no se firma a sí mismo: prueba que los archivos son los que el dueño dejó, no quién es el dueño. Para eso hace falta una firma criptográfica, que este estándar no define: es infraestructura de quien distribuya, y cada implementador la resuelve con sus herramientas.
+El repositorio distribuye `SHA256SUMS` para comprobar sus archivos. En macOS: `shasum -a 256 -c SHA256SUMS`. En Linux: `sha256sum -c SHA256SUMS`. La comprobación detecta cambios respecto de la lista; no prueba por sí sola la identidad del autor. El contenido personalizado necesita sus propias copias o versiones recuperables.

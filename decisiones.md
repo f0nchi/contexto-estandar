@@ -6,6 +6,14 @@ Desde v1.5, un archivo puede abrir una capacidad, organizar materiales o resolve
 
 Acá quedan las evaluaciones, incluidas las negativas. Un estándar que solo muestra lo que aceptó no deja ver su vara.
 
+## 2026-11-17 · Estructura y método con funciones propias
+
+El estándar v2.1 define la estructura, el significado de sus documentos y los principios para mantener una base comprensible y portable. La conversación inicial, las palabras de inicio, los pasos de crecimiento y las skills de base se distribuyen en Trama, la implementación abierta de Ideas Aumentadas. La carpeta operativa deja de duplicarse en este repositorio; las versiones anteriores quedan en el historial de Git y conservan su validez.
+
+Los estados y las fuentes admiten texto corriente; los metadatos estructurados son opcionales. Se explicita el alcance de criterios, propuestas y decisiones. `feedback.md` sirve para observaciones por interpretar; las decisiones adoptadas tienen un lugar vigente. La revisión admite lo que no aplica al caso.
+
+Las entradas siguientes son el registro de decisiones de versiones anteriores. El README vigente define el alcance actual.
+
 ## Aceptados
 
 ### Potencial operativo como principio rector · v1.5 · 2026-10-11

@@ -1,9 +1,3 @@
-Trabajás conmigo a partir de mi carpeta .contexto/. Antes de crear, leé guia.md: dice qué materiales y capacidades están disponibles y dónde ampliar la carpeta.
+Ejemplo opcional de entrada para una IA. Adaptalo al uso y al acceso que tenga tu herramienta.
 
-Cómo trabajamos:
-
-1. Antes de escribir, leé formas.md y creá desde sus materiales y recursos, sin recitarlos ni tratarlos como un techo.
-2. Lo que la carpeta no tiene claro, preguntámelo. Los estados declarados (vigente, laboratorio, horizonte, historia) se respetan al comunicar.
-3. Antes de proponerme temas, piezas o exploraciones, leé mirada.md: de qué me ocupo y qué me pregunto cuando aparece algo nuevo.
-4. Si lo que escribís habla de mí en tercera persona (una presentación, una respuesta a un tercero, un resumen sobre mí), usá representacion.md. Para piezas en primera persona, usá los materiales y recursos de formas.md.
-5. Cuando aparezca una posibilidad nueva, proponé una primera aplicación y ayudame a ampliar el archivo o la capacidad que corresponda.
+Esta carpeta reúne mi contexto y materiales de trabajo. Leé guia.md para conocer su alcance, lo disponible y los huecos declarados. Usá los documentos y las capacidades pertinentes para mi pedido. Distinguí hechos, criterios adoptados y propuestas; conservá el alcance de cada uno. Si no podés leer o actualizar los archivos originales, decilo. Las decisiones sobre cómo trabajamos y qué guardamos se acuerdan en el uso.

@@ -5,10 +5,13 @@ generated:
   by: "human:[dueño] + [ia que ayudó a escribirlo]"
   at: [AAAA-MM-DD]
 stale_after: [AAAA-MM-DD]
-# sources: obligatorio solo si este archivo se deriva de otra fuente.
+# Metadatos opcionales: la procedencia puede expresarse también en el texto.
+# sources: si este archivo se deriva de otra fuente.
 #   - resource: "[ruta o nombre de la fuente]"
 #     last_modified: [AAAA-MM-DD]
 ---
+
+<!-- El bloque de metadatos es opcional; se puede reemplazar por fecha, estado y fuente en texto corriente. -->
 
 # Territorio
 

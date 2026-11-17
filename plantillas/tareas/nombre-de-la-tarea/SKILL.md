@@ -1,25 +1,28 @@
 ---
 name: nombre-de-la-tarea
-description: "Usala cuando el dueño quiera [crear, resolver o explorar esta posibilidad, con sus palabras]."
+description: "Usala cuando el dueño quiera [crear, resolver o explorar esta capacidad]."
 ---
 
 # [Nombre de la capacidad]
 
-> Parte de la carpeta .contexto/ · estándar v2.0 · una carpeta por capacidad, cada una con su SKILL.md. La ruta `tareas/` se conserva por compatibilidad.
-> El encabezado de arriba es el del formato de skills: `name` es el nombre de la carpeta y `description` dice cuándo usarla.
+> Plantilla del estándar .contexto/ v2.1. Reemplazá las indicaciones por el contenido pertinente. Los nombres de secciones orientan la escritura; una capacidad incompleta conserva ese estado.
 
 ## Para quién es
 
-> Guía: la persona o el tipo de persona que la recibe, con un caso real.
+Quién recibe o usa el resultado y en qué situación.
 
 ## Qué puede producir o mover
 
-> Guía: qué aplicación se quiere crear y qué podría pasar después: una respuesta, una decisión, una conversación, una compra, una explicación o una exploración nueva.
+Qué aplicación o resultado permite: una pieza, una explicación, una decisión o una exploración.
 
 ## Materiales e instrucciones disponibles
 
-> Guía: datos, textos, casos, recursos visuales, formatos y condiciones que dan una buena base. Los ejemplos orientan; no fijan un techo.
+Datos de cada encargo, fuentes, procedimiento cuando exista, formato y criterios que permiten revisar el resultado. Los criterios propios indican su alcance y, cuando ayude, su razón y procedencia. Referenciá los documentos pertinentes en vez de duplicarlos.
 
 ## Primera aplicación
 
-> Guía: una aplicación concreta producida desde la carpeta. Sirve como punto de partida para usar, ampliar o probar otra cosa.
+Una referencia aportada o una aplicación producida, con su contexto y estado de aprobación. Si todavía no existe, declaralo. Los ejemplos orientan futuras aplicaciones.
+
+## Ajustes
+
+Registro breve y opcional de cambios con fecha. La instrucción vigente queda integrada en su lugar.
