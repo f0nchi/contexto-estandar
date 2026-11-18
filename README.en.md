@@ -12,6 +12,14 @@ The folder provides a personal working base: who it belongs to, what they want t
 
 The standard defines the structure and the meaning of its parts. Each person chooses how to build and use it. [Trama](https://www.ideasaumentadas.com.ar/trama) is an open reference implementation by Ideas Aumentadas, distributed separately with its working method, introductory conversation and base skills. That conversation and its starting words are not requirements of this format.
 
+## Using the standard
+
+Create a `contexto/` folder and use [guia.md](plantillas/guia.md) as its entry point. Identify who the folder belongs to and list its files with a short description. Start with the information and materials already available.
+
+Choose the [templates](plantillas/) that serve your work as you add material. A writing sample can go in `formas.md`; instructions for a task belong under `tareas/`. The guide helps readers find them. The [complete example](ejemplo/LEEME.md) shows how they fit together.
+
+Give an AI access to the folder and identify `guia.md` as its entry point. See [access and updates](instalacion.md).
+
 ## Structure
 
 The folder can be named `contexto/` or `.contexto/`. Its entry point is `guia.md`, which identifies its owner and scope, available materials and capabilities, and incomplete sections.

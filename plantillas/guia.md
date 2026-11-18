@@ -3,6 +3,8 @@
 > Plantilla de .contexto/ v2.1 · [fecha]
 > Punto de entrada. Reemplazá estas indicaciones por el contenido de tu base.
 
+Esta guía puede empezar con dos cosas: de quién es la carpeta y dónde están los archivos que ya contiene. Usá las secciones que necesites. Las demás pueden incorporarse cuando haya algo para registrar.
+
 ## De quién es y para qué sirve
 
 Dueño, alcance y qué quiere poder hacer. Si hay contextos de clientes o proyectos, indicá dónde están y cuándo corresponden.

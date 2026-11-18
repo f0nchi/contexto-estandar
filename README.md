@@ -12,6 +12,14 @@ La carpeta reúne una base propia: quién trabaja, qué quiere hacer, con qué m
 
 El estándar define esa estructura y el significado de sus partes. Cada persona elige cómo construirla y trabajar con ella. [Trama](https://www.ideasaumentadas.com.ar/trama) es una implementación abierta de Ideas Aumentadas: entrega la carpeta con el método, la conversación inicial y las skills de base. Esos recorridos pertenecen a Trama y se distribuyen por separado.
 
+## Para usarlo
+
+Creá una carpeta `contexto/` y usá [guia.md](plantillas/guia.md) como entrada. Ahí indicás a quién corresponde y qué archivos hay, con una línea sobre cada uno. Podés empezar con la información y los materiales que ya tenés.
+
+Las [plantillas](plantillas/) están disponibles para organizar lo que vayas incorporando. Elegí las que sirven a tu trabajo. Por ejemplo, una muestra de escritura puede ir en `formas.md`; las instrucciones para una tarea, en `tareas/`. La guía permite encontrarlas. El [ejemplo completo](ejemplo/LEEME.md) muestra cómo se relacionan.
+
+Para trabajar con una IA, dale acceso a esa carpeta e indicá que su entrada es `guia.md`. [Cómo dar acceso y conservar los cambios](instalacion.md).
+
 ## La estructura
 
 La carpeta puede llamarse `contexto/` o `.contexto/`. Su entrada es `guia.md`: identifica a quién corresponde, qué contiene, qué está incompleto y dónde encontrar cada material o capacidad.
